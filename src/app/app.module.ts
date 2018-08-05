@@ -7,12 +7,14 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { AddEmojiPage } from '../pages/add-emoji/add-emoji';
+import { AddTextFacesPage } from '../pages/add-text-faces/add-text-faces';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    AddEmojiPage
+    AddEmojiPage,
+    AddTextFacesPage
   ],
   imports: [
     BrowserModule,
@@ -22,7 +24,8 @@ import { AddEmojiPage } from '../pages/add-emoji/add-emoji';
   entryComponents: [
     MyApp,
     HomePage,
-    AddEmojiPage
+    AddEmojiPage,
+    AddTextFacesPage
   ],
   providers: [
     StatusBar,
