@@ -7,13 +7,13 @@
 </ion-header>
 
 <ion-content padding>
-  <ion-item (click)="getEmojiPage()">
+  <ion-item [navPush]="addEmojiPage">
     <ion-icon name="happy" item-start></ion-icon>
     Emoji
     <ion-badge>:D</ion-badge>
   </ion-item>
 
-  <ion-item (click)="getTextFacesPage()">
+  <ion-item [navPush]="addTextFacesPage">
     <ion-icon name="happy" item-start></ion-icon>
     Cute Text Faces
     <ion-badge>:D</ion-badge>
@@ -31,17 +31,21 @@
     <ion-badge>:D</ion-badge>
   </ion-item>
 
-  <ion-item (click)="getEmojiPage()">
+  <ion-item [navPush]="addNumbersPage">
     <ion-icon name="happy" item-start></ion-icon>
     Numbers
     <ion-badge>:D</ion-badge>
   </ion-item>
 
-
-  <ion-item (click)="getEmojiPage()">
+  <ion-item [navPush]="addCatFacesPage">
     <ion-icon name="happy" item-start></ion-icon>
     Cute Cat Faces
     <ion-badge>:D</ion-badge>
+  </ion-item>
+
+  <ion-item [navPush]="addCatFacesPage">
+    <ion-icon name="happy" item-start></ion-icon>
+      Font Translator
   </ion-item>
 
 </ion-content>

@@ -8,13 +8,17 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { AddEmojiPage } from '../pages/add-emoji/add-emoji';
 import { AddTextFacesPage } from '../pages/add-text-faces/add-text-faces';
+import { AddCatFacesPage } from '../pages/add-cat-faces/add-cat-faces';
+import { AddNumbersPage } from '../pages/add-numbers/add-numbers';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     AddEmojiPage,
-    AddTextFacesPage
+    AddTextFacesPage,
+    AddCatFacesPage,
+    AddNumbersPage
   ],
   imports: [
     BrowserModule,
@@ -25,7 +29,9 @@ import { AddTextFacesPage } from '../pages/add-text-faces/add-text-faces';
     MyApp,
     HomePage,
     AddEmojiPage,
-    AddTextFacesPage
+    AddTextFacesPage,
+    AddCatFacesPage,
+    AddNumbersPage
   ],
   providers: [
     StatusBar,
