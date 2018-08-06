@@ -10,6 +10,11 @@
 
 
 <ion-content padding class="selectable">
-    <p>😀 😁 😂 🤣 😃 😄 😅 😆 😉 😊 😋 😎 😍 😘 😗 😙 😚 🙂 🤗 🤩 🤔 🤨 😐 😑 😶 🙄 😏 😣 😥 😮 🤐 😯 😪 😫 😴 😌 😛 😜 😝 🤤 😒 😓 😔 😕 🙃 🤑 😲 ☹️ 🙁 😖 😞 😟 😤 😢 😭 😦 😧 😨 😩 🤯 😬 😰 😱 😳 🤪 😵 😡 😠 🤬 😷 🤒 🤕 🤢 🤮 🤧 😇 🤠 🤡 🤥 </p>
+    <ion-searchbar (ionInput)="getEmoji($event)"></ion-searchbar>
+
+    <section id="emoji">
+      <p *ngFor="let item of emoji_keys">{{emoji_dict[item]}}</p>
+
+    </section>
 
 </ion-content>

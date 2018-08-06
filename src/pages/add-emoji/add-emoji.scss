@@ -1,8 +1,16 @@
 page-add-emoji {
+    @mixin font-size-large() {
+        font-size: 5em;
+    }
     .selectable {
         -webkit-user-select: text;
         -moz-user-select: text;
         -ms-user-select: text;
         user-select: text;
+      }
+
+      #emoji p {
+          display: inline;
+          @include font-size-large;
       }
 }
