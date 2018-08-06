@@ -7,7 +7,13 @@
 </ion-header>
 
 <ion-content padding>
-  <ion-item [navPush]="addEmojiPage">
+    <ion-fab top right [navPush]="favouritesPage">
+        <button ion-fab mini><ion-icon name="close-circle"></ion-icon></button>
+        <ion-fab-list>
+          <button ion-fab><ion-icon name="logo-facebook"></ion-icon></button>
+        </ion-fab-list>
+      </ion-fab>
+  <ion-item (click)="getEmojiPage()">
     <ion-icon name="happy" item-start></ion-icon>
     Emoji
     <ion-badge>:D</ion-badge>

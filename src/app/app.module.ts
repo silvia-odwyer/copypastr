@@ -10,6 +10,7 @@ import { AddEmojiPage } from '../pages/add-emoji/add-emoji';
 import { AddTextFacesPage } from '../pages/add-text-faces/add-text-faces';
 import { AddCatFacesPage } from '../pages/add-cat-faces/add-cat-faces';
 import { AddNumbersPage } from '../pages/add-numbers/add-numbers';
+import { FavouritesPage } from '../pages/favourites/favourites';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AddNumbersPage } from '../pages/add-numbers/add-numbers';
     AddEmojiPage,
     AddTextFacesPage,
     AddCatFacesPage,
-    AddNumbersPage
+    AddNumbersPage,
+    FavouritesPage
   ],
   imports: [
     BrowserModule,
@@ -31,7 +33,8 @@ import { AddNumbersPage } from '../pages/add-numbers/add-numbers';
     AddEmojiPage,
     AddTextFacesPage,
     AddCatFacesPage,
-    AddNumbersPage
+    AddNumbersPage,
+    FavouritesPage
   ],
   providers: [
     StatusBar,

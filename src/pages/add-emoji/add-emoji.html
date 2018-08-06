@@ -10,10 +10,13 @@
 
 
 <ion-content padding class="selectable">
+    <ion-fab top left (click)="close()">
+        <button ion-fab mini><ion-icon name="close-circle"></ion-icon></button>
+      </ion-fab>
     <ion-searchbar (ionInput)="getEmoji($event)"></ion-searchbar>
 
     <section id="emoji">
-      <p *ngFor="let item of emoji_keys">{{emoji_dict[item]}}</p>
+      <p *ngFor="let item of emoji_json_keys" (click)="addToFavourites(item)">{{emoji_lib[item].char}}</p>
 
     </section>
 
