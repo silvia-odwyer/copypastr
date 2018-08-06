@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams, ViewController } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, ViewController, ToastController } from 'ionic-angular';
 import emoji from 'emojilib';
 
 @Component({
@@ -14,7 +14,7 @@ export class AddEmojiPage {
   public emoji_json_keys = Object.keys(this.emoji_lib);
   public favourite_emoji = [];
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, public view: ViewController) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public view: ViewController, private toastCtrl: ToastController) {
   }
 
   ionViewDidLoad() {
@@ -26,7 +26,7 @@ export class AddEmojiPage {
     this.favourite_emoji = fav_emoji_from_home;
   }
 
-  close() { 
+  close() {
     this.view.dismiss(this.favourite_emoji);
   }
 
@@ -36,8 +36,29 @@ export class AddEmojiPage {
   }
 
   addToFavourites(item) {
-    this.favourite_emoji.push(item);
-    console.log(this.favourite_emoji);
+    let toast;
+    if (this.favourite_emoji.indexOf(item) > -1) {
+      toast = this.toastCtrl.create({
+        message: 'Already in your favourites',
+        duration: 2500,
+        position: 'middle'
+      });
+    }
+    else {
+      this.favourite_emoji.push(item);
+      console.log(this.favourite_emoji);
+
+      // Display toast message
+      toast = this.toastCtrl.create({
+        message: 'Emoji added to your favourites',
+        duration: 2500,
+        position: 'bottom'
+      });
+    }
+
+
+
+    toast.present();
   }
 
   getEmoji(ev: any) {
