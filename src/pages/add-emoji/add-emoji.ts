@@ -21,6 +21,9 @@ export class AddEmojiPage {
     console.log('ionViewDidLoad AddEmojiPage');
     // let emoji_dict = this.emoji_dict;
     // let emoji_keys = this.emoji_keys;
+    let fav_emoji_from_home = this.navParams.get("fav_emoji").fav_emoji
+    console.log('UserId', this.navParams.get("fav_emoji"));
+    this.favourite_emoji = fav_emoji_from_home;
   }
 
   close() { 

@@ -23,7 +23,9 @@ export class HomePage {
   }
 
   getEmojiPage() {
-    let modal = this.modalCtrl.create(AddEmojiPage, undefined, { cssClass: "modal-fullscreen" });
+    let object = {"fav_emoji" : this.favourite_emoji};
+
+    let modal = this.modalCtrl.create(AddEmojiPage, {"fav_emoji" : object}, { cssClass: "modal-fullscreen" });
 
     modal.onDidDismiss((favourites) => {
  
@@ -31,7 +33,6 @@ export class HomePage {
            console.log(favourites);
            this.saveItem(favourites)
           }
- 
     });
     modal.present();
    }
@@ -42,11 +43,15 @@ export class HomePage {
     addModal.present();
   }
 
+  getFavouritesPage() {
+	  this.navCtrl.push(FavouritesPage, {
+      item: this.favourite_emoji
+    });
+
+  }
+
   saveItem(favourites) {
     this.favourite_emoji = favourites;
     console.log(this.favourite_emoji)
   }
-
-  
-
 }
