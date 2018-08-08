@@ -1,22 +1,26 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, ViewController, ToastController } from 'ionic-angular';
 import emoji from 'emojilib';
+import * as Clipboard from 'clipboard/dist/clipboard.min.js';
 
 @Component({
   selector: 'page-add-emoji',
   templateUrl: 'add-emoji.html',
 })
+
 export class AddEmojiPage {
-  public emoji_dict = { "happy": "😀", "grin": "😁", "lmao": "😂", "rofl": "🤣" };
-  public emoji_keys = Object.keys(this.emoji_dict);
+
   public keywords = [];
   public emoji_lib = emoji.lib;
   public emoji_json_keys = Object.keys(this.emoji_lib);
   public favourite_emoji = [];
+  public clipboard;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public view: ViewController, private toastCtrl: ToastController) {
-  }
 
+    // this.clipboard.on('success', () => this.showMsg(toastCtrl));
+  }
+  
   ionViewDidLoad() {
     console.log('ionViewDidLoad AddEmojiPage');
     // let emoji_dict = this.emoji_dict;
@@ -24,6 +28,18 @@ export class AddEmojiPage {
     let fav_emoji_from_home = this.navParams.get("fav_emoji").fav_emoji
     console.log('UserId', this.navParams.get("fav_emoji"));
     this.favourite_emoji = fav_emoji_from_home;
+    let emoji_elems = document.querySelectorAll(".emoji_c");
+
+    for (let k=0; k < emoji_elems.length; k++) {
+      this.clipboard = new Clipboard(emoji_elems[k]);
+    }
+	
+new Clipboard('.emoji_c', {
+    target: function(trigger) {
+        return trigger;
+    }
+});
+
   }
 
   close() {
@@ -40,7 +56,7 @@ export class AddEmojiPage {
     if (this.favourite_emoji.indexOf(item) > -1) {
       toast = this.toastCtrl.create({
         message: 'Already in your favourites',
-        duration: 2500,
+        duration: 1500,
         position: 'middle'
       });
     }
@@ -51,12 +67,10 @@ export class AddEmojiPage {
       // Display toast message
       toast = this.toastCtrl.create({
         message: 'Emoji added to your favourites',
-        duration: 2500,
+        duration: 1500,
         position: 'bottom'
       });
     }
-
-
 
     toast.present();
   }
