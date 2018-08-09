@@ -2,6 +2,11 @@ page-add-emoji {
     @mixin font-size-large() {
         font-size: 5em;
     }
+
+    @mixin font-size-small() {
+        font-size: 3em;
+    }
+
     .selectable {
         -webkit-user-select: text;
         -moz-user-select: text;
@@ -9,8 +14,12 @@ page-add-emoji {
         user-select: text;
       }
 
-      #emoji p {
+      #emoji span {
           display: inline;
           @include font-size-large;
+      }
+
+      #no_emoji_msg {
+        @include font-size-small;
       }
 }

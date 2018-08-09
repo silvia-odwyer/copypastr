@@ -18,8 +18,8 @@
       Copy
     </button>
     <section id="emoji">
-      <p *ngFor="let item of emoji_json_keys" attr.id={{item}} class="emoji_c" (click)="addToFavourites(item)">{{emoji_lib[item].char}}</p>
-
+      <span *ngFor="let item of emoji_json_keys" attr.id={{item}} class="emoji_c" (click)="addToFavourites(item)">{{emoji_lib[item].char}}</span>
+      <p id="no_emoji_msg">a</p>
     </section>
   
 </ion-content>

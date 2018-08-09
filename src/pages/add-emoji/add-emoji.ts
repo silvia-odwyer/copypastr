@@ -20,7 +20,7 @@ export class AddEmojiPage {
 
     // this.clipboard.on('success', () => this.showMsg(toastCtrl));
   }
-  
+
   ionViewDidLoad() {
     console.log('ionViewDidLoad AddEmojiPage');
     // let emoji_dict = this.emoji_dict;
@@ -30,15 +30,15 @@ export class AddEmojiPage {
     this.favourite_emoji = fav_emoji_from_home;
     let emoji_elems = document.querySelectorAll(".emoji_c");
 
-    for (let k=0; k < emoji_elems.length; k++) {
+    for (let k = 0; k < emoji_elems.length; k++) {
       this.clipboard = new Clipboard(emoji_elems[k]);
     }
-	
-new Clipboard('.emoji_c', {
-    target: function(trigger) {
+
+    new Clipboard('.emoji_c', {
+      target: function (trigger) {
         return trigger;
-    }
-});
+      }
+    });
 
   }
 
@@ -81,9 +81,19 @@ new Clipboard('.emoji_c', {
     const val_c = val;
 
     if (val && val.trim() != '') {
-      this.emoji_json_keys = this.emoji_json_keys.filter((item) => {
-        return (item.toLowerCase().indexOf(val.toLowerCase()) > -1);
-      })
+      let res = this.filterEmojis(this.emoji_json_keys, val)
+      console.log(res.length)
+      if (res.length === 0) {
+        let no_emoji_msgs = ["Sorry, no emojis found :(", "Either a data race happened, or we couldn't find any emojis.", "Damn, Daniel. No emojiiiis found. ;(", "Oh, fiddlesticks! No emojis found. :'(", "Oh, crap. Wow, we ... we couldn't find any emojis. Take this one instead. 🙂"];
+        let randomNum = this.getRandomNumber(0, no_emoji_msgs.length - 1);
+        let random_no_emoji_msg = no_emoji_msgs[randomNum];
+        let no_emoji_elem = document.querySelector("#no_emoji_msg");
+        no_emoji_elem.innerHTML = random_no_emoji_msg;
+        console.log("Res is zero")
+      }
+
+      this.emoji_json_keys = res;
+
 
       // for (let i = 0; i < this.emoji_json_keys.length; i += 1) {
       //   let item = this.emoji_json[this.emoji_json_keys[i]];
@@ -98,4 +108,16 @@ new Clipboard('.emoji_c', {
       // }
     }
   }
+
+  filterEmojis(emoji_keys, val) {
+    let res = this.emoji_json_keys.filter((item) => {
+      return item.toLowerCase().indexOf(val.toLowerCase()) > -1;
+    });
+    return res;
+  }
+
+  getRandomNumber(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+
 }
