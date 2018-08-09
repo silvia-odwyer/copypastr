@@ -17,6 +17,7 @@ page-add-emoji {
       #emoji span {
           display: inline;
           @include font-size-large;
+          cursor: pointer;
       }
 
       #no_emoji_msg {

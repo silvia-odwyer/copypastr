@@ -18,7 +18,6 @@ export class AddEmojiPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public view: ViewController, private toastCtrl: ToastController) {
 
-    // this.clipboard.on('success', () => this.showMsg(toastCtrl));
   }
 
   ionViewDidLoad() {
@@ -30,15 +29,18 @@ export class AddEmojiPage {
     this.favourite_emoji = fav_emoji_from_home;
     let emoji_elems = document.querySelectorAll(".emoji_c");
 
-    for (let k = 0; k < emoji_elems.length; k++) {
-      this.clipboard = new Clipboard(emoji_elems[k]);
-    }
-
-    new Clipboard('.emoji_c', {
+    this.clipboard = new Clipboard('.emoji_c', {
       target: function (trigger) {
         return trigger;
       }
     });
+
+    this.clipboard.on('success', () => this.displayToast("success"));
+
+    this.clipboard.on('error', function(e) {
+      console.error('Action:', e.action);
+      console.error('Trigger:', e.trigger);
+  });
 
   }
 
@@ -55,7 +57,7 @@ export class AddEmojiPage {
     let toast;
     if (this.favourite_emoji.indexOf(item) > -1) {
       toast = this.toastCtrl.create({
-        message: 'Already in your favourites',
+        message: 'Emoji copied!',
         duration: 1500,
         position: 'middle'
       });
@@ -66,7 +68,7 @@ export class AddEmojiPage {
 
       // Display toast message
       toast = this.toastCtrl.create({
-        message: 'Emoji added to your favourites',
+        message: 'Emoji copied & added to your favourites',
         duration: 1500,
         position: 'bottom'
       });
@@ -75,37 +77,44 @@ export class AddEmojiPage {
     toast.present();
   }
 
+  displayToast(state) {
+    let state_dict = {"error" : "Error copying your emoji. Try again.", "success" : "Emoji copied & added to your favourites"};
+    let toast = this.toastCtrl.create({
+      message: state_dict[state],
+      duration: 1500,
+      position: 'bottom'
+    });
+    toast.present();
+  }
+
   getEmoji(ev: any) {
     this.resetItems();
     const val = ev.target.value;
     const val_c = val;
 
+    let no_emoji_elem = document.querySelector("#no_emoji_msg");
+    no_emoji_elem.innerHTML = " ";
+    let help_msg_elem = document.querySelector("#help_msg");
+
     if (val && val.trim() != '') {
       let res = this.filterEmojis(this.emoji_json_keys, val)
       console.log(res.length)
+
+      // If no emojis were found
       if (res.length === 0) {
         let no_emoji_msgs = ["Sorry, no emojis found :(", "Either a data race happened, or we couldn't find any emojis.", "Damn, Daniel. No emojiiiis found. ;(", "Oh, fiddlesticks! No emojis found. :'(", "Oh, crap. Wow, we ... we couldn't find any emojis. Take this one instead. 🙂"];
         let randomNum = this.getRandomNumber(0, no_emoji_msgs.length - 1);
         let random_no_emoji_msg = no_emoji_msgs[randomNum];
-        let no_emoji_elem = document.querySelector("#no_emoji_msg");
+
         no_emoji_elem.innerHTML = random_no_emoji_msg;
+        help_msg_elem.innerHTML = ""
         console.log("Res is zero")
+      }
+      else {
+        help_msg_elem.innerHTML = "Just click on an emoji to copy it."
       }
 
       this.emoji_json_keys = res;
-
-
-      // for (let i = 0; i < this.emoji_json_keys.length; i += 1) {
-      //   let item = this.emoji_json[this.emoji_json_keys[i]];
-      //   console.log(item)
-      //   for (let j = 0; j < item.keywords.length; j += 1) {
-      //     let keyword = item.keywords[j];
-      //     if (keyword.toLowerCase() === val_c.toLowerCase()) {
-      //       console.log("keyword found")
-      //       this.emoji_json_keys.push(this.emoji_json_keys[i]);
-      //     }
-      //   }
-      // }
     }
   }
 

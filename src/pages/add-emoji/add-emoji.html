@@ -17,9 +17,10 @@
     <button id="cpyBtn" ion-button data-clipboard-target="#copyTarget">
       Copy
     </button>
+    <p id="help_msg">Just click on an emoji to copy it.</p>
     <section id="emoji">
       <span *ngFor="let item of emoji_json_keys" attr.id={{item}} class="emoji_c" (click)="addToFavourites(item)">{{emoji_lib[item].char}}</span>
-      <p id="no_emoji_msg">a</p>
+      <p id="no_emoji_msg"></p>
     </section>
   
 </ion-content>
