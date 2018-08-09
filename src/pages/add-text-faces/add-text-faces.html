@@ -6,25 +6,20 @@
 
 </ion-header>
 
-
 <ion-content padding>
-  <ion-fab top left>
-    <button ion-fab mini (click)="close()"><ion-icon name="close-circle"></ion-icon></button>
-    <ion-fab-list>
-      <button ion-fab><ion-icon name="logo-facebook"></ion-icon></button>
-    </ion-fab-list>
-  </ion-fab>
+  <section>
+    <span *ngFor="let item of text_faces" attr.id={{item}} class="text_faces" (click)="addToFavourites(item)">{{item}}</span>
+  </section>
+  <section>
+    <h1>Sad Text Faces</h1>
+    <span *ngFor="let item of sad_text_faces" attr.id={{item}} class="text_faces" (click)="addToFavourites(item)">{{item}}</span>
 
-  <ion-item>
-    <p>┬┴┬┴┤ ͜ʖ ͡°) ├┬┴┬┴ ( ͡°╭͜ʖ╮͡° )</p>
-  </ion-item>
+  </section>
 
-  <p>    ( ͡° ͜ʖ ͡°) ¯\_(ツ)_/¯
-    ̿̿ ̿̿ ̿̿ ̿'̿'\̵͇̿̿\з= ( ▀ ͜͞ʖ▀) =ε/̵͇̿̿/'̿'̿ ̿ ̿̿ ̿̿ ̿̿ ▄︻̷̿┻̿═━一
-    ( ͡°( ͡° ͜ʖ( ͡° ͜ʖ ͡°)ʖ ͡°) ͡°) ʕ•ᴥ•ʔ
-    (▀̿Ĺ̯▀̿ ̿) (ง ͠° ͟ل͜ ͡°)ง
-    ༼ つ ◕_◕ ༽つ ಠ_ಠ
-    (づ｡ ◕‿‿◕｡) づ ̿'̿'\̵͇̿̿\з=( ͠° ͟ʖ ͡°)=ε/̵͇̿̿/'̿̿ ̿ ̿ ̿ ̿ ̿
-    (ﾉ◕ヮ◕)ﾉ*:・ﾟ✧ ✧ﾟ・: *ヽ(◕ヮ◕ヽ) [̲̅$̲̅(̲̅5̲̅)̲̅$̲̅]
-</p>
+  <section>
+    <h1>Super Cuute Text Faces</h1>
+    <span *ngFor="let item of cute_text_faces" attr.id={{item}} class="text_faces" (click)="addToFavourites(item)">{{item}}</span>
+
+  </section>
+
 </ion-content>

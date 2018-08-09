@@ -13,7 +13,9 @@ import { IonicPage, NavController, ViewController, NavParams } from 'ionic-angul
   templateUrl: 'add-text-faces.html',
 })
 export class AddTextFacesPage {
-
+  public text_faces = ["( ͡° ͜ʖ ͡°)", "¯\\_(ツ)_/¯", "( ͡°( ͡° ͜ʖ( ͡° ͜ʖ ͡°)ʖ ͡°) ͡°)", "≧◡≦", "(▰˘◡˘▰)", "(▀̿Ĺ̯▀̿ ̿)", "(ง ͠° ͟ل͜ ͡°)ง","༼ つ ◕_◕ ༽つ", "ಠ_ಠ", "(づ｡ ◕‿‿◕｡) づ ", "[̲̅$̲̅(̲̅5̲̅)̲̅$̲̅]]", "(∩︵∩)"];
+  public sad_text_faces = ["v( ‘.’ )v", "●︿●", "◄.►", "◄︿►", "(◕︵◕)", "≧︵≦", " ͡°︵°"];
+  public cute_text_faces = ["ʕ•ᴥ•ʔ", "(●´ω｀●)", , "(ﾉ◕ヮ◕)ﾉ*:・ﾟ✧ ✧ﾟ・: *ヽ(◕ヮ◕ヽ)", "ʕʘ‿ʘʔ", "(✿◠‿◠)", "(✿◠‿◠) *:・ﾟ✧ ✧"];
   constructor(public navCtrl: NavController, public navParams: NavParams, public view: ViewController) {
   }
 
