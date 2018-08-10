@@ -40,6 +40,7 @@ export class AddEmojiPage {
     this.clipboard.on('error', function(e) {
       console.error('Action:', e.action);
       console.error('Trigger:', e.trigger);
+      this.displayToast("error");
   });
 
   }
@@ -81,7 +82,7 @@ export class AddEmojiPage {
     let state_dict = {"error" : "Error copying your emoji. Try again.", "success" : "Emoji copied & added to your favourites"};
     let toast = this.toastCtrl.create({
       message: state_dict[state],
-      duration: 1500,
+      duration: 1000,
       position: 'bottom'
     });
     toast.present();
