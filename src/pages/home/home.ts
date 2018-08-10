@@ -5,6 +5,7 @@ import { AddTextFacesPage } from '../add-text-faces/add-text-faces';
 import { AddCatFacesPage } from '../add-cat-faces/add-cat-faces';
 import { AddNumbersPage } from '../add-numbers/add-numbers';
 import { FavouritesPage } from '../favourites/favourites';
+import { CoolSymbolsPage } from '../cool-symbols/cool-symbols';
 
 @Component({
   selector: 'page-home',
@@ -16,6 +17,7 @@ export class HomePage {
   addCatFacesPage = AddCatFacesPage;
   addNumbersPage = AddNumbersPage;
   favouritesPage = FavouritesPage;
+  coolSymbolsPage = CoolSymbolsPage;
   public favourite_emoji = [];
 
   constructor(public navCtrl: NavController,  public modalCtrl: ModalController) {

@@ -1,0 +1,14 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Cool Unicode Symbols</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding class="selectable">
+    <section class="single_symbols">
+      <span *ngFor="let item of cool_symbols" attr.id={{item}} class="symbols">{{item}}</span>
+    </section>
+  
+  </ion-content>

@@ -6,32 +6,53 @@
 
 </ion-header>
 
-<ion-content padding class="selectable">
-  <section>
-    <span *ngFor="let item of text_faces" attr.id={{item}} class="text_faces">{{item}}</span>
-  </section>
-  <section>
-    <h1>Sad Text Faces</h1>
-    <span *ngFor="let item of sad_text_faces" attr.id={{item}} class="text_faces" (click)="addToFavourites(item)">{{item}}</span>
+<ion-content padding class="selectable" overflow-scroll="true">
+  <ion-card *ngFor="let item of text_faces" attr.id={{item}} class="text_faces" overflow-scroll="true">
 
-  </section>
+    <ion-card-content>
+      {{item}}
+    </ion-card-content>
 
-  <section>
-    <h1>Super Cuute Text Faces</h1>
-    <span *ngFor="let item of cute_text_faces" attr.id={{item}} class="text_faces" (click)="addToFavourites(item)">{{item}}</span>
+  </ion-card>
 
-  </section>
 
-  <section>
-      <h1>Romance Text Faces</h1>
-      <span *ngFor="let item of romance_text_faces" attr.id={{item}} class="text_faces" (click)="addToFavourites(item)">{{item}}</span>
-  
-    </section>
+  <h1>Sad Text Faces</h1>
+  <ion-card *ngFor="let item of sad_text_faces" attr.id={{item}} class="text_faces" (click)="addToFavourites(item)">
 
-    <section>
-        <h1>Angry Text Faces</h1>
-        <span *ngFor="let item of angry_text_faces" attr.id={{item}} class="text_faces" (click)="addToFavourites(item)">{{item}}</span>
-    
-      </section>
+    <ion-card-content>
+      {{item}}
+    </ion-card-content>
+
+  </ion-card>
+
+  <h1>Super Cuute Text Faces</h1>
+  <span>{{item}}</span>
+
+  <ion-card *ngFor="let item of cute_text_faces" attr.id={{item}} class="text_faces" (click)="addToFavourites(item)">
+
+    <ion-card-content>
+      {{item}}
+    </ion-card-content>
+
+  </ion-card>
+
+  <h1>Romance Text Faces</h1>
+
+  <ion-card *ngFor="let item of romance_text_faces" attr.id={{item}} class="text_faces" (click)="addToFavourites(item)">
+
+    <ion-card-content>
+      {{item}}
+    </ion-card-content>
+
+  </ion-card>
+
+  <h1>Angry Text Faces</h1>
+  <ion-card *ngFor="let item of angry_text_faces" attr.id={{item}} class="text_faces" (click)="addToFavourites(item)">
+
+    <ion-card-content>
+      {{item}}
+    </ion-card-content>
+
+  </ion-card>
 
 </ion-content>
