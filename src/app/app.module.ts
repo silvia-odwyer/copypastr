@@ -11,6 +11,7 @@ import { AddTextFacesPage } from '../pages/add-text-faces/add-text-faces';
 import { AddCatFacesPage } from '../pages/add-cat-faces/add-cat-faces';
 import { AddNumbersPage } from '../pages/add-numbers/add-numbers';
 import { FavouritesPage } from '../pages/favourites/favourites';
+import { CoolSymbolsPage } from '../pages/cool-symbols/cool-symbols';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FavouritesPage } from '../pages/favourites/favourites';
     AddTextFacesPage,
     AddCatFacesPage,
     AddNumbersPage,
-    FavouritesPage
+    FavouritesPage,
+    CoolSymbolsPage
   ],
   imports: [
     BrowserModule,
@@ -34,7 +36,8 @@ import { FavouritesPage } from '../pages/favourites/favourites';
     AddTextFacesPage,
     AddCatFacesPage,
     AddNumbersPage,
-    FavouritesPage
+    FavouritesPage,
+    CoolSymbolsPage
   ],
   providers: [
     StatusBar,

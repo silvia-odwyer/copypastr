@@ -26,3 +26,20 @@
 }
 
 .ios .modal-fullscreen { .modal-wrapper { top: 26px; } } 
+
+.selectable {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+  }
+
+@mixin font-size-large() {
+    font-size: 5em;
+}
+
+.single_symbols span {
+    display: inline;
+    @include font-size-large;
+    cursor: pointer;
+}
