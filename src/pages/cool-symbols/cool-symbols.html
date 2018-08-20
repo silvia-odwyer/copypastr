@@ -7,7 +7,7 @@
 </ion-header>
 
 <ion-content padding class="selectable">
-    <section class="single_symbols">
+    <section class="single_symbols" (click)="addToFavourites(item)">
       <span *ngFor="let item of cool_symbols" attr.id={{item}} class="symbols">{{item}}</span>
     </section>
   

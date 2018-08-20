@@ -35,8 +35,6 @@ export class AddEmojiPage {
       }
     });
 
-    this.clipboard.on('success', () => this.displayToast("success"));
-
     this.clipboard.on('error', function(e) {
       console.error('Action:', e.action);
       console.error('Trigger:', e.trigger);

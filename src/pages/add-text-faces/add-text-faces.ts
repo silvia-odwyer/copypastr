@@ -12,7 +12,12 @@ export class AddTextFacesPage {
   public romance_text_faces = ["(• ε •)", "(♥ ε ♥)", "(◕ ε ◕)", "♥‿♥", "(ﾉ◕ヮ◕)ﾉ*:・ﾟ♥ ✧ﾟ♥:ﾟ* ♥ﾟ✧ﾟヽ(◕ヮ◕ヽ)"]
   public cute_text_faces = ["~,~", "⊂◉‿◉つ", "●ᴥ●", "(◕‿◕✿)", "ʕ•ᴥ•ʔ", "(●´ω｀●)", , "(ﾉ◕ヮ◕)ﾉ*:・ﾟ✧ ✧ﾟ・: *ヽ(◕ヮ◕ヽ)", "ʕʘ‿ʘʔ", "(✿◠‿◠)", "(✿◠‿◠) *:・ﾟ✧ ✧"];
   public happy_text_faces = ["≖‿≖", "٩(^‿^)۶", "◕‿◕", "✖‿✖"];
-  public angry_text_faces = ["►.◄", "{(>_<)}", "ˇ︿ˇ", ">.<"];
+  public angry_text_faces = ["►.◄", "{(>_<)}", "ˇ︿ˇ", ">.<",   
+  `╔╦╦╦╗OMG\n
+  ╠╬╬╬╣CHOCOLATE!!
+  ╠╬╬╬╣Put this on your page
+  ╠╬╬╬╣If you LOVE
+  ╚╩╩╩╝♥ CHOCOLATE`,];
   
   public clipboard;
 

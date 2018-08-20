@@ -1,0 +1,16 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>GetGIFSPage</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-item>
+        <ion-label color="primary" floating [(ngModel)]="search_terms">Search For GIFS</ion-label>
+        <ion-input></ion-input>
+      </ion-item>
+      <img *ngFor="let item of link_array" attr.src={{item}}>
+</ion-content>

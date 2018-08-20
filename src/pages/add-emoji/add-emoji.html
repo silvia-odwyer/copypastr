@@ -21,6 +21,14 @@
     <section class="single_symbols">
       <span *ngFor="let item of emoji_json_keys" attr.id={{item}} class="emoji_c" (click)="addToFavourites(item)">{{emoji_lib[item].char}}</span>
       <p id="no_emoji_msg"></p>
-    </section>
-  
+    </section> -->
+
+    <!-- <ion-list [virtualScroll]="emoji_json_keys">
+
+        <ion-item *virtualItem="let item" id="ion-item">
+            {{emoji_lib[item].char}}
+        </ion-item>
+      
+      </ion-list>
+   -->
 </ion-content>

@@ -4,9 +4,19 @@ page-add-emoji {
         font-size: 3em;
     }
 
+    @mixin font-size-large() {
+      font-size: 3em;
+  }
 
 
       #no_emoji_msg {
         @include font-size-small;
+      }
+
+      #ion-item {
+        @include font-size-large;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
       }
 }
