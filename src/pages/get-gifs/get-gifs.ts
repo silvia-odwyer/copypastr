@@ -30,6 +30,9 @@ export class GetGifsPage {
   posts: any;
   public link_array = [];
   public cute_link_array = [];
+  public weather_link_array = [];
+  public effects_link_array = [];
+
   giphy_api_key = "b0EtnbCyVW6jKjVraEnITIGyiP2E624r";
   search_terms: any;
   public clipboard;
@@ -42,9 +45,9 @@ export class GetGifsPage {
   logForm() {
     console.log(this.todo)
   }
-  
-;
-  constructor(public navCtrl: NavController, public navParams: NavParams, public http: Http, public toastCtrl : ToastController) {
+
+  ;
+  constructor(public navCtrl: NavController, public navParams: NavParams, public http: Http, public toastCtrl: ToastController) {
     this.sticker_type = "emoji";
   }
 
@@ -55,26 +58,36 @@ export class GetGifsPage {
         return trigger;
       }
     });
-    
+
     this.getEmojiStickers();
     this.getCuteStickers();
     this.getReactionStickers();
+    this.getWeatherStickers();
 
-    this.clipboard.on('error', function(e) {
+    this.clipboard.on('error', function (e) {
       console.error('Action:', e.action);
       console.error('Trigger:', e.trigger);
       this.displayToast("error");
-  });
+    });
   }
 
 
 
   getEmojiStickers() {
-    this.http.get(`http://api.giphy.com/v1/stickers/search?q=emoji&api_key=${this.giphy_api_key}&limit=40`).map(res => res.json()).subscribe(data => {
+    this.http.get(`http://api.giphy.com/v1/stickers/search?q=emoji&api_key=${this.giphy_api_key}&limit=90&rating=g`).map(res => res.json()).subscribe(data => {
       this.posts = data.data;
-      for (let k = 0; k < this.posts.length; k += 1) {
-        let link = this.posts[k].images.original.url;
-        this.link_array.push(link);
+      let link_count = 0;
+      for (let k = 0; link_count < 40; k += 1) {
+        let ranIndex = this.getRandomNumber(0, this.posts.length - 1);
+        let link = this.posts[ranIndex].images.original.url;
+        if (this.link_array.indexOf(link) > -1 ){
+          continue;
+        }
+        else {
+          this.link_array.push(link);
+          link_count += 1;
+        }
+
       }
     });
   }
@@ -101,14 +114,30 @@ export class GetGifsPage {
     });
   }
 
+  getWeatherStickers() {
+    this.http.get(`http://api.giphy.com/v1/stickers/search?q=weather&api_key=${this.giphy_api_key}&limit=40`).map(res => res.json()).subscribe(data => {
+      let out_data = data.data;
 
+
+      for (let k = 0; k < out_data.length; k += 1) {
+        let link = out_data[k].images.original.url;
+        this.weather_link_array.push(link);
+      }
+
+    });
+  }
+
+
+  getRandomNumber(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
 
   addToFavourites(item) {
-    
+
   }
 
   displayToast(state) {
-    let state_dict = {"error" : "Error copying your emoji. Try again.", "success" : "Emoji copied & added to your favourites"};
+    let state_dict = { "error": "Error copying your emoji. Try again.", "success": "Emoji copied & added to your favourites" };
     let toast = this.toastCtrl.create({
       message: state_dict[state],
       duration: 1000,

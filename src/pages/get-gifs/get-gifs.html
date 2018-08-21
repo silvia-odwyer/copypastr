@@ -7,8 +7,7 @@
 </ion-header>
 
 <ion-content padding class="selectable">
-  <p class="wow">Get all your animated emoji stickers here.</p>
-
+  <p>Get all your animated emoji stickers here. You'll get a new mix of stickers every time.</p>
   <div padding>
     <ion-segment [(ngModel)]="sticker_type">
       <ion-segment-button value="emoji">
@@ -32,10 +31,7 @@
     <ion-list *ngSwitchCase="'emoji'">
 
       <ion-item>
-        <ion-thumbnail item-start>
-          <img src="img/thumbnail-puppy-1.jpg">
-        </ion-thumbnail>
-        <h2>Emoji</h2>
+        <h1>Emoji</h1>
 
         <p>Get all your animated emoji stickers here.</p>
       </ion-item>
@@ -54,25 +50,11 @@
         </ion-card-content>
       </ion-card>
 
-
-      <!-- <ion-item no-lines no-padding *ngFor="let item of link_array"  class="gif_container">
-      <div>
-
-        <img src={{item}} height="100" width="100"/>
-                
-        <ion-item>
-            <ion-input type="text" class="link" value={{item}}>{{item}}</ion-input>
-          </ion-item>
-      </div>
-  </ion-item> -->
     </ion-list>
 
     <ion-list *ngSwitchCase="'cute'">
       <ion-item>
-        <ion-thumbnail item-start>
-          <img src="img/thumbnail-kitten-1.jpg">
-        </ion-thumbnail>
-        <h2>Cute</h2>
+        <h1>Cute</h1>
         <p>From the kawaii to the super cute, these adorable stickers will have you blushing.</p>
       </ion-item>
 
@@ -97,7 +79,7 @@
           <ion-thumbnail item-start>
             <img src="img/thumbnail-kitten-1.jpg">
           </ion-thumbnail>
-          <h2>Effects</h2>
+          <h1>Effects</h1>
           <p>Add a touch of magic to your next convo.</p>
         </ion-item>
 
@@ -119,15 +101,11 @@
 
       <ion-list *ngSwitchCase="'weather'">
         <ion-item>
-          <ion-thumbnail item-start>
-            <img src="img/thumbnail-kitten-1.jpg">
-          </ion-thumbnail>
-          <h2>Weather</h2>
+          <h1>Weather</h1>
           <p>Raining? Sun shining? There's a sticker for that.</p>
         </ion-item>
-      </ion-list>
 
-      <ion-card *ngFor="let item of sticker_array[0]" class="gif_container">
+        <ion-card *ngFor="let item of weather_link_array" class="gif_container">
           <img src={{item}}/>
           <ion-card-content>
             <ion-card-title>
@@ -140,6 +118,9 @@
             </ion-item>
           </ion-card-content>
         </ion-card>
+      </ion-list>
+
+
   </div>
 
 </ion-content>

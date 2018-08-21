@@ -8,7 +8,7 @@ import { FavouritesPage } from '../favourites/favourites';
 import { CoolSymbolsPage } from '../cool-symbols/cool-symbols';
 import { GetGifsPage } from '../get-gifs/get-gifs';
 import { StickerTab } from '../sticker-tab/sticker-tab';
-  
+import {EmotionEmojiPage} from "../emotion-emoji/emotion-emoji"
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -23,7 +23,7 @@ export class HomePage {
   favouritesPage = FavouritesPage;
   coolSymbolsPage = CoolSymbolsPage;
   getGIFSPage = GetGifsPage;
-
+  emotionEmojiPage = EmotionEmojiPage
   public favourite_emoji = [];
   public media_type;
   tab1: any;
