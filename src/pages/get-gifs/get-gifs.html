@@ -7,55 +7,55 @@
 </ion-header>
 
 <ion-content padding class="selectable">
-    <p class="wow">Get all your animated emoji stickers here.</p>
+  <p class="wow">Get all your animated emoji stickers here.</p>
 
-<div padding>
-  <ion-segment [(ngModel)]="sticker_type">
-    <ion-segment-button value="emoji">
-      Emoji
-    </ion-segment-button>
-    <ion-segment-button value="cute">
-      Cute
-    </ion-segment-button>
-  
-  <ion-segment-button value="effects">
-    Effects
-  </ion-segment-button>
-  <ion-segment-button value="weather">
-    Weather
-  </ion-segment-button>
+  <div padding>
+    <ion-segment [(ngModel)]="sticker_type">
+      <ion-segment-button value="emoji">
+        Emoji
+      </ion-segment-button>
+      <ion-segment-button value="cute">
+        Cute
+      </ion-segment-button>
 
-  </ion-segment>
-</div>
+      <ion-segment-button value="effects">
+        Effects
+      </ion-segment-button>
+      <ion-segment-button value="weather">
+        Weather
+      </ion-segment-button>
 
-<div [ngSwitch]="sticker_type">
-  <ion-list *ngSwitchCase="'emoji'">
+    </ion-segment>
+  </div>
 
-    <ion-item>
-      <ion-thumbnail item-start>
-        <img src="img/thumbnail-puppy-1.jpg">
-      </ion-thumbnail>
-      <h2>Emoji</h2>
+  <div [ngSwitch]="sticker_type">
+    <ion-list *ngSwitchCase="'emoji'">
 
-      <p>Get all your animated emoji stickers here.</p>
-    </ion-item>
+      <ion-item>
+        <ion-thumbnail item-start>
+          <img src="img/thumbnail-puppy-1.jpg">
+        </ion-thumbnail>
+        <h2>Emoji</h2>
 
-    <ion-card *ngFor="let item of link_array"  class="gif_container">
+        <p>Get all your animated emoji stickers here.</p>
+      </ion-item>
+
+      <ion-card *ngFor="let item of link_array" class="gif_container">
         <img src={{item}}/>
         <ion-card-content>
           <ion-card-title>
 
-            </ion-card-title>
-            <p class="link">{{item}}</p>
-            <ion-item>
+          </ion-card-title>
+          <p class="link">{{item}}</p>
+          <ion-item>
 
-                <ion-input type="text" class="link" value={{item}}>{{item}}</ion-input>
-              </ion-item>
+            <ion-input type="text" class="link" value={{item}}>{{item}}</ion-input>
+          </ion-item>
         </ion-card-content>
       </ion-card>
 
 
-    <ion-item no-lines no-padding *ngFor="let item of link_array"  class="gif_container">
+      <!-- <ion-item no-lines no-padding *ngFor="let item of link_array"  class="gif_container">
       <div>
 
         <img src={{item}} height="100" width="100"/>
@@ -64,44 +64,82 @@
             <ion-input type="text" class="link" value={{item}}>{{item}}</ion-input>
           </ion-item>
       </div>
-  </ion-item>
-  </ion-list>
+  </ion-item> -->
+    </ion-list>
 
-  <ion-list *ngSwitchCase="'cute'">
-    <ion-item>
-      <ion-thumbnail item-start>
-        <img src="img/thumbnail-kitten-1.jpg">
-      </ion-thumbnail>
-      <h2>Cute</h2>
-      <p>From the kawaii to the super cute, these adorable stickers will have you blushing.</p>
-    </ion-item>
-    <ion-item no-lines no-padding *ngFor="let item of cute_link_array"  class="gif_container">
-      <div>
-        <img src={{item}} height="100" width="100"/>
-      </div>
-  </ion-item>
-  </ion-list>
+    <ion-list *ngSwitchCase="'cute'">
+      <ion-item>
+        <ion-thumbnail item-start>
+          <img src="img/thumbnail-kitten-1.jpg">
+        </ion-thumbnail>
+        <h2>Cute</h2>
+        <p>From the kawaii to the super cute, these adorable stickers will have you blushing.</p>
+      </ion-item>
 
-  <ion-list *ngSwitchCase="'effects'">
-    <ion-item>
-      <ion-thumbnail item-start>
-        <img src="img/thumbnail-kitten-1.jpg">
-      </ion-thumbnail>
-      <h2>Effects</h2>
-      <p>Add a touch of magic to your next convo.</p>
-    </ion-item>
-    
-  </ion-list>
+        <ion-card *ngFor="let item of cute_link_array" class="gif_container">
+          <img src={{item}}/>
+          <ion-card-content>
+            <ion-card-title>
 
-  <ion-list *ngSwitchCase="'weather'">
-    <ion-item>
-      <ion-thumbnail item-start>
-        <img src="img/thumbnail-kitten-1.jpg">
-      </ion-thumbnail>
-      <h2>Weather</h2>
-      <p>Raining? Sun shining? There's a sticker for that.</p>
-    </ion-item>
-  </ion-list>
-</div>
+            </ion-card-title>
+            <p class="link">{{item}}</p>
+            <ion-item>
+
+              <ion-input type="text" class="link" value={{item}}>{{item}}</ion-input>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+
+      </ion-list>
+
+      <ion-list *ngSwitchCase="'effects'">
+        <ion-item>
+          <ion-thumbnail item-start>
+            <img src="img/thumbnail-kitten-1.jpg">
+          </ion-thumbnail>
+          <h2>Effects</h2>
+          <p>Add a touch of magic to your next convo.</p>
+        </ion-item>
+
+        <ion-card *ngFor="let item of effects_link_array" class="gif_container">
+            <img src={{item}}/>
+            <ion-card-content>
+              <ion-card-title>
+  
+              </ion-card-title>
+              <p class="link">{{item}}</p>
+              <ion-item>
+  
+                <ion-input type="text" class="link" value={{item}}>{{item}}</ion-input>
+              </ion-item>
+            </ion-card-content>
+          </ion-card>
+
+      </ion-list>
+
+      <ion-list *ngSwitchCase="'weather'">
+        <ion-item>
+          <ion-thumbnail item-start>
+            <img src="img/thumbnail-kitten-1.jpg">
+          </ion-thumbnail>
+          <h2>Weather</h2>
+          <p>Raining? Sun shining? There's a sticker for that.</p>
+        </ion-item>
+      </ion-list>
+
+      <ion-card *ngFor="let item of sticker_array[0]" class="gif_container">
+          <img src={{item}}/>
+          <ion-card-content>
+            <ion-card-title>
+
+            </ion-card-title>
+            <p class="link">{{item}}</p>
+            <ion-item>
+
+              <ion-input type="text" class="link" value={{item}}>{{item}}</ion-input>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+  </div>
 
 </ion-content>

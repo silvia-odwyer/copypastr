@@ -7,11 +7,14 @@ import { AddNumbersPage } from '../add-numbers/add-numbers';
 import { FavouritesPage } from '../favourites/favourites';
 import { CoolSymbolsPage } from '../cool-symbols/cool-symbols';
 import { GetGifsPage } from '../get-gifs/get-gifs';
-
+import { StickerTab } from '../sticker-tab/sticker-tab';
+  
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
 })
+
+
 export class HomePage {
   addEmojiPage = AddEmojiPage;
   addTextFacesPage = AddTextFacesPage;
@@ -22,9 +25,9 @@ export class HomePage {
   getGIFSPage = GetGifsPage;
 
   public favourite_emoji = [];
-
+  tab1: any;
   constructor(public navCtrl: NavController,  public modalCtrl: ModalController) {
-
+    this.tab1 = StickerTab;
   }
 
   getEmojiPage() {

@@ -33,6 +33,9 @@ export class GetGifsPage {
   giphy_api_key = "b0EtnbCyVW6jKjVraEnITIGyiP2E624r";
   search_terms: any;
   public clipboard;
+  public sticker_keywords = ["weather", "emoji", "magic", "tech"];
+  public sticker_array = [];
+  public reaction_link_array = [];
   todo = {}
   logForm() {
     console.log(this.todo)
@@ -52,8 +55,7 @@ export class GetGifsPage {
     
     this.getEmojiStickers();
     this.getCuteStickers();
-
-
+    this.getReactionStickers();
 
     this.clipboard.on('error', function(e) {
       console.error('Action:', e.action);
@@ -62,10 +64,11 @@ export class GetGifsPage {
   });
   }
 
+
+
   getEmojiStickers() {
     this.http.get(`http://api.giphy.com/v1/stickers/search?q=emoji&api_key=${this.giphy_api_key}&limit=20`).map(res => res.json()).subscribe(data => {
       this.posts = data.data;
-      console.log(this.posts);
       for (let k = 0; k < this.posts.length; k += 1) {
         let link = this.posts[k].images.original.url;
         this.link_array.push(link);
@@ -76,13 +79,26 @@ export class GetGifsPage {
   getCuteStickers() {
     this.http.get(`http://api.giphy.com/v1/stickers/search?q=cute&api_key=${this.giphy_api_key}&limit=20`).map(res => res.json()).subscribe(data => {
       this.posts = data.data;
-      console.log(this.posts);
       for (let k = 0; k < this.posts.length; k += 1) {
         let link = this.posts[k].images.original.url;
         this.cute_link_array.push(link);
       }
     });
   }
+
+  getReactionStickers() {
+    this.http.get(`http://api.giphy.com/v1/stickers/packs/2815?api_key=${this.giphy_api_key}`).map(res => res.json()).subscribe(data => {
+      this.posts = data.data;
+      console.log(this.posts);
+
+      for (let k = 0; k < this.posts.length; k += 1) {
+        let link = this.posts[k].images.original.url;
+        this.reaction_link_array.push(link);
+      }
+    });
+  }
+
+
 
   addToFavourites(item) {
     

@@ -4,12 +4,77 @@
       CopyPastr v1.0.1
     </ion-title>
   </ion-navbar>
+
+  <ion-toolbar>
+    <ion-segment [(ngModel)]="media_type">
+      <ion-segment-button value="stickers">
+        Stickers
+      </ion-segment-button>
+      <ion-segment-button value="emoji">
+        Emoji
+      </ion-segment-button>
+      <ion-segment-button value="gifs">
+        GIFs
+      </ion-segment-button>
+      <ion-segment-button value="text-faces">
+        Text Faces
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+
+
 </ion-header>
 
 <ion-content padding>
-    <ion-fab top right (click)="getFavouritesPage()">
-        <button ion-fab mini><ion-icon name="heart"></ion-icon></button>
-      </ion-fab>
+
+  <ion-toolbar>
+
+
+    <div [ngSwitch]="media_type">
+      <ion-list *ngSwitchCase="'stickers'">
+        <ion-item>
+          <ion-thumbnail item-start>
+            <img src="img/thumbnail-puppy-1.jpg">
+          </ion-thumbnail>
+          <h2>Ruby</h2>
+        </ion-item>
+        ...
+      </ion-list>
+
+      <ion-list *ngSwitchCase="'kittens'">
+        <ion-item>
+          <ion-thumbnail item-start>
+            <img src="img/thumbnail-kitten-1.jpg">
+          </ion-thumbnail>
+          <h2>Luna</h2>
+        </ion-item>
+        ...
+      </ion-list>
+      <ion-list *ngSwitchCase="'kittens'">
+        <ion-item>
+          <ion-thumbnail item-start>
+            <img src="img/thumbnail-kitten-1.jpg">
+          </ion-thumbnail>
+          <h2>Luna</h2>
+        </ion-item>
+        ...
+      </ion-list>
+      <ion-list *ngSwitchCase="'kittens'">
+        <ion-item>
+          <ion-thumbnail item-start>
+            <img src="img/thumbnail-kitten-1.jpg">
+          </ion-thumbnail>
+          <h2>Luna</h2>
+        </ion-item>
+        ...
+      </ion-list>
+    </div>
+  </ion-toolbar>
+  <ion-fab top right (click)="getFavouritesPage()">
+    <button ion-fab mini>
+      <ion-icon name="heart"></ion-icon>
+    </button>
+  </ion-fab>
   <ion-item (click)="getEmojiPage()">
     <ion-icon name="happy" item-start></ion-icon>
     Emoji
@@ -46,13 +111,13 @@
   </ion-item>
 
   <ion-item [navPush]="coolSymbolsPage">
-      <ion-icon name="happy" item-start></ion-icon>
-        Cool Symbols
-    </ion-item>
+    <ion-icon name="happy" item-start></ion-icon>
+    Cool Symbols
+  </ion-item>
 
   <ion-item [navPush]="addCatFacesPage">
     <ion-icon name="happy" item-start></ion-icon>
-      Font Translator
+    Font Translator
   </ion-item>
 
   <ion-item [navPush]="getGIFSPage">
