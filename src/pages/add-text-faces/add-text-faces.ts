@@ -32,7 +32,6 @@ export class AddTextFacesPage {
         return trigger;
       }
     }); 
-
     this.clipboard.on('success', () => this.displayToast("success"));
 
     this.clipboard.on('error', function(e) {
@@ -40,6 +39,11 @@ export class AddTextFacesPage {
       console.error('Trigger:', e.trigger);
       this.displayToast("error");
   });
+   
+  }
+
+  addToFavourites(item) {
+
   }
 
   close() {

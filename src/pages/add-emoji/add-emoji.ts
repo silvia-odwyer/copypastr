@@ -40,7 +40,6 @@ export class AddEmojiPage {
       console.error('Trigger:', e.trigger);
       this.displayToast("error");
   });
-
   }
 
   close() {

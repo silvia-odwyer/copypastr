@@ -42,7 +42,7 @@ export class GetGifsPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad GetGifsPage');
-    this.http.get(`http://api.giphy.com/v1/gifs/search?q=${this.search_terms}&api_key=${this.giphy_api_key}&limit=20`).map(res => res.json()).subscribe(data => {
+    this.http.get(`http://api.giphy.com/v1/stickers/search?q=emoticons&api_key=${this.giphy_api_key}&limit=20`).map(res => res.json()).subscribe(data => {
       this.posts = data.data;
       console.log(this.posts);
       for (let k = 0; k < this.posts.length; k += 1) {
@@ -50,5 +50,9 @@ export class GetGifsPage {
         this.link_array.push(link);
       }
     });
+  }
+
+  addToFavourites(item) {
+    
   }
 }

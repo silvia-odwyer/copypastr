@@ -2,4 +2,14 @@ page-add-text-faces {
     span {
         display: block;
     }
+
+    @media screen and (min-width: 40em) {
+
+    .text_faces {
+        display: inline-block;
+        margin:10px 0 0 2%;
+        flex-grow: 1;
+        width: calc(100% * (1/3) - 10px - 1px);
+    }
+}
 }
