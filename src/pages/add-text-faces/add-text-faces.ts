@@ -20,8 +20,10 @@ export class AddTextFacesPage {
   ╚╩╩╩╝♥ CHOCOLATE`,];
   
   public clipboard;
+  public category;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public view: ViewController, private toastCtrl: ToastController) {
+    this.category = "happy_text_faces"
   }
 
   ionViewDidLoad() {
