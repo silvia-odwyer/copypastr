@@ -6,8 +6,9 @@
 
 </ion-header>
 
+<ion-content padding class="selectable">
+    <p class="wow">Get all your animated emoji stickers here.</p>
 
-<ion-content padding>
 <div padding>
   <ion-segment [(ngModel)]="sticker_type">
     <ion-segment-button value="emoji">
@@ -39,6 +40,7 @@
     ...
     <ion-item no-lines no-padding *ngFor="let item of link_array"  class="gif_container">
       <div>
+        <p>{{item}}</p>
         <img src={{item}} height="100" width="100"/>
       </div>
   </ion-item>
@@ -64,9 +66,10 @@
       <ion-thumbnail item-start>
         <img src="img/thumbnail-kitten-1.jpg">
       </ion-thumbnail>
-      <h2>Luna</h2>
+      <h2>Effects</h2>
+      <p>Add a touch of magic to your next convo.</p>
     </ion-item>
-    ...
+    
   </ion-list>
 
   <ion-list *ngSwitchCase="'weather'">
@@ -74,9 +77,9 @@
       <ion-thumbnail item-start>
         <img src="img/thumbnail-kitten-1.jpg">
       </ion-thumbnail>
-      <h2>Luna</h2>
+      <h2>Weather</h2>
+      <p>Raining? Sun shining? There's a sticker for that.</p>
     </ion-item>
-    ...
   </ion-list>
 </div>
 

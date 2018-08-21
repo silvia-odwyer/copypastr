@@ -10,13 +10,12 @@
 
 
 <ion-content padding class="selectable">
+  
     <ion-fab top left (click)="close()">
         <button ion-fab mini><ion-icon name="close-circle"></ion-icon></button>
       </ion-fab>
     <ion-searchbar (ionInput)="getEmoji($event)"></ion-searchbar>
-    <button id="cpyBtn" ion-button data-clipboard-target="#copyTarget">
-      Copy
-    </button>
+
     <p id="help_msg">Just click on an emoji to copy it.</p>
     <section class="single_symbols">
       <span *ngFor="let item of emoji_json_keys" attr.id={{item}} class="emoji_c" (click)="addToFavourites(item)">{{emoji_lib[item].char}}</span>

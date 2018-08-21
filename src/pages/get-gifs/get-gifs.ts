@@ -2,12 +2,13 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
+import * as Clipboard from 'clipboard/dist/clipboard.min.js';
+import { ToastController } from 'ionic-angular/components/toast/toast-controller';
 
 @Component({
   selector: 'page-get-gifs',
   templateUrl: 'get-gifs.html',
 })
-
 
 @Component({
   template: `
@@ -31,20 +32,33 @@ export class GetGifsPage {
   public cute_link_array = [];
   giphy_api_key = "b0EtnbCyVW6jKjVraEnITIGyiP2E624r";
   search_terms: any;
-
+  public clipboard;
   todo = {}
   logForm() {
     console.log(this.todo)
   }
   
 ;
-  constructor(public navCtrl: NavController, public navParams: NavParams, public http: Http) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, public http: Http, public toastCtrl : ToastController) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad GetGifsPage');
+    this.clipboard = new Clipboard('.gif_container p', {
+      target: function (trigger) {
+        return trigger;
+      }
+    });
     this.getEmojiStickers();
     this.getCuteStickers();
+
+
+
+    this.clipboard.on('error', function(e) {
+      console.error('Action:', e.action);
+      console.error('Trigger:', e.trigger);
+      this.displayToast("error");
+  });
   }
 
   getEmojiStickers() {
@@ -71,5 +85,15 @@ export class GetGifsPage {
 
   addToFavourites(item) {
     
+  }
+
+  displayToast(state) {
+    let state_dict = {"error" : "Error copying your emoji. Try again.", "success" : "Emoji copied & added to your favourites"};
+    let toast = this.toastCtrl.create({
+      message: state_dict[state],
+      duration: 1000,
+      position: 'bottom'
+    });
+    toast.present();
   }
 }
