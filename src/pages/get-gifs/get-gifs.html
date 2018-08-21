@@ -8,10 +8,76 @@
 
 
 <ion-content padding>
+<div padding>
+  <ion-segment [(ngModel)]="sticker_type">
+    <ion-segment-button value="emoji">
+      Emoji
+    </ion-segment-button>
+    <ion-segment-button value="cute">
+      Cute
+    </ion-segment-button>
+  
+  <ion-segment-button value="effects">
+    Effects
+  </ion-segment-button>
+  <ion-segment-button value="weather">
+    Weather
+  </ion-segment-button>
 
-  <ion-item no-lines no-padding *ngFor="let item of link_array"  class="gif_container">
-    <div>
-      <img src={{item}} height="100" width="100"/>
-    </div>
-</ion-item>
+  </ion-segment>
+</div>
+
+<div [ngSwitch]="sticker_type">
+  <ion-list *ngSwitchCase="'emoji'">
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="img/thumbnail-puppy-1.jpg">
+      </ion-thumbnail>
+      <h2>Emoji</h2>
+      <p>Get all your animated emoji stickers here.</p>
+    </ion-item>
+    ...
+    <ion-item no-lines no-padding *ngFor="let item of link_array"  class="gif_container">
+      <div>
+        <img src={{item}} height="100" width="100"/>
+      </div>
+  </ion-item>
+  </ion-list>
+
+  <ion-list *ngSwitchCase="'cute'">
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="img/thumbnail-kitten-1.jpg">
+      </ion-thumbnail>
+      <h2>Cute</h2>
+      <p>From the kawaii to the super cute, these adorable stickers will have you blushing.</p>
+    </ion-item>
+    <ion-item no-lines no-padding *ngFor="let item of cute_link_array"  class="gif_container">
+      <div>
+        <img src={{item}} height="100" width="100"/>
+      </div>
+  </ion-item>
+  </ion-list>
+
+  <ion-list *ngSwitchCase="'effects'">
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="img/thumbnail-kitten-1.jpg">
+      </ion-thumbnail>
+      <h2>Luna</h2>
+    </ion-item>
+    ...
+  </ion-list>
+
+  <ion-list *ngSwitchCase="'weather'">
+    <ion-item>
+      <ion-thumbnail item-start>
+        <img src="img/thumbnail-kitten-1.jpg">
+      </ion-thumbnail>
+      <h2>Luna</h2>
+    </ion-item>
+    ...
+  </ion-list>
+</div>
+
 </ion-content>

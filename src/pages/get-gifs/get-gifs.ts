@@ -28,6 +28,7 @@ import 'rxjs/add/operator/map';
 export class GetGifsPage {
   posts: any;
   public link_array = [];
+  public cute_link_array = [];
   giphy_api_key = "b0EtnbCyVW6jKjVraEnITIGyiP2E624r";
   search_terms: any;
 
@@ -42,12 +43,28 @@ export class GetGifsPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad GetGifsPage');
-    this.http.get(`http://api.giphy.com/v1/stickers/search?q=emoticons&api_key=${this.giphy_api_key}&limit=20`).map(res => res.json()).subscribe(data => {
+    this.getEmojiStickers();
+    this.getCuteStickers();
+  }
+
+  getEmojiStickers() {
+    this.http.get(`http://api.giphy.com/v1/stickers/search?q=emoji&api_key=${this.giphy_api_key}&limit=20`).map(res => res.json()).subscribe(data => {
       this.posts = data.data;
       console.log(this.posts);
       for (let k = 0; k < this.posts.length; k += 1) {
         let link = this.posts[k].images.original.url;
         this.link_array.push(link);
+      }
+    });
+  }
+
+  getCuteStickers() {
+    this.http.get(`http://api.giphy.com/v1/stickers/search?q=cute&api_key=${this.giphy_api_key}&limit=20`).map(res => res.json()).subscribe(data => {
+      this.posts = data.data;
+      console.log(this.posts);
+      for (let k = 0; k < this.posts.length; k += 1) {
+        let link = this.posts[k].images.original.url;
+        this.cute_link_array.push(link);
       }
     });
   }
