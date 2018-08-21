@@ -44,11 +44,12 @@ export class GetGifsPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad GetGifsPage');
-    this.clipboard = new Clipboard('.gif_container p', {
+    this.clipboard = new Clipboard('.gif_container .link', {
       target: function (trigger) {
         return trigger;
       }
     });
+    
     this.getEmojiStickers();
     this.getCuteStickers();
 
