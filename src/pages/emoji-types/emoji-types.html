@@ -15,7 +15,7 @@
       <ion-segment-button value="activities">
         Activities
       </ion-segment-button>
-      <ion-segment-button value="text_faces">
+      <ion-segment-button value="objects">
         Objects
       </ion-segment-button>
     </ion-segment>
@@ -52,38 +52,19 @@
         <section>
           <p class="help_msg">Just click on an emoji to copy it.</p>
 
-          <span *ngFor="let item of ani_nature_emoji_array" attr.id={{item}} class="emoji_c" (click)="addToFavourites(item)">{{item}}</span>
+          <span *ngFor="let item of activities_emoji_array" attr.id={{item}} class="emoji_c" (click)="addToFavourites(item)">{{item}}</span>
 
         </section>
 
       </ion-list>
-      <ion-list *ngSwitchCase="'text_faces'">
-        <ion-item>
-          <ion-thumbnail item-start>
-            <img src="img/thumbnail-kitten-1.jpg">
-          </ion-thumbnail>
-          <h2>Western Text Faces</h2>
-        </ion-item>
 
-        <ion-item [navPush]="addTextFacesPage">
-          <ion-thumbnail item-start>
-            <img src="img/thumbnail-kitten-1.jpg">
-          </ion-thumbnail>
-          <h2>Eastern Text Faces</h2>
-        </ion-item>
-        <ion-item [navPush]="coolSymbolsPage">
-          <ion-thumbnail item-start>
-            <img src="img/thumbnail-kitten-1.jpg">
-          </ion-thumbnail>
-          <h2>Text Symbols</h2>
-        </ion-item>
-
-        <ion-item [navPush]="addCatFacesPage">
-          <ion-thumbnail item-start>
-            <img src="img/thumbnail-kitten-1.jpg">
-          </ion-thumbnail>
-          <h2>Cat Faces</h2>
-        </ion-item>
+      <ion-list *ngSwitchCase="'objects'">
+          <section>
+              <p class="help_msg">Just click on an emoji to copy it.</p>
+    
+              <span *ngFor="let item of objects_emoji_array" attr.id={{item}} class="emoji_c" (click)="addToFavourites(item)">{{item}}</span>
+    
+            </section>
       </ion-list>
 
     </div>
