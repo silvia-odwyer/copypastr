@@ -25,9 +25,11 @@ export class HomePage {
   getGIFSPage = GetGifsPage;
 
   public favourite_emoji = [];
+  public media_type;
   tab1: any;
   constructor(public navCtrl: NavController,  public modalCtrl: ModalController) {
     this.tab1 = StickerTab;
+    this.media_type = "stickers";
   }
 
   getEmojiPage() {

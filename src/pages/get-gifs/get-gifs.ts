@@ -36,6 +36,8 @@ export class GetGifsPage {
   public sticker_keywords = ["weather", "emoji", "magic", "tech"];
   public sticker_array = [];
   public reaction_link_array = [];
+
+  public sticker_type;
   todo = {}
   logForm() {
     console.log(this.todo)
@@ -43,6 +45,7 @@ export class GetGifsPage {
   
 ;
   constructor(public navCtrl: NavController, public navParams: NavParams, public http: Http, public toastCtrl : ToastController) {
+    this.sticker_type = "emoji";
   }
 
   ionViewDidLoad() {
@@ -67,7 +70,7 @@ export class GetGifsPage {
 
 
   getEmojiStickers() {
-    this.http.get(`http://api.giphy.com/v1/stickers/search?q=emoji&api_key=${this.giphy_api_key}&limit=20`).map(res => res.json()).subscribe(data => {
+    this.http.get(`http://api.giphy.com/v1/stickers/search?q=emoji&api_key=${this.giphy_api_key}&limit=40`).map(res => res.json()).subscribe(data => {
       this.posts = data.data;
       for (let k = 0; k < this.posts.length; k += 1) {
         let link = this.posts[k].images.original.url;
@@ -77,7 +80,7 @@ export class GetGifsPage {
   }
 
   getCuteStickers() {
-    this.http.get(`http://api.giphy.com/v1/stickers/search?q=cute&api_key=${this.giphy_api_key}&limit=20`).map(res => res.json()).subscribe(data => {
+    this.http.get(`http://api.giphy.com/v1/stickers/search?q=cute&api_key=${this.giphy_api_key}&limit=40`).map(res => res.json()).subscribe(data => {
       this.posts = data.data;
       for (let k = 0; k < this.posts.length; k += 1) {
         let link = this.posts[k].images.original.url;

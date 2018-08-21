@@ -6,7 +6,7 @@
   </ion-navbar>
 
   <ion-toolbar>
-    <ion-segment [(ngModel)]="media_type">
+    <ion-segment [(ngModel)]="media_type" color="secondary" value="stickers" isActive>
       <ion-segment-button value="stickers">
         Stickers
       </ion-segment-button>
@@ -16,7 +16,7 @@
       <ion-segment-button value="gifs">
         GIFs
       </ion-segment-button>
-      <ion-segment-button value="text-faces">
+      <ion-segment-button value="text_faces">
         Text Faces
       </ion-segment-button>
     </ion-segment>
@@ -29,45 +29,72 @@
 
   <ion-toolbar>
 
-
     <div [ngSwitch]="media_type">
       <ion-list *ngSwitchCase="'stickers'">
-        <ion-item>
+        <ion-item [navPush]="getGIFSPage">
           <ion-thumbnail item-start>
             <img src="img/thumbnail-puppy-1.jpg">
           </ion-thumbnail>
-          <h2>Ruby</h2>
+          <h2>Animated Stickers</h2>
         </ion-item>
-        ...
+
       </ion-list>
 
-      <ion-list *ngSwitchCase="'kittens'">
+      <ion-list *ngSwitchCase="'emoji'">
+        <ion-item (click)="getEmojiPage()">
+          <ion-thumbnail item-start>
+            <img src="img/thumbnail-kitten-1.jpg">
+          </ion-thumbnail>
+          <h2>Search All Emoji</h2>
+        </ion-item>
+
+        <ion-item (click)="getEmojiPage()">
+          <ion-thumbnail item-start>
+            <img src="img/thumbnail-kitten-1.jpg">
+          </ion-thumbnail>
+          <h2>Emotions</h2>
+        </ion-item>
+
+      </ion-list>
+
+      <ion-list *ngSwitchCase="'gifs'">
         <ion-item>
           <ion-thumbnail item-start>
             <img src="img/thumbnail-kitten-1.jpg">
           </ion-thumbnail>
           <h2>Luna</h2>
         </ion-item>
-        ...
+
       </ion-list>
-      <ion-list *ngSwitchCase="'kittens'">
+      <ion-list *ngSwitchCase="'text_faces'">
         <ion-item>
           <ion-thumbnail item-start>
             <img src="img/thumbnail-kitten-1.jpg">
           </ion-thumbnail>
-          <h2>Luna</h2>
+          <h2>Western Text Faces</h2>
         </ion-item>
-        ...
-      </ion-list>
-      <ion-list *ngSwitchCase="'kittens'">
-        <ion-item>
+
+        <ion-item [navPush]="addTextFacesPage">
           <ion-thumbnail item-start>
             <img src="img/thumbnail-kitten-1.jpg">
           </ion-thumbnail>
-          <h2>Luna</h2>
+          <h2>Eastern Text Faces</h2>
         </ion-item>
-        ...
+        <ion-item [navPush]="coolSymbolsPage">
+            <ion-thumbnail item-start>
+              <img src="img/thumbnail-kitten-1.jpg">
+            </ion-thumbnail>
+            <h2>Text Symbols</h2>
+          </ion-item> 
+
+          <ion-item [navPush]="addCatFacesPage">
+              <ion-thumbnail item-start>
+                <img src="img/thumbnail-kitten-1.jpg">
+              </ion-thumbnail>
+              <h2>Cat Faces</h2>
+            </ion-item> 
       </ion-list>
+
     </div>
   </ion-toolbar>
   <ion-fab top right (click)="getFavouritesPage()">
@@ -75,53 +102,5 @@
       <ion-icon name="heart"></ion-icon>
     </button>
   </ion-fab>
-  <ion-item (click)="getEmojiPage()">
-    <ion-icon name="happy" item-start></ion-icon>
-    Emoji
-    <ion-badge>:D</ion-badge>
-  </ion-item>
 
-  <ion-item [navPush]="addTextFacesPage">
-    <ion-icon name="heart" item-start></ion-icon>
-    Cute Text Faces
-  </ion-item>
-
-  <ion-item (click)="getTextFacesPage()">
-    <ion-icon name="outlet" item-start></ion-icon>
-    Japanese Text Faces
-    <ion-badge>:D</ion-badge>
-  </ion-item>
-
-  <ion-item (click)="getEmojiPage()">
-    <ion-icon name="happy" item-start></ion-icon>
-    Letters
-    <ion-badge>:D</ion-badge>
-  </ion-item>
-
-  <ion-item [navPush]="addNumbersPage">
-    <ion-icon name="happy" item-start></ion-icon>
-    Numbers
-    <ion-badge>:D</ion-badge>
-  </ion-item>
-
-  <ion-item [navPush]="addCatFacesPage">
-    <ion-icon name="happy" item-start></ion-icon>
-    Cute Cat Faces
-    <ion-badge>:D</ion-badge>
-  </ion-item>
-
-  <ion-item [navPush]="coolSymbolsPage">
-    <ion-icon name="happy" item-start></ion-icon>
-    Cool Symbols
-  </ion-item>
-
-  <ion-item [navPush]="addCatFacesPage">
-    <ion-icon name="happy" item-start></ion-icon>
-    Font Translator
-  </ion-item>
-
-  <ion-item [navPush]="getGIFSPage">
-    <ion-icon name="happy" item-start></ion-icon>
-    Get GIFS
-  </ion-item>
 </ion-content>
