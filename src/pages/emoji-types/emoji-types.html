@@ -15,9 +15,18 @@
       <ion-segment-button value="activities">
         Activities
       </ion-segment-button>
+      <ion-segment-button value="symbols">
+          Symbols
+        </ion-segment-button>
       <ion-segment-button value="objects">
         Objects
       </ion-segment-button>
+      <ion-segment-button value="travel">
+          Travel
+        </ion-segment-button>
+        <ion-segment-button value="flags">
+            Flags
+          </ion-segment-button>
     </ion-segment>
   </ion-toolbar>
 
@@ -63,6 +72,33 @@
               <p class="help_msg">Just click on an emoji to copy it.</p>
     
               <span *ngFor="let item of objects_emoji_array" attr.id={{item}} class="emoji_c" (click)="addToFavourites(item)">{{item}}</span>
+    
+            </section>
+      </ion-list>
+
+      <ion-list *ngSwitchCase="'symbols'">
+          <section>
+              <p class="help_msg">Just click on an emoji to copy it.</p>
+    
+              <span *ngFor="let item of symbols_emoji_array" attr.id={{item}} class="emoji_c" (click)="addToFavourites(item)">{{item}}</span>
+    
+            </section>
+      </ion-list>
+
+      <ion-list *ngSwitchCase="'travel'">
+          <section>
+              <p class="help_msg">Just click on an emoji to copy it.</p>
+    
+              <span *ngFor="let item of travel_emoji_array" attr.id={{item}} class="emoji_c" (click)="addToFavourites(item)">{{item}}</span>
+    
+            </section>
+      </ion-list>
+
+      <ion-list *ngSwitchCase="'flags'">
+          <section>
+              <p class="help_msg">Just click on an emoji to copy it.</p>
+    
+              <span *ngFor="let item of flags_emoji_array" attr.id={{item}} class="emoji_c" (click)="addToFavourites(item)">{{item}}</span>
     
             </section>
       </ion-list>

@@ -17,6 +17,10 @@ export class EmojiTypesPage {
   public ani_nature_emoji_array = [];
   public activities_emoji_array = [];
   public objects_emoji_array = [];
+  public symbols_emoji_array = [];
+  public travel_emoji_array = [];
+  public flags_emoji_array = [];
+  
   public favourites = [];
   public clipboard;
 
@@ -31,6 +35,9 @@ export class EmojiTypesPage {
     this.populateEmojiArray("animals_and_nature", this.ani_nature_emoji_array);
     this.populateEmojiArray("activity", this.activities_emoji_array);
     this.populateEmojiArray("objects", this.objects_emoji_array);
+    this.populateEmojiArray("symbols", this.symbols_emoji_array);
+    this.populateEmojiArray("travel_and_places", this.travel_emoji_array)
+    this.populateEmojiArray("flags", this.flags_emoji_array)
     this.initialiseClipboard();
   }
 

@@ -3,58 +3,125 @@
   <ion-navbar>
     <ion-title>Cute Text Faces</ion-title>
   </ion-navbar>
-
+  <ion-toolbar>
+    <ion-segment [(ngModel)]="category">
+      <ion-segment-button value="happy_text_faces">
+        Happy
+      </ion-segment-button>
+      <ion-segment-button value="sad_text_faces">
+        Sad
+      </ion-segment-button>
+      <ion-segment-button value="cute_text_faces">
+        Cute
+      </ion-segment-button>
+      <ion-segment-button value="romance_text_faces">
+        Romantic
+      </ion-segment-button>
+      <ion-segment-button value="angry_text_faces">
+        Angry
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
 </ion-header>
 
 <ion-content padding class="selectable" overflow-scroll="true">
-  <ion-card *ngFor="let item of text_faces" attr.id={{item}} class="text_faces" overflow-scroll="true">
 
-    <ion-card-content>
-      {{item}}
-    </ion-card-content>
+  <ion-toolbar>
 
-  </ion-card>
+    <div [ngSwitch]="category">
+      <ion-list *ngSwitchCase="'happy_text_faces'">
+        <section>
+          <h1>:) Text Faces</h1>
+          <ion-card *ngFor="let item of text_faces" attr.id={{item}} class="text_faces" overflow-scroll="true">
 
+            <ion-card-content>
+              {{item}}
+            </ion-card-content>
 
-  <h1>Sad Text Faces</h1>
-  <ion-card *ngFor="let item of sad_text_faces" attr.id={{item}} class="text_faces" (click)="addToFavourites(item)">
+          </ion-card>
+        </section>
 
-    <ion-card-content>
-      {{item}}
-    </ion-card-content>
+      </ion-list>
 
-  </ion-card>
+      <ion-list *ngSwitchCase="'sad_text_faces'">
+        <section>
+          <h1>Sad Text Faces</h1>
+          <ion-card *ngFor="let item of sad_text_faces" attr.id={{item}} class="text_faces" (click)="addToFavourites(item)">
 
-  <h1>Super Cuute Text Faces</h1>
-  <span>{{item}}</span>
+            <ion-card-content>
+              {{item}}
+            </ion-card-content>
 
-  <ion-card *ngFor="let item of cute_text_faces" attr.id={{item}} class="text_faces" (click)="addToFavourites(item)">
+          </ion-card>
 
-    <ion-card-content>
-      {{item}}
-    </ion-card-content>
+        </section>
 
-  </ion-card>
+      </ion-list>
 
-  <h1>Romance Text Faces</h1>
+      <ion-list *ngSwitchCase="'cute_text_faces'">
+        <section>
+          <h1>Super Cuute Text Faces</h1>
+          <span>{{item}}</span>
 
-  <ion-card *ngFor="let item of romance_text_faces" attr.id={{item}} class="text_faces" (click)="addToFavourites(item)">
+          <ion-card *ngFor="let item of cute_text_faces" attr.id={{item}} class="text_faces" (click)="addToFavourites(item)">
 
-    <ion-card-content>
-      {{item}}
-    </ion-card-content>
+            <ion-card-content>
+              {{item}}
+            </ion-card-content>
 
-  </ion-card>
+          </ion-card>
+        </section>
 
-  <h1>Angry Text Faces</h1>
-  <ion-card *ngFor="let item of angry_text_faces" attr.id={{item}} class="text_faces" (click)="addToFavourites(item)">
+      </ion-list>
 
-    <ion-card-content>
-      {{item}}
-    </ion-card-content>
+      <ion-list *ngSwitchCase="'romance_text_faces'">
+        <section>
+            <h1>Romance Text Faces</h1>
 
-  </ion-card>
+            <ion-card *ngFor="let item of romance_text_faces" attr.id={{item}} class="text_faces" (click)="addToFavourites(item)">
+          
+              <ion-card-content>
+                {{item}}
+              </ion-card-content>
+          
+            </ion-card>
+        </section>
+      </ion-list>
 
-  
+      <ion-list *ngSwitchCase="'angry_text_faces'">
+        <section>
+
+          <h1>Angry Text Faces</h1>
+          <ion-card *ngFor="let item of angry_text_faces" attr.id={{item}} class="text_faces" (click)="addToFavourites(item)">
+        
+            <ion-card-content>
+              {{item}}
+            </ion-card-content>
+        
+          </ion-card>
+        
+        </section>
+      </ion-list>
+
+      <ion-list *ngSwitchCase="'travel'">
+        <section>
+          <p class="help_msg">Just click on an emoji to copy it.</p>
+
+          <span *ngFor="let item of travel_emoji_array" attr.id={{item}} class="emoji_c" (click)="addToFavourites(item)">{{item}}</span>
+
+        </section>
+      </ion-list>
+
+      <ion-list *ngSwitchCase="'flags'">
+        <section>
+          <p class="help_msg">Just click on an emoji to copy it.</p>
+
+          <span *ngFor="let item of flags_emoji_array" attr.id={{item}} class="emoji_c" (click)="addToFavourites(item)">{{item}}</span>
+
+        </section>
+      </ion-list>
+
+    </div>
+  </ion-toolbar>
 
 </ion-content>
