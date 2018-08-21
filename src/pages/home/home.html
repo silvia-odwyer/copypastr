@@ -22,7 +22,6 @@
     </ion-segment>
   </ion-toolbar>
 
-
 </ion-header>
 
 <ion-content padding>
@@ -48,6 +47,13 @@
           <h2>Search All Emoji</h2>
         </ion-item>
 
+        <ion-item [navPush]="emojiTypesPage">
+            <ion-thumbnail item-start>
+              <img src="img/thumbnail-kitten-1.jpg">
+            </ion-thumbnail>
+            <h2>Emoji Types</h2>
+          </ion-item>
+
         <ion-item [navPush]="emotionEmojiPage">
           <ion-thumbnail item-start>
             <img src="img/thumbnail-kitten-1.jpg">
@@ -55,6 +61,12 @@
           <h2>Emotions</h2>
         </ion-item>
 
+        <ion-item [navPush]="animalsNatureEmojiPage">
+            <ion-thumbnail item-start>
+              <img src="img/thumbnail-kitten-1.jpg">
+            </ion-thumbnail>
+            <h2>Animals & Nature Emoji</h2>
+          </ion-item>
       </ion-list>
 
       <ion-list *ngSwitchCase="'gifs'">

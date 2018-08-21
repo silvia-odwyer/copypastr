@@ -1,0 +1,91 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Copy & Paste Emoji</ion-title>
+  </ion-navbar>
+
+  <ion-toolbar>
+    <ion-segment [(ngModel)]="emoji_type">
+      <ion-segment-button value="emotions">
+        Emotions
+      </ion-segment-button>
+      <ion-segment-button value="ani_nature">
+        Animals & Nature
+      </ion-segment-button>
+      <ion-segment-button value="activities">
+        Activities
+      </ion-segment-button>
+      <ion-segment-button value="text_faces">
+        Objects
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+
+
+</ion-header>
+
+<ion-content padding class="selectable">
+
+  <ion-toolbar>
+
+    <div [ngSwitch]="emoji_type">
+      <ion-list *ngSwitchCase="'emotions'">
+        <section>
+          <p class="help_msg">Just click on an emoji to copy it.</p>
+
+          <span *ngFor="let item of emotion_emoji_array" attr.id={{item}} class="emoji_c" (click)="addToFavourites(item)">{{item}}</span>
+
+        </section>
+
+      </ion-list>
+
+      <ion-list *ngSwitchCase="'ani_nature'">
+        <section>
+          <p class="help_msg">Just click on an emoji to copy it.</p>
+
+          <span *ngFor="let item of ani_nature_emoji_array" attr.id={{item}} class="emoji_c" (click)="addToFavourites(item)">{{item}}</span>
+
+        </section>
+      </ion-list>
+
+      <ion-list *ngSwitchCase="'activities'">
+        <section>
+          <p class="help_msg">Just click on an emoji to copy it.</p>
+
+          <span *ngFor="let item of ani_nature_emoji_array" attr.id={{item}} class="emoji_c" (click)="addToFavourites(item)">{{item}}</span>
+
+        </section>
+
+      </ion-list>
+      <ion-list *ngSwitchCase="'text_faces'">
+        <ion-item>
+          <ion-thumbnail item-start>
+            <img src="img/thumbnail-kitten-1.jpg">
+          </ion-thumbnail>
+          <h2>Western Text Faces</h2>
+        </ion-item>
+
+        <ion-item [navPush]="addTextFacesPage">
+          <ion-thumbnail item-start>
+            <img src="img/thumbnail-kitten-1.jpg">
+          </ion-thumbnail>
+          <h2>Eastern Text Faces</h2>
+        </ion-item>
+        <ion-item [navPush]="coolSymbolsPage">
+          <ion-thumbnail item-start>
+            <img src="img/thumbnail-kitten-1.jpg">
+          </ion-thumbnail>
+          <h2>Text Symbols</h2>
+        </ion-item>
+
+        <ion-item [navPush]="addCatFacesPage">
+          <ion-thumbnail item-start>
+            <img src="img/thumbnail-kitten-1.jpg">
+          </ion-thumbnail>
+          <h2>Cat Faces</h2>
+        </ion-item>
+      </ion-list>
+
+    </div>
+  </ion-toolbar>
+</ion-content>

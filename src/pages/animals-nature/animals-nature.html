@@ -1,0 +1,17 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Animals & Nature Emoji</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <section>
+        <p class="help_msg">Just click on an emoji to copy it.</p>
+    
+        <span *ngFor="let item of ani_nature_emoji_array" attr.id={{item}} class="emoji_c" (click)="addToFavourites(item)">{{item}}</span>
+    
+      </section>
+</ion-content>

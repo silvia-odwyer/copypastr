@@ -9,6 +9,9 @@ import { CoolSymbolsPage } from '../cool-symbols/cool-symbols';
 import { GetGifsPage } from '../get-gifs/get-gifs';
 import { StickerTab } from '../sticker-tab/sticker-tab';
 import {EmotionEmojiPage} from "../emotion-emoji/emotion-emoji"
+import {AnimalsNaturePage} from "../animals-nature/animals-nature";
+import { EmojiTypesPage } from '../emoji-types/emoji-types';
+
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -24,6 +27,9 @@ export class HomePage {
   coolSymbolsPage = CoolSymbolsPage;
   getGIFSPage = GetGifsPage;
   emotionEmojiPage = EmotionEmojiPage
+  animalsNatureEmojiPage = AnimalsNaturePage
+  emojiTypesPage = EmojiTypesPage
+  
   public favourite_emoji = [];
   public media_type;
   tab1: any;
