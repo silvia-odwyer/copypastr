@@ -32,9 +32,16 @@
       <ion-list *ngSwitchCase="'stickers'">
         <ion-item [navPush]="getGIFSPage">
           <ion-thumbnail item-start>
-            <img src="img/thumbnail-puppy-1.jpg">
+            <img src="../../assets/imgs/happy_emoji.PNG">
           </ion-thumbnail>
           <h2>Animated Stickers</h2>
+        </ion-item>
+
+        <ion-item [navPush]="easternAnimatedStickers">
+          <ion-thumbnail item-start>
+            <img src="../../assets/imgs/happy_emoji.PNG">
+          </ion-thumbnail>
+          <h2>Eastern Animated Stickers (Emojidex)</h2>
         </ion-item>
 
       </ion-list>
@@ -42,17 +49,24 @@
       <ion-list *ngSwitchCase="'emoji'">
         <ion-item (click)="getEmojiPage()">
           <ion-thumbnail item-start>
-            <img src="img/thumbnail-kitten-1.jpg">
-          </ion-thumbnail>
+              <img src="../../assets/imgs/magnifying_glass.PNG">
+            </ion-thumbnail>
           <h2>Search All Emoji</h2>
         </ion-item>
 
         <ion-item [navPush]="emojiTypesPage">
-            <ion-thumbnail item-start>
-              <img src="img/thumbnail-kitten-1.jpg">
-            </ion-thumbnail>
-            <h2>Emoji Types</h2>
-          </ion-item>
+          <ion-thumbnail item-start>
+            <img src="../../assets/imgs/happy_emoji.PNG">
+          </ion-thumbnail>
+          <h2>Emoji Types</h2>
+        </ion-item>
+
+        <ion-item [navPush]="emojifyPage">
+          <ion-thumbnail item-start>
+            <img src="img/thumbnail-kitten-1.jpg">
+          </ion-thumbnail>
+          <h2>Emojify Text</h2>
+        </ion-item>
 
         <ion-item [navPush]="emotionEmojiPage">
           <ion-thumbnail item-start>
@@ -62,19 +76,19 @@
         </ion-item>
 
         <ion-item [navPush]="animalsNatureEmojiPage">
-            <ion-thumbnail item-start>
-              <img src="img/thumbnail-kitten-1.jpg">
-            </ion-thumbnail>
-            <h2>Animals & Nature Emoji</h2>
-          </ion-item>
-      </ion-list>
-
-      <ion-list *ngSwitchCase="'gifs'">
-        <ion-item>
           <ion-thumbnail item-start>
             <img src="img/thumbnail-kitten-1.jpg">
           </ion-thumbnail>
-          <h2>Luna</h2>
+          <h2>Animals & Nature Emoji</h2>
+        </ion-item>
+      </ion-list>
+
+      <ion-list *ngSwitchCase="'gifs'">
+        <ion-item [navPush]="serveGIFSPage">
+          <ion-thumbnail item-start>
+            <img src="img/thumbnail-kitten-1.jpg">
+          </ion-thumbnail>
+          <h2>Search for GIFS</h2>
         </ion-item>
 
       </ion-list>
@@ -93,18 +107,18 @@
           <h2>Eastern Text Faces</h2>
         </ion-item>
         <ion-item [navPush]="coolSymbolsPage">
-            <ion-thumbnail item-start>
-              <img src="img/thumbnail-kitten-1.jpg">
-            </ion-thumbnail>
-            <h2>Text Symbols</h2>
-          </ion-item> 
+          <ion-thumbnail item-start>
+            <img src="img/thumbnail-kitten-1.jpg">
+          </ion-thumbnail>
+          <h2>Text Symbols</h2>
+        </ion-item>
 
-          <ion-item [navPush]="addCatFacesPage">
-              <ion-thumbnail item-start>
-                <img src="img/thumbnail-kitten-1.jpg">
-              </ion-thumbnail>
-              <h2>Cat Faces</h2>
-            </ion-item> 
+        <ion-item [navPush]="addCatFacesPage">
+          <ion-thumbnail item-start>
+            <img src="img/thumbnail-kitten-1.jpg">
+          </ion-thumbnail>
+          <h2>Cat Faces</h2>
+        </ion-item>
       </ion-list>
 
     </div>

@@ -71,8 +71,6 @@ export class GetGifsPage {
     });
   }
 
-
-
   getEmojiStickers() {
     this.http.get(`http://api.giphy.com/v1/stickers/search?q=emoji&api_key=${this.giphy_api_key}&limit=90&rating=g`).map(res => res.json()).subscribe(data => {
       this.posts = data.data;

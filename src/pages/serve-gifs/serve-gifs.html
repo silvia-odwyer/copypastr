@@ -1,0 +1,19 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Search GIFs</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-searchbar (ionInput)="searchGIFS($event)" [(ngModel)]="myInput" debounce=3000></ion-searchbar>
+
+  <ion-card *ngFor="let item of link_array">
+    <ion-content>
+      <img src="{{item}}"/>
+    </ion-content>
+  </ion-card>
+
+</ion-content>

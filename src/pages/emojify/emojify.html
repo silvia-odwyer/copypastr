@@ -1,0 +1,18 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Emojify Text</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-item>
+    <ion-label>Add Text</ion-label>
+    <ion-input type="text" [(ngModel)]="text.username" name="username" (ionInput)="getFieldText($event)"></ion-input>
+  </ion-item>
+
+  <ion-searchbar (ionInput)="getFieldText($event)"></ion-searchbar>
+
+</ion-content>

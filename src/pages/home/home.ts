@@ -12,6 +12,9 @@ import {EmotionEmojiPage} from "../emotion-emoji/emotion-emoji"
 import {AnimalsNaturePage} from "../animals-nature/animals-nature";
 import { EmojiTypesPage } from '../emoji-types/emoji-types';
 import { WesternTextFacesPage } from '../western-text-faces/western-text-faces';
+import { EasternAnimatedStickersPage } from '../eastern-animated-stickers/eastern-animated-stickers';
+import { EmojifyPage } from '../emojify/emojify';
+import { ServeGifsPage } from '../serve-gifs/serve-gifs';
 
 @Component({
   selector: 'page-home',
@@ -31,7 +34,9 @@ export class HomePage {
   animalsNatureEmojiPage = AnimalsNaturePage
   emojiTypesPage = EmojiTypesPage
   westernTextFacesPage = WesternTextFacesPage
-  
+  easternTextFacesPage = EasternAnimatedStickersPage
+  serveGIFSPage = ServeGifsPage
+  emojifyPage = EmojifyPage
   public favourite_emoji = [];
   public media_type;
   tab1: any;
