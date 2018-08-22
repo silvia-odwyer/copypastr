@@ -11,6 +11,7 @@ import { StickerTab } from '../sticker-tab/sticker-tab';
 import {EmotionEmojiPage} from "../emotion-emoji/emotion-emoji"
 import {AnimalsNaturePage} from "../animals-nature/animals-nature";
 import { EmojiTypesPage } from '../emoji-types/emoji-types';
+import { WesternTextFacesPage } from '../western-text-faces/western-text-faces';
 
 @Component({
   selector: 'page-home',
@@ -29,6 +30,7 @@ export class HomePage {
   emotionEmojiPage = EmotionEmojiPage
   animalsNatureEmojiPage = AnimalsNaturePage
   emojiTypesPage = EmojiTypesPage
+  westernTextFacesPage = WesternTextFacesPage
   
   public favourite_emoji = [];
   public media_type;
