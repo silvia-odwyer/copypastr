@@ -7,6 +7,18 @@
 </ion-header>
 
 
-<ion-content padding>
-  <p>₍˄·͈༝·͈˄₎ฅ˒˒ ₍˄ุ.͡˳̫.˄ุ₎ฅ˒˒ (=｀ω´=) (=｀ェ´=) （=´∇｀=） (=^ ◡ ^=) (=^-ω-^=) (=^･^=) (=^･ω･^)y＝ (=^･ω･^=)</p>
+<ion-content padding class="selectable">
+
+  <section>
+
+      <ion-card *ngFor="let item of cat_ascii_faces" attr.id={{item}} class="text_faces" overflow-scroll="true">
+
+        <ion-card-content>
+          {{item}}
+        </ion-card-content>
+
+      </ion-card>
+    </section>
+
+
 </ion-content>
