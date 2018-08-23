@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ChangeDetectorRef } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Http } from '@angular/http';
 import * as giphy_api_obj from "../../../env/giphy_api_key.json"
@@ -13,34 +13,50 @@ export class ServeGifsPage {
   public giphy_api_key = giphy_api_obj["api_key"];
   public results = [];
 
+
   constructor(public navCtrl: NavController, public navParams: NavParams, public http: Http) {
+
+    console.log('Looking for changes');  
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ServeGifsPage');
+
+    
   }
 
   searchGIFS(event) {
     console.log(event.target.value);
+    var loading_msg = document.querySelector(".loading_msg");
+
     let search_term = event.target.value;
-    this.http.get(`https://api.giphy.com/v1/gifs/search?q=${search_term}&api_key=${this.giphy_api_key}&limit=90&rating=g`).map(res => res.json()).subscribe(data => {
+    loading_msg.innerHTML = "Loading GIFS"
+    if (search_term != "" || search_term.trim() != "") {
 
-      let gif_results = data.data;
-      let link_count = 0;
-      for (let k = 0; link_count < 40; k += 1) {
-        let ranIndex = this.getRandomNumber(0, gif_results.length - 1);
-        let link = gif_results[ranIndex].images.original.url;
-        if (this.link_array.indexOf(link) > -1) {
-          continue;
-        }
-        else {
-          this.link_array.push(link);
-          link_count += 1;
-        }
+      this.http.get(`https://api.giphy.com/v1/gifs/search?q=${search_term}&api_key=${this.giphy_api_key}&limit=40&rating=g`).map(res => res.json()).subscribe(data => {
+        
+        // re-initialise the link array back to its empty state.
+        this.link_array = [];
+        
+        //set the loading message to empty.
+        loading_msg.innerHTML = "found gifs";
 
-      }
-      console.log(this.link_array)
-    });
+        let gif_results = data.data;
+        let link_count = 0;
+        for (let k = 0; link_count < 20; k += 1) {
+          let ranIndex = this.getRandomNumber(0, gif_results.length - 1);
+          let link = gif_results[ranIndex].images.original.url;
+          if (this.link_array.indexOf(link) > -1) {
+            continue;
+          }
+          else {
+            this.link_array.push(link);
+            link_count += 1;
+          }
+        }
+        console.log(this.link_array)
+      });
+    }
   }
 
   getRandomNumber(min, max) {

@@ -4,6 +4,8 @@ import { Http } from '@angular/http';
 import 'rxjs/add/operator/map';
 import * as Clipboard from 'clipboard/dist/clipboard.min.js';
 import { ToastController } from 'ionic-angular/components/toast/toast-controller';
+import * as giphy_api_obj from "../../../env/giphy_api_key.json"
+import { ChangeDetectorRef } from '@angular/core/src/change_detection/change_detector_ref';
 
 @Component({
   selector: 'page-get-gifs',
@@ -33,7 +35,8 @@ export class GetGifsPage {
   public weather_link_array = [];
   public effects_link_array = [];
 
-  giphy_api_key = "b0EtnbCyVW6jKjVraEnITIGyiP2E624r";
+  giphy_api_key = giphy_api_obj["api_key"];
+
   search_terms: any;
   public clipboard;
   public sticker_keywords = ["weather", "emoji", "magic", "tech"];
@@ -49,6 +52,7 @@ export class GetGifsPage {
   ;
   constructor(public navCtrl: NavController, public navParams: NavParams, public http: Http, public toastCtrl: ToastController) {
     this.sticker_type = "emoji";
+
   }
 
   ionViewDidLoad() {

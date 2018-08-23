@@ -6,14 +6,5 @@ page-get-gifs {
         width: calc(100% * (1/2) - 10px - 1px);
     }
 
-    @media screen and (min-width: 40em) {
 
-    .gif_container {
-        display: inline-block;
-        margin:10px 0 0 2%;
-        flex-grow: 1;
-        width: calc(100% * (1/7) - 10px - 1px);
-    }
-
-}
 }

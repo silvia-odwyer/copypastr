@@ -9,11 +9,19 @@
 
 <ion-content padding>
   <ion-searchbar (ionInput)="searchGIFS($event)" [(ngModel)]="myInput" debounce=3000></ion-searchbar>
+  <p class="loading_msg">Search for GIFs ...</p>
+  <ion-card *ngFor="let item of link_array" class="gif_container">
+    <img src={{item}}/>
+    <ion-card-content>
+      <ion-card-title>
 
-  <ion-card *ngFor="let item of link_array">
-    <ion-content>
-      <img src="{{item}}"/>
-    </ion-content>
+      </ion-card-title>
+      <p class="link">{{item}}</p>
+      <ion-item>
+
+        <ion-input type="text" class="link" value={{item}}>{{item}}</ion-input>
+      </ion-item>
+    </ion-card-content>
   </ion-card>
 
 </ion-content>
