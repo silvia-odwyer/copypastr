@@ -7,7 +7,7 @@
 </ion-header>
 
 
-<ion-content padding>
+<ion-content padding class="selectable">
   <ion-searchbar (ionInput)="triggerSearch($event)" [(ngModel)]="myInput" debounce=1000></ion-searchbar>
   <progress-bar [progress]="loadProgress"></progress-bar>
   <p class="loading_msg">Search for GIFs ...</p>

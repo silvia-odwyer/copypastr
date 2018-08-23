@@ -8,7 +8,7 @@
 
 
 
-<ion-content padding>
+<ion-content padding class="stickers">
   <ion-searchbar (ionInput)="triggerSearch($event)" [(ngModel)]="myInput" debounce=1000></ion-searchbar>
   <progress-bar [progress]="loadProgress"></progress-bar>
   <p class="loading_msg">Search for GIPHY Stickers above</p>

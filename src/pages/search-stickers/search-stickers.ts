@@ -53,7 +53,7 @@ export class SearchStickersPage {
       this.link_array = [];
 
       //set the loading message to empty.
-      loading_msg.innerHTML = "Found stickers";
+      loading_msg.innerHTML = "";
 
       let gif_results = data.data;
       if (gif_results.length === 0) {
@@ -62,6 +62,7 @@ export class SearchStickersPage {
 
 
       else {
+        loading_msg.innerHTML = `Stickers related to ${this.search_term}`
         if (gif_results.length < this.total_display_count) {
           this.total_display_count = gif_results.length;
           this.loadProgress = 0;
