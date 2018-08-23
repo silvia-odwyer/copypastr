@@ -35,6 +35,7 @@ export class GetGifsPage {
   public weather_link_array = [];
   public effects_link_array = [];
 
+
   giphy_api_key = giphy_api_obj["api_key"];
 
   search_terms: any;
