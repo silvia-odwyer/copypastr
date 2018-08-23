@@ -44,6 +44,13 @@
           <h2>Eastern Animated Stickers (Emojidex)</h2>
         </ion-item>
 
+        <ion-item [navPush]="searchStickersPage">
+          <ion-thumbnail item-start>
+            <img src="../../assets/imgs/happy_emoji.PNG">
+          </ion-thumbnail>
+          <h2>Search Stickers</h2>
+        </ion-item>
+
       </ion-list>
 
       <ion-list *ngSwitchCase="'emoji'">

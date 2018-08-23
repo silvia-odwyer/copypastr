@@ -2,7 +2,6 @@ import { Component, ChangeDetectorRef } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Http } from '@angular/http';
 import * as giphy_api_obj from "../../../env/giphy_api_key.json"
-import { setTimeout } from 'timers';
 
 @Component({
   selector: 'page-serve-gifs',
@@ -32,16 +31,14 @@ export class ServeGifsPage {
       this.loadProgress = 10;
       let time = 600;
       let search_time = 500;
-      let timeout = setTimeout(() => {
+      let timeout = window.setTimeout(() => {
         this.loadProgress += 10
       }, time);
 
-      let searchTimeout = setTimeout(() => {
+      let searchTimeout = window.setTimeout(() => {
         this.searchGIFS(event);
       }, search_time)
-
     }
-
   }
 
   searchGIFS(event) {

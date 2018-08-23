@@ -15,6 +15,7 @@ import { WesternTextFacesPage } from '../western-text-faces/western-text-faces';
 import { EasternAnimatedStickersPage } from '../eastern-animated-stickers/eastern-animated-stickers';
 import { EmojifyPage } from '../emojify/emojify';
 import { ServeGifsPage } from '../serve-gifs/serve-gifs';
+import { SearchStickersPage } from '../search-stickers/search-stickers';
 
 @Component({
   selector: 'page-home',
@@ -30,7 +31,8 @@ export class HomePage {
   favouritesPage = FavouritesPage;
   coolSymbolsPage = CoolSymbolsPage;
   getGIFSPage = GetGifsPage;
-  emotionEmojiPage = EmotionEmojiPage
+  emotionEmojiPage = EmotionEmojiPage;
+  searchStickersPage = SearchStickersPage;
   animalsNatureEmojiPage = AnimalsNaturePage
   emojiTypesPage = EmojiTypesPage
   westernTextFacesPage = WesternTextFacesPage
