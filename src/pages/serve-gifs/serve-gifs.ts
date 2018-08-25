@@ -2,6 +2,7 @@ import { Component, ChangeDetectorRef } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Http } from '@angular/http';
 import * as giphy_api_obj from "../../../env/giphy_api_key.json"
+import { getRandomNumber} from "../../modules/HelperUtils";
 
 @Component({
   selector: 'page-serve-gifs',
@@ -70,7 +71,7 @@ export class ServeGifsPage {
         }
         let link_count = 0;
         for (let k = 0; link_count < 20; k += 1) {
-          let ranIndex = this.getRandomNumber(0, gif_results.length - 1);
+          let ranIndex = getRandomNumber(0, gif_results.length - 1);
           let link = gif_results[ranIndex].images.original.url;
           if (this.link_array.indexOf(link) > -1) {
             continue;
@@ -87,9 +88,5 @@ export class ServeGifsPage {
       }
     });
   }
-
-getRandomNumber(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-}
 
 }

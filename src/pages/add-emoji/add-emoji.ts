@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, ViewController, ToastController } from 'ionic-angular';
 import emoji from 'emojilib';
 import * as Clipboard from 'clipboard/dist/clipboard.min.js';
+import { getRandomNumber} from "../../modules/HelperUtils";
 
 @Component({
   selector: 'page-add-emoji',
@@ -101,7 +102,7 @@ export class AddEmojiPage {
       // If no emojis were found
       if (res.length === 0) {
         let no_emoji_msgs = ["Sorry, no emojis found :(", "Either a data race happened, or we couldn't find any emojis.", "Damn, Daniel. No emojiiiis found. ;(", "Oh, fiddlesticks! No emojis found. :'(", "Oh, crap. Wow, we ... we couldn't find any emojis. Take this one instead. 🙂"];
-        let randomNum = this.getRandomNumber(0, no_emoji_msgs.length - 1);
+        let randomNum = getRandomNumber(0, no_emoji_msgs.length - 1);
         let random_no_emoji_msg = no_emoji_msgs[randomNum];
 
         no_emoji_elem.innerHTML = random_no_emoji_msg;
@@ -123,8 +124,5 @@ export class AddEmojiPage {
     return res;
   }
 
-  getRandomNumber(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-  }
 
 }
