@@ -57,7 +57,8 @@ export class SearchStickersPage {
 
       let gif_results = data.data;
       if (gif_results.length === 0) {
-        loading_msg.innerHTML = "Found no stickers :("
+        loading_msg.innerHTML = "Found no stickers :(";
+        this.loadProgress = 0;
       }
 
 

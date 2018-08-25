@@ -93,36 +93,45 @@
       <ion-list *ngSwitchCase="'gifs'">
         <ion-item [navPush]="serveGIFSPage">
           <ion-thumbnail item-start>
-            <img src="img/thumbnail-kitten-1.jpg">
+            <ion-icon name="search" item-start></ion-icon>
           </ion-thumbnail>
           <h2>Search for GIFS</h2>
         </ion-item>
 
+        <ion-item [navPush]="trendingGIFSPage">
+          <ion-thumbnail item-start>
+            <ion-icon name="trending-up" item-start></ion-icon>
+          </ion-thumbnail>
+          <h2>Trending GIFS</h2>
+        </ion-item>
+
       </ion-list>
+
       <ion-list *ngSwitchCase="'text_faces'">
         <ion-item [navPush]="westernTextFacesPage">
           <ion-thumbnail item-start>
-            <img src="img/thumbnail-kitten-1.jpg">
+            <ion-icon name="happy" item-start></ion-icon>
           </ion-thumbnail>
           <h2>Western Text Faces</h2>
         </ion-item>
 
         <ion-item [navPush]="addTextFacesPage">
           <ion-thumbnail item-start>
-            <img src="img/thumbnail-kitten-1.jpg">
+            <ion-icon name="outlet" item-start></ion-icon>
           </ion-thumbnail>
           <h2>Eastern Text Faces</h2>
         </ion-item>
+
         <ion-item [navPush]="coolSymbolsPage">
           <ion-thumbnail item-start>
-            <img src="img/thumbnail-kitten-1.jpg">
+            <ion-icon name="heart"></ion-icon>
           </ion-thumbnail>
           <h2>Text Symbols</h2>
         </ion-item>
 
         <ion-item [navPush]="addCatFacesPage">
           <ion-thumbnail item-start>
-            <img src="img/thumbnail-kitten-1.jpg">
+            <ion-icon name="arrow-up"></ion-icon>          
           </ion-thumbnail>
           <h2>Cat Faces</h2>
         </ion-item>

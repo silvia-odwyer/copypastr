@@ -1,5 +1,13 @@
 page-home {
+    @mixin font-size-large() {
+        font-size: 3em;
+    }
+
     ion-item {
         cursor: pointer;
+    }
+
+    ion-icon {
+        @include font-size-large();
     }
 }
