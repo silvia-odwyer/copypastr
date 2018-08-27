@@ -1,6 +1,6 @@
 # CopyPastr
 
-React to messages and discover the latest GIFS, stickers, and ascii art with CopyPastr, a cross-platform app that supports the browser, Android iOS, and Windows. 
+React to messages and discover the latest GIFS, stickers, and ascii art with CopyPastr, a cross-platform app that supports the browser, Android, iOS, and Windows phones.
 
 Search for GIFS, stickers, emoji, & old-school ascii faces and then copy & paste them anywhere you like. 
 
