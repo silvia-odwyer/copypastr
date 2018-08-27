@@ -3,6 +3,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Http } from '@angular/http';
 import * as giphy_api_obj from "../../../env/giphy_api_key.json"
 import { getRandomNumber} from "../../modules/HelperUtils";
+import * as Clipboard from 'clipboard/dist/clipboard.min.js';
 
 @Component({
   selector: 'page-search-stickers',
@@ -16,11 +17,19 @@ export class SearchStickersPage {
   public loadProgress = 0;
   public search_term = "";
   public total_display_count = 40;
+  public clipboard;
+
   constructor(public navCtrl: NavController, public navParams: NavParams, public http: Http) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad SearchStickersPage');
+
+    this.clipboard = new Clipboard('.copy_link', {
+      target: function (trigger) {
+        return trigger;
+      }
+    });
   }
 
   triggerSearch(event) {

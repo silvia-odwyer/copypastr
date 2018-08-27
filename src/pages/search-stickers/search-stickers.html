@@ -8,7 +8,7 @@
 
 
 
-<ion-content padding class="stickers">
+<ion-content padding class="stickers" class="selectable">
   <ion-searchbar (ionInput)="triggerSearch($event)" [(ngModel)]="myInput" debounce=1000></ion-searchbar>
   <progress-bar [progress]="loadProgress"></progress-bar>
   <p class="loading_msg">Search for GIPHY Stickers above</p>
@@ -18,10 +18,9 @@
       <ion-card-title>
 
       </ion-card-title>
-      <p class="link">{{item}}</p>
       <ion-item>
-
-        <ion-input type="text" class="link" value={{item}}>{{item}}</ion-input>
+        <a button class="copy_link" item-right>
+          <ion-icon name="copy"></ion-icon>{{item}}</a>
       </ion-item>
     </ion-card-content>
   </ion-card>

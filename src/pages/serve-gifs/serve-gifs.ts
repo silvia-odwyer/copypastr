@@ -3,6 +3,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Http } from '@angular/http';
 import * as giphy_api_obj from "../../../env/giphy_api_key.json"
 import { getRandomNumber} from "../../modules/HelperUtils";
+import * as Clipboard from 'clipboard/dist/clipboard.min.js';
 
 @Component({
   selector: 'page-serve-gifs',
@@ -16,6 +17,7 @@ export class ServeGifsPage {
   public loadProgress = 0;
   public gif_display_count = 20; // The number of GIFs that should be displayed.
   public search_term = "";
+  public clipboard;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public http: Http) {
 
@@ -24,6 +26,12 @@ export class ServeGifsPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad ServeGifsPage');
+
+    this.clipboard = new Clipboard('.symbols', {
+      target: function (trigger) {
+        return trigger;
+      }
+    });
 
 
   }

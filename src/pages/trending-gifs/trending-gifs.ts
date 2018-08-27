@@ -4,12 +4,14 @@ import { Http } from '@angular/http/';
 import * as giphy_api_obj from "../../../env/giphy_api_key.json"
 import { ToastController } from 'ionic-angular/components/toast/toast-controller';
 import { getRandomNumber} from "../../modules/HelperUtils";
+import * as Clipboard from 'clipboard/dist/clipboard.min.js';
 
 @Component({
   selector: 'page-trending-gifs',
   templateUrl: 'trending-gifs.html',
 })
 export class TrendingGifsPage {
+  public clipboard;
   public posts;
   public link_array = [];
   public giphy_api_key = giphy_api_obj["api_key"];
@@ -21,6 +23,12 @@ export class TrendingGifsPage {
     console.log('ionViewDidLoad TrendingGifsPage');
 
     this.getTrendingGIFs();
+
+    this.clipboard = new Clipboard('.copy_link', {
+      target: function (trigger) {
+        return trigger;
+      }
+    });
   }
 
   getTrendingGIFs() {
@@ -47,7 +55,7 @@ export class TrendingGifsPage {
   }
 
   displayToast(state) {
-    let state_dict = { "error": "Error copying your emoji. Try again.", "success": "Emoji copied & added to your favourites" };
+    let state_dict = { "error": "Error copying your emoji. Try again.", "success": "GIF copied & added to your favourites" };
     let toast = this.toastCtrl.create({
       message: state_dict[state],
       duration: 1000,

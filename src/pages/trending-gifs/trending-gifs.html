@@ -1,23 +1,28 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>TrendingGIFS</ion-title>
+    <ion-title>Trending GIFS</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding class="selectable">
+  <ion-item>
+    <h1>Trending GIFS</h1>
+    <p>All the latest GIFS that are hot on the web.</p>
+    <img src="../../assets/imgs/giphy_dark_rectangle.PNG">
+  </ion-item>
+
   <ion-card *ngFor="let item of link_array" class="gif_container">
     <img src={{item}}/>
     <ion-card-content>
       <ion-card-title>
 
       </ion-card-title>
-      <p class="link">{{item}}</p>
       <ion-item>
-
-        <ion-input type="text" class="link" value={{item}}>{{item}}</ion-input>
+        <a button class="copy_link" item-right>
+          <ion-icon name="copy"></ion-icon>{{item}}</a>
       </ion-item>
     </ion-card-content>
   </ion-card>
