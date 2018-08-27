@@ -36,7 +36,6 @@ export class GetGifsPage {
   public weather_link_array = [];
   public effects_link_array = [];
 
-
   giphy_api_key = giphy_api_obj["api_key"];
 
   search_terms: any;
@@ -59,7 +58,7 @@ export class GetGifsPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad GetGifsPage');
-    this.clipboard = new Clipboard('.gif_container .link', {
+    this.clipboard = new Clipboard('.copy_link', {
       target: function (trigger) {
         return trigger;
       }
@@ -69,6 +68,7 @@ export class GetGifsPage {
     this.getCuteStickers();
     this.getReactionStickers();
     this.getWeatherStickers();
+    this.getEffectsStickers();
 
     this.clipboard.on('error', function (e) {
       console.error('Action:', e.action);
@@ -76,6 +76,7 @@ export class GetGifsPage {
       this.displayToast("error");
     });
   }
+  
 
   getEmojiStickers() {
     this.http.get(`http://api.giphy.com/v1/stickers/search?q=emoji&api_key=${this.giphy_api_key}&limit=90&rating=g`).map(res => res.json()).subscribe(data => {
@@ -126,6 +127,18 @@ export class GetGifsPage {
       for (let k = 0; k < out_data.length; k += 1) {
         let link = out_data[k].images.original.url;
         this.weather_link_array.push(link);
+      }
+
+    });
+  }
+
+  getEffectsStickers() {
+    this.http.get(`http://api.giphy.com/v1/stickers/search?q=effects&api_key=${this.giphy_api_key}&limit=40`).map(res => res.json()).subscribe(data => {
+      let out_data = data.data;
+
+      for (let k = 0; k < out_data.length; k += 1) {
+        let link = out_data[k].images.original.url;
+        this.effects_link_array.push(link);
       }
 
     });

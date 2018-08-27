@@ -49,14 +49,8 @@
           </ion-card-title>
 
           <ion-item>
-            <p>{{item}}</p>
-            <a button href={{item}} item-right>
-              <ion-icon name="copy"></ion-icon>Copy</a>
-
-          </ion-item>
-          <ion-item>
-
-            <ion-input type="text" class="link" value={{item}}>{{item}}</ion-input>
+            <a button class="copy_link" item-right>
+              <ion-icon name="copy"></ion-icon>{{item}}</a>
           </ion-item>
         </ion-card-content>
       </ion-card>
@@ -71,16 +65,15 @@
 
       </ion-item>
 
-      <ion-card *ngFor="let item of cute_link_array" class="gif_container">
+      <ion-card *ngFor="let item of cute_link_array" class="sticker_container">
         <img src={{item}}/>
         <ion-card-content>
           <ion-card-title>
 
           </ion-card-title>
-          <p class="link">{{item}}</p>
           <ion-item>
-
-            <ion-input type="text" class="link" value={{item}}>{{item}}</ion-input>
+            <a button class="copy_link" item-right>
+              <ion-icon name="copy"></ion-icon>{{item}}</a>
           </ion-item>
         </ion-card-content>
       </ion-card>
@@ -89,25 +82,19 @@
 
     <ion-list *ngSwitchCase="'effects'">
       <ion-item>
-        <ion-thumbnail item-start>
-          <img src="img/thumbnail-kitten-1.jpg">
-        </ion-thumbnail>
         <h1>Effects</h1>
         <p>Add a touch of magic to your next convo.</p>
         <img src="../../assets/imgs/giphy_dark_rectangle.PNG">
 
       </ion-item>
 
-      <ion-card *ngFor="let item of effects_link_array" class="gif_container">
+      <ion-card *ngFor="let item of effects_link_array" class="sticker_container">
         <img src={{item}}/>
         <ion-card-content>
-          <ion-card-title>
 
-          </ion-card-title>
-          <p class="link">{{item}}</p>
           <ion-item>
-
-            <ion-input type="text" class="link" value={{item}}>{{item}}</ion-input>
+            <a button class="copy_link" item-right>
+              <ion-icon name="copy"></ion-icon>{{item}}</a>
           </ion-item>
         </ion-card-content>
       </ion-card>
@@ -122,16 +109,15 @@
 
       </ion-item>
 
-      <ion-card *ngFor="let item of weather_link_array" class="gif_container">
+      <ion-card *ngFor="let item of weather_link_array" class="sticker_container">
         <img src={{item}}/>
         <ion-card-content>
           <ion-card-title>
 
           </ion-card-title>
-          <p class="link">{{item}}</p>
           <ion-item>
-
-            <ion-input type="text" class="link" value={{item}}>{{item}}</ion-input>
+            <a button class="copy_link" item-right>
+              <ion-icon name="copy"></ion-icon>{{item}}</a>
           </ion-item>
         </ion-card-content>
       </ion-card>
