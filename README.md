@@ -12,9 +12,9 @@ CopyPastr currently supports the following platforms:
 - Windows Phones
 - Browser
 
-![CopyPastr in action](https://raw.githubusercontent.com/silvia-odwyer/copypastr/master/screenshots/effects_stickers.gif "CopyPastr in action")
+![CopyPastr in action](https://github.com/silvia-odwyer/copypastr/blob/master/screenshots/effects_stickers.gif "CopyPastr in action")
 
-![In Action](https://raw.githubusercontent.com/silvia-odwyer/copypastr/master/screenshots/emoji_stickers_devices.gif "In Action")
+![In Action](https://github.com/silvia-odwyer/copypastr/blob/master/screenshots/emoji_stickers_devices.gif "In Action")
 # Current State
 This is a work in-progress, and since I'm stil learning the fundamentals of the Ionic Framework, as well as 
 Typescript, I will be optimizing and compressing my code as the app gains more features.
