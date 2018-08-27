@@ -24,6 +24,7 @@ import { ChangeDetectorRef } from '@angular/core/src/change_detection/change_det
 import { SearchStickersPage } from '../pages/search-stickers/search-stickers';
 import { TrendingGifsPage } from '../pages/trending-gifs/trending-gifs';
 import { TrendingStickersPage } from '../pages/trending-stickers/trending-stickers';
+import {GetStickersPage} from "../pages/get-stickers/get-stickers";
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { TrendingStickersPage } from '../pages/trending-stickers/trending-sticke
     AddCatFacesPage,
     FavouritesPage,
     CoolSymbolsPage,
+    GetStickersPage,
     SearchStickersPage,
     TrendingStickersPage,
     WesternTextFacesPage,
@@ -64,6 +66,7 @@ import { TrendingStickersPage } from '../pages/trending-stickers/trending-sticke
     ServeGifsPage,
     SearchStickersPage,
     TrendingStickersPage,
+    GetStickersPage,
     WesternTextFacesPage,
     FavouritesPage,
     CoolSymbolsPage,
