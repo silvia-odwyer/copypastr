@@ -9,11 +9,11 @@ import { ChangeDetectorRef } from '@angular/core/src/change_detection/change_det
 import { getRandomNumber} from "../../modules/HelperUtils";
 
 @Component({
-  selector: 'page-get-gifs',
-  templateUrl: 'get-gifs.html',
+  selector: 'page-get-stickers',
+  templateUrl: 'get-stickers.html',
 })
 
-export class GetGifsPage {
+export class GetStickersPage {
   posts: any;
   public link_array = [];
   public cute_link_array = [];
@@ -63,7 +63,7 @@ export class GetGifsPage {
   
 
   getEmojiStickers() {
-    this.http.get(`https://api.giphy.com/v1/stickers/search?q=emoji&api_key=${this.giphy_api_key}&limit=90&rating=g`).map(res => res.json()).subscribe(data => {
+    this.http.get(`http://api.giphy.com/v1/stickers/search?q=emoji&api_key=${this.giphy_api_key}&limit=90&rating=g`).map(res => res.json()).subscribe(data => {
       this.posts = data.data;
       let link_count = 0;
       for (let k = 0; link_count < 40; k += 1) {
@@ -82,7 +82,7 @@ export class GetGifsPage {
   }
 
   getCuteStickers() {
-    this.http.get(`https://api.giphy.com/v1/stickers/search?q=cute&api_key=${this.giphy_api_key}&limit=40`).map(res => res.json()).subscribe(data => {
+    this.http.get(`http://api.giphy.com/v1/stickers/search?q=cute&api_key=${this.giphy_api_key}&limit=40`).map(res => res.json()).subscribe(data => {
       this.posts = data.data;
       for (let k = 0; k < this.posts.length; k += 1) {
         let link = this.posts[k].images.original.url;
@@ -92,7 +92,7 @@ export class GetGifsPage {
   }
 
   getReactionStickers() {
-    this.http.get(`https://api.giphy.com/v1/stickers/packs/2815?api_key=${this.giphy_api_key}`).map(res => res.json()).subscribe(data => {
+    this.http.get(`http://api.giphy.com/v1/stickers/packs/2815?api_key=${this.giphy_api_key}`).map(res => res.json()).subscribe(data => {
       this.posts = data.data;
       console.log(this.posts);
 
@@ -104,7 +104,7 @@ export class GetGifsPage {
   }
 
   getWeatherStickers() {
-    this.http.get(`https://api.giphy.com/v1/stickers/search?q=weather&api_key=${this.giphy_api_key}&limit=40`).map(res => res.json()).subscribe(data => {
+    this.http.get(`http://api.giphy.com/v1/stickers/search?q=weather&api_key=${this.giphy_api_key}&limit=40`).map(res => res.json()).subscribe(data => {
       let out_data = data.data;
 
 
@@ -117,7 +117,7 @@ export class GetGifsPage {
   }
 
   getEffectsStickers() {
-    this.http.get(`https://api.giphy.com/v1/stickers/search?q=effects&api_key=${this.giphy_api_key}&limit=40`).map(res => res.json()).subscribe(data => {
+    this.http.get(`http://api.giphy.com/v1/stickers/search?q=effects&api_key=${this.giphy_api_key}&limit=40`).map(res => res.json()).subscribe(data => {
       let out_data = data.data;
 
       for (let k = 0; k < out_data.length; k += 1) {

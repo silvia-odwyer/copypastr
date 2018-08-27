@@ -14,6 +14,7 @@ import { EmojifyPage } from '../emojify/emojify';
 import { ServeGifsPage } from '../serve-gifs/serve-gifs';
 import { SearchStickersPage } from '../search-stickers/search-stickers';
 import { TrendingGifsPage } from '../trending-gifs/trending-gifs';
+import { GetStickersPage } from '../get-stickers/get-stickers';
 
 @Component({
   selector: 'page-home',
@@ -35,7 +36,8 @@ export class HomePage {
   emojiTypesPage = EmojiTypesPage;
   westernTextFacesPage = WesternTextFacesPage;
   serveGIFSPage = ServeGifsPage;
-  emojifyPage = EmojifyPage
+  emojifyPage = EmojifyPage;
+  getStickersPage = GetStickersPage;
   public favourite_emoji = [];
   public media_type;
   tab1: any;

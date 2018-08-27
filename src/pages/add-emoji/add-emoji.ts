@@ -13,7 +13,7 @@ export class AddEmojiPage {
 
   public keywords = [];
   public emoji_lib = emoji.lib;
-  public emoji_json_keys = Object.keys(this.emoji_lib);
+  public emoji_json_keys = [];
   public favourite_emoji = [];
   public clipboard;
 
@@ -87,6 +87,7 @@ export class AddEmojiPage {
   }
 
   getEmoji(ev: any) {
+    this.emoji_json_keys = Object.keys(this.emoji_lib);
     this.resetItems();
     const val = ev.target.value;
     const val_c = val;
@@ -110,7 +111,7 @@ export class AddEmojiPage {
         console.log("Res is zero")
       }
       else {
-        help_msg_elem.innerHTML = "Just click on an emoji to copy it."
+        help_msg_elem.innerHTML = "Search for emoji using the searchbar above, eg: eyes"
       }
 
       this.emoji_json_keys = res;
