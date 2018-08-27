@@ -1,1 +1,1711 @@
-webpackJsonp([0],{146:function(l,n){function u(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}u.keys=function(){return[]},u.resolve=u,l.exports=u,u.id=146},176:function(l,n){function u(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}u.keys=function(){return[]},u.resolve=u,l.exports=u,u.id=176},213:function(l,n,u){"use strict";function t(l,n){return Math.floor(Math.random()*(n-l+1))+l}function a(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,2,"ion-nav",[],null,null,null,en.b,en.a)),yl._14(6144,null,on.a,null,[sn.a]),yl.Y(2,4374528,null,0,sn.a,[[2,rn.a],[2,cn.a],_n.a,dn.a,gn.a,yl.j,yl.u,yl.z,yl.i,pn.l,mn.a,[2,hn.a],fn.a,yl.k],{root:[0,"root"]},null),(l()(),yl._18(-1,null,["\n"]))],function(l,n){l(n,2,0,n.component.rootPage)},null)}function e(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,40,"ion-list",[],null,null,null,null,null)),yl.Y(1,16384,null,0,yn.a,[dn.a,yl.j,yl.z,gn.a,pn.l,fn.a],null,null),(l()(),yl._18(-1,null,["\n        "])),(l()(),yl.Z(3,0,null,null,17,"ion-item",[["class","item item-block"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==yl._11(l,9).onClick()&&t}return t},jn.b,jn.a)),yl.Y(4,1097728,null,3,Yn.a,[Zn.a,dn.a,yl.j,yl.z,[2,kn.a]],null,null),yl._16(335544320,2,{contentLabel:0}),yl._16(603979776,3,{_buttons:1}),yl._16(603979776,4,{_icons:1}),yl.Y(8,16384,null,0,Cn.a,[],null,null),yl.Y(9,16384,null,0,Fn.a,[[2,cn.a]],{navPush:[0,"navPush"]},null),(l()(),yl._18(-1,2,["\n          "])),(l()(),yl.Z(11,0,null,0,5,"ion-thumbnail",[["item-start",""]],null,null,null,null,null)),yl.Y(12,16384,null,0,xn.a,[],null,null),(l()(),yl._18(-1,null,["\n            "])),(l()(),yl.Z(14,0,null,null,1,"ion-icon",[["item-start",""],["name","images"],["role","img"]],[[2,"hide",null]],null,null,null,null)),yl.Y(15,147456,null,0,wn.a,[dn.a,yl.j,yl.z],{name:[0,"name"]},null),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl._18(-1,2,["\n          "])),(l()(),yl.Z(18,0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["Animated Stickers"])),(l()(),yl._18(-1,2,["\n        "])),(l()(),yl._18(-1,null,["\n\n        "])),(l()(),yl.Z(22,0,null,null,17,"ion-item",[["class","item item-block"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==yl._11(l,28).onClick()&&t}return t},jn.b,jn.a)),yl.Y(23,1097728,null,3,Yn.a,[Zn.a,dn.a,yl.j,yl.z,[2,kn.a]],null,null),yl._16(335544320,5,{contentLabel:0}),yl._16(603979776,6,{_buttons:1}),yl._16(603979776,7,{_icons:1}),yl.Y(27,16384,null,0,Cn.a,[],null,null),yl.Y(28,16384,null,0,Fn.a,[[2,cn.a]],{navPush:[0,"navPush"]},null),(l()(),yl._18(-1,2,["\n          "])),(l()(),yl.Z(30,0,null,0,5,"ion-thumbnail",[["item-start",""]],null,null,null,null,null)),yl.Y(31,16384,null,0,xn.a,[],null,null),(l()(),yl._18(-1,null,["\n            "])),(l()(),yl.Z(33,0,null,null,1,"ion-icon",[["item-start",""],["name","paper-plane"],["role","img"]],[[2,"hide",null]],null,null,null,null)),yl.Y(34,147456,null,0,wn.a,[dn.a,yl.j,yl.z],{name:[0,"name"]},null),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl._18(-1,2,["\n          "])),(l()(),yl.Z(37,0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["Search Stickers"])),(l()(),yl._18(-1,2,["\n        "])),(l()(),yl._18(-1,null,["\n\n      "]))],function(l,n){var u=n.component;l(n,9,0,u.getGIFSPage);l(n,15,0,"images");l(n,28,0,u.searchStickersPage);l(n,34,0,"paper-plane")},function(l,n){l(n,14,0,yl._11(n,15)._hidden);l(n,33,0,yl._11(n,34)._hidden)})}function i(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,39,"ion-list",[],null,null,null,null,null)),yl.Y(1,16384,null,0,yn.a,[dn.a,yl.j,yl.z,gn.a,pn.l,fn.a],null,null),(l()(),yl._18(-1,null,["\n        "])),(l()(),yl.Z(3,0,null,null,16,"ion-item",[["class","item item-block"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.getEmojiPage()&&t}return t},jn.b,jn.a)),yl.Y(4,1097728,null,3,Yn.a,[Zn.a,dn.a,yl.j,yl.z,[2,kn.a]],null,null),yl._16(335544320,8,{contentLabel:0}),yl._16(603979776,9,{_buttons:1}),yl._16(603979776,10,{_icons:1}),yl.Y(8,16384,null,0,Cn.a,[],null,null),(l()(),yl._18(-1,2,["\n          "])),(l()(),yl.Z(10,0,null,0,5,"ion-thumbnail",[["item-start",""]],null,null,null,null,null)),yl.Y(11,16384,null,0,xn.a,[],null,null),(l()(),yl._18(-1,null,["\n            "])),(l()(),yl.Z(13,0,null,null,1,"ion-icon",[["item-start",""],["name","search"],["role","img"]],[[2,"hide",null]],null,null,null,null)),yl.Y(14,147456,null,0,wn.a,[dn.a,yl.j,yl.z],{name:[0,"name"]},null),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl._18(-1,2,["\n          "])),(l()(),yl.Z(17,0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["Search All Emoji"])),(l()(),yl._18(-1,2,["\n        "])),(l()(),yl._18(-1,null,["\n\n        "])),(l()(),yl.Z(21,0,null,null,17,"ion-item",[["class","item item-block"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==yl._11(l,27).onClick()&&t}return t},jn.b,jn.a)),yl.Y(22,1097728,null,3,Yn.a,[Zn.a,dn.a,yl.j,yl.z,[2,kn.a]],null,null),yl._16(335544320,11,{contentLabel:0}),yl._16(603979776,12,{_buttons:1}),yl._16(603979776,13,{_icons:1}),yl.Y(26,16384,null,0,Cn.a,[],null,null),yl.Y(27,16384,null,0,Fn.a,[[2,cn.a]],{navPush:[0,"navPush"]},null),(l()(),yl._18(-1,2,["\n          "])),(l()(),yl.Z(29,0,null,0,5,"ion-thumbnail",[["item-start",""]],null,null,null,null,null)),yl.Y(30,16384,null,0,xn.a,[],null,null),(l()(),yl._18(-1,null,["\n            "])),(l()(),yl.Z(32,0,null,null,1,"ion-icon",[["item-start",""],["name","heart"],["role","img"]],[[2,"hide",null]],null,null,null,null)),yl.Y(33,147456,null,0,wn.a,[dn.a,yl.j,yl.z],{name:[0,"name"]},null),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl._18(-1,2,["\n          "])),(l()(),yl.Z(36,0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["Emoji Types"])),(l()(),yl._18(-1,2,["\n        "])),(l()(),yl._18(-1,null,["\n      "]))],function(l,n){var u=n.component;l(n,14,0,"search");l(n,27,0,u.emojiTypesPage);l(n,33,0,"heart")},function(l,n){l(n,13,0,yl._11(n,14)._hidden);l(n,32,0,yl._11(n,33)._hidden)})}function o(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,40,"ion-list",[],null,null,null,null,null)),yl.Y(1,16384,null,0,yn.a,[dn.a,yl.j,yl.z,gn.a,pn.l,fn.a],null,null),(l()(),yl._18(-1,null,["\n        "])),(l()(),yl.Z(3,0,null,null,17,"ion-item",[["class","item item-block"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==yl._11(l,9).onClick()&&t}return t},jn.b,jn.a)),yl.Y(4,1097728,null,3,Yn.a,[Zn.a,dn.a,yl.j,yl.z,[2,kn.a]],null,null),yl._16(335544320,14,{contentLabel:0}),yl._16(603979776,15,{_buttons:1}),yl._16(603979776,16,{_icons:1}),yl.Y(8,16384,null,0,Cn.a,[],null,null),yl.Y(9,16384,null,0,Fn.a,[[2,cn.a]],{navPush:[0,"navPush"]},null),(l()(),yl._18(-1,2,["\n          "])),(l()(),yl.Z(11,0,null,0,5,"ion-thumbnail",[["item-start",""]],null,null,null,null,null)),yl.Y(12,16384,null,0,xn.a,[],null,null),(l()(),yl._18(-1,null,["\n            "])),(l()(),yl.Z(14,0,null,null,1,"ion-icon",[["item-start",""],["name","search"],["role","img"]],[[2,"hide",null]],null,null,null,null)),yl.Y(15,147456,null,0,wn.a,[dn.a,yl.j,yl.z],{name:[0,"name"]},null),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl._18(-1,2,["\n          "])),(l()(),yl.Z(18,0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["Search for GIFS"])),(l()(),yl._18(-1,2,["\n        "])),(l()(),yl._18(-1,null,["\n\n        "])),(l()(),yl.Z(22,0,null,null,17,"ion-item",[["class","item item-block"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==yl._11(l,28).onClick()&&t}return t},jn.b,jn.a)),yl.Y(23,1097728,null,3,Yn.a,[Zn.a,dn.a,yl.j,yl.z,[2,kn.a]],null,null),yl._16(335544320,17,{contentLabel:0}),yl._16(603979776,18,{_buttons:1}),yl._16(603979776,19,{_icons:1}),yl.Y(27,16384,null,0,Cn.a,[],null,null),yl.Y(28,16384,null,0,Fn.a,[[2,cn.a]],{navPush:[0,"navPush"]},null),(l()(),yl._18(-1,2,["\n          "])),(l()(),yl.Z(30,0,null,0,5,"ion-thumbnail",[["item-start",""]],null,null,null,null,null)),yl.Y(31,16384,null,0,xn.a,[],null,null),(l()(),yl._18(-1,null,["\n            "])),(l()(),yl.Z(33,0,null,null,1,"ion-icon",[["item-start",""],["name","trending-up"],["role","img"]],[[2,"hide",null]],null,null,null,null)),yl.Y(34,147456,null,0,wn.a,[dn.a,yl.j,yl.z],{name:[0,"name"]},null),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl._18(-1,2,["\n          "])),(l()(),yl.Z(37,0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["Trending GIFS"])),(l()(),yl._18(-1,2,["\n        "])),(l()(),yl._18(-1,null,["\n\n      "]))],function(l,n){var u=n.component;l(n,9,0,u.serveGIFSPage);l(n,15,0,"search");l(n,28,0,u.trendingGIFSPage);l(n,34,0,"trending-up")},function(l,n){l(n,14,0,yl._11(n,15)._hidden);l(n,33,0,yl._11(n,34)._hidden)})}function s(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,81,"ion-list",[],null,null,null,null,null)),yl.Y(1,16384,null,0,yn.a,[dn.a,yl.j,yl.z,gn.a,pn.l,fn.a],null,null),(l()(),yl._18(-1,null,["\n        "])),(l()(),yl.Z(3,0,null,null,17,"ion-item",[["class","item item-block"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==yl._11(l,9).onClick()&&t}return t},jn.b,jn.a)),yl.Y(4,1097728,null,3,Yn.a,[Zn.a,dn.a,yl.j,yl.z,[2,kn.a]],null,null),yl._16(335544320,20,{contentLabel:0}),yl._16(603979776,21,{_buttons:1}),yl._16(603979776,22,{_icons:1}),yl.Y(8,16384,null,0,Cn.a,[],null,null),yl.Y(9,16384,null,0,Fn.a,[[2,cn.a]],{navPush:[0,"navPush"]},null),(l()(),yl._18(-1,2,["\n          "])),(l()(),yl.Z(11,0,null,0,5,"ion-thumbnail",[["item-start",""]],null,null,null,null,null)),yl.Y(12,16384,null,0,xn.a,[],null,null),(l()(),yl._18(-1,null,["\n            "])),(l()(),yl.Z(14,0,null,null,1,"ion-icon",[["item-start",""],["name","happy"],["role","img"]],[[2,"hide",null]],null,null,null,null)),yl.Y(15,147456,null,0,wn.a,[dn.a,yl.j,yl.z],{name:[0,"name"]},null),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl._18(-1,2,["\n          "])),(l()(),yl.Z(18,0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["Western Text Faces"])),(l()(),yl._18(-1,2,["\n        "])),(l()(),yl._18(-1,null,["\n\n        "])),(l()(),yl.Z(22,0,null,null,17,"ion-item",[["class","item item-block"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==yl._11(l,28).onClick()&&t}return t},jn.b,jn.a)),yl.Y(23,1097728,null,3,Yn.a,[Zn.a,dn.a,yl.j,yl.z,[2,kn.a]],null,null),yl._16(335544320,23,{contentLabel:0}),yl._16(603979776,24,{_buttons:1}),yl._16(603979776,25,{_icons:1}),yl.Y(27,16384,null,0,Cn.a,[],null,null),yl.Y(28,16384,null,0,Fn.a,[[2,cn.a]],{navPush:[0,"navPush"]},null),(l()(),yl._18(-1,2,["\n          "])),(l()(),yl.Z(30,0,null,0,5,"ion-thumbnail",[["item-start",""]],null,null,null,null,null)),yl.Y(31,16384,null,0,xn.a,[],null,null),(l()(),yl._18(-1,null,["\n            "])),(l()(),yl.Z(33,0,null,null,1,"ion-icon",[["item-start",""],["name","outlet"],["role","img"]],[[2,"hide",null]],null,null,null,null)),yl.Y(34,147456,null,0,wn.a,[dn.a,yl.j,yl.z],{name:[0,"name"]},null),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl._18(-1,2,["\n          "])),(l()(),yl.Z(37,0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["Eastern Text Faces"])),(l()(),yl._18(-1,2,["\n        "])),(l()(),yl._18(-1,null,["\n\n        "])),(l()(),yl.Z(41,0,null,null,17,"ion-item",[["class","item item-block"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==yl._11(l,47).onClick()&&t}return t},jn.b,jn.a)),yl.Y(42,1097728,null,3,Yn.a,[Zn.a,dn.a,yl.j,yl.z,[2,kn.a]],null,null),yl._16(335544320,26,{contentLabel:0}),yl._16(603979776,27,{_buttons:1}),yl._16(603979776,28,{_icons:1}),yl.Y(46,16384,null,0,Cn.a,[],null,null),yl.Y(47,16384,null,0,Fn.a,[[2,cn.a]],{navPush:[0,"navPush"]},null),(l()(),yl._18(-1,2,["\n          "])),(l()(),yl.Z(49,0,null,0,5,"ion-thumbnail",[["item-start",""]],null,null,null,null,null)),yl.Y(50,16384,null,0,xn.a,[],null,null),(l()(),yl._18(-1,null,["\n            "])),(l()(),yl.Z(52,0,null,null,1,"ion-icon",[["name","heart"],["role","img"]],[[2,"hide",null]],null,null,null,null)),yl.Y(53,147456,null,0,wn.a,[dn.a,yl.j,yl.z],{name:[0,"name"]},null),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl._18(-1,2,["\n          "])),(l()(),yl.Z(56,0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["Text Symbols"])),(l()(),yl._18(-1,2,["\n        "])),(l()(),yl._18(-1,null,["\n\n        "])),(l()(),yl.Z(60,0,null,null,20,"ion-item",[["class","item item-block"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==yl._11(l,66).onClick()&&t}return t},jn.b,jn.a)),yl.Y(61,1097728,null,3,Yn.a,[Zn.a,dn.a,yl.j,yl.z,[2,kn.a]],null,null),yl._16(335544320,29,{contentLabel:0}),yl._16(603979776,30,{_buttons:1}),yl._16(603979776,31,{_icons:1}),yl.Y(65,16384,null,0,Cn.a,[],null,null),yl.Y(66,16384,null,0,Fn.a,[[2,cn.a]],{navPush:[0,"navPush"]},null),(l()(),yl._18(-1,2,["\n          "])),(l()(),yl.Z(68,0,null,0,8,"ion-thumbnail",[["item-start",""]],null,null,null,null,null)),yl.Y(69,16384,null,0,xn.a,[],null,null),(l()(),yl._18(-1,null,["\n            "])),(l()(),yl.Z(71,0,null,null,1,"ion-icon",[["name","arrow-dropup"],["role","img"]],[[2,"hide",null]],null,null,null,null)),yl.Y(72,147456,null,0,wn.a,[dn.a,yl.j,yl.z],{name:[0,"name"]},null),(l()(),yl._18(-1,null,["        \n            "])),(l()(),yl.Z(74,0,null,null,1,"ion-icon",[["name","arrow-dropup"],["role","img"]],[[2,"hide",null]],null,null,null,null)),yl.Y(75,147456,null,0,wn.a,[dn.a,yl.j,yl.z],{name:[0,"name"]},null),(l()(),yl._18(-1,null,["          \n  \n          "])),(l()(),yl._18(-1,2,["\n          "])),(l()(),yl.Z(78,0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["Cat Faces"])),(l()(),yl._18(-1,2,["\n        "])),(l()(),yl._18(-1,null,["\n      "]))],function(l,n){var u=n.component;l(n,9,0,u.westernTextFacesPage);l(n,15,0,"happy");l(n,28,0,u.addTextFacesPage);l(n,34,0,"outlet");l(n,47,0,u.coolSymbolsPage);l(n,53,0,"heart");l(n,66,0,u.addCatFacesPage);l(n,72,0,"arrow-dropup");l(n,75,0,"arrow-dropup")},function(l,n){l(n,14,0,yl._11(n,15)._hidden);l(n,33,0,yl._11(n,34)._hidden);l(n,52,0,yl._11(n,53)._hidden);l(n,71,0,yl._11(n,72)._hidden);l(n,74,0,yl._11(n,75)._hidden)})}function r(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,38,"ion-header",[],null,null,null,null,null)),yl.Y(1,16384,null,0,zn.a,[dn.a,yl.j,yl.z,[2,rn.a]],null,null),(l()(),yl._18(-1,null,["\n  "])),(l()(),yl.Z(3,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Pn.b,Pn.a)),yl.Y(4,49152,null,0,Tn.a,[_n.a,[2,rn.a],[2,cn.a],dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,3,["\n    "])),(l()(),yl.Z(6,0,null,3,2,"ion-title",[],null,null,null,Sn.b,Sn.a)),yl.Y(7,49152,null,0,In.a,[dn.a,yl.j,yl.z,[2,An.a],[2,Tn.a]],null,null),(l()(),yl._18(-1,0,["\n      CopyPastr v0.71\n    "])),(l()(),yl._18(-1,3,["\n  "])),(l()(),yl._18(-1,null,["\n\n  "])),(l()(),yl.Z(11,0,null,null,26,"ion-toolbar",[["class","toolbar"]],[[2,"statusbar-padding",null]],null,null,On.b,On.a)),yl.Y(12,49152,null,0,An.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,3,["\n    "])),(l()(),yl.Z(14,0,null,3,22,"ion-segment",[["color","secondary"],["isActive",""],["value","stickers"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null],[2,"segment-disabled",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.media_type=u)&&t}return t},null,null)),yl.Y(15,671744,null,0,$n.k,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),yl._14(2048,null,$n.g,null,[$n.k]),yl.Y(17,16384,null,0,$n.h,[$n.g],null,null),yl.Y(18,1196032,null,1,Ln.a,[dn.a,yl.j,yl.z,[2,$n.g]],{color:[0,"color"]},null),yl._16(603979776,1,{_buttons:1}),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.Z(21,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","stickers"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==yl._11(l,22).onClick()&&t}return t},En.b,En.a)),yl.Y(22,114688,[[1,4]],0,Un.a,[],{value:[0,"value"]},null),(l()(),yl._18(-1,0,["\n        Stickers\n      "])),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.Z(25,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","emoji"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==yl._11(l,26).onClick()&&t}return t},En.b,En.a)),yl.Y(26,114688,[[1,4]],0,Un.a,[],{value:[0,"value"]},null),(l()(),yl._18(-1,0,["\n        Emoji\n      "])),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.Z(29,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","gifs"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==yl._11(l,30).onClick()&&t}return t},En.b,En.a)),yl.Y(30,114688,[[1,4]],0,Un.a,[],{value:[0,"value"]},null),(l()(),yl._18(-1,0,["\n        GIFs\n      "])),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.Z(33,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","text_faces"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==yl._11(l,34).onClick()&&t}return t},En.b,En.a)),yl.Y(34,114688,[[1,4]],0,Un.a,[],{value:[0,"value"]},null),(l()(),yl._18(-1,0,["\n        Text Faces\n      "])),(l()(),yl._18(-1,null,["\n    "])),(l()(),yl._18(-1,3,["\n  "])),(l()(),yl._18(-1,null,["\n\n"])),(l()(),yl._18(-1,null,["\n\n"])),(l()(),yl.Z(40,0,null,null,35,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Vn.b,Vn.a)),yl.Y(41,4374528,null,0,Dn.a,[dn.a,gn.a,fn.a,yl.j,yl.z,_n.a,Mn.a,yl.u,[2,rn.a],[2,cn.a]],null,null),(l()(),yl._18(-1,1,["\n\n  "])),(l()(),yl.Z(43,0,null,1,18,"ion-toolbar",[["class","toolbar"]],[[2,"statusbar-padding",null]],null,null,On.b,On.a)),yl.Y(44,49152,null,0,An.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,3,["\n\n    "])),(l()(),yl.Z(46,0,null,3,14,"div",[],null,null,null,null,null)),yl.Y(47,16384,null,0,Gn.m,[],{ngSwitch:[0,"ngSwitch"]},null),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.U(16777216,null,null,1,null,e)),yl.Y(50,278528,null,0,Gn.n,[yl.I,yl.F,Gn.m],{ngSwitchCase:[0,"ngSwitchCase"]},null),(l()(),yl._18(-1,null,["\n\n      "])),(l()(),yl.U(16777216,null,null,1,null,i)),yl.Y(53,278528,null,0,Gn.n,[yl.I,yl.F,Gn.m],{ngSwitchCase:[0,"ngSwitchCase"]},null),(l()(),yl._18(-1,null,["\n\n      "])),(l()(),yl.U(16777216,null,null,1,null,o)),yl.Y(56,278528,null,0,Gn.n,[yl.I,yl.F,Gn.m],{ngSwitchCase:[0,"ngSwitchCase"]},null),(l()(),yl._18(-1,null,["\n\n      "])),(l()(),yl.U(16777216,null,null,1,null,s)),yl.Y(59,278528,null,0,Gn.n,[yl.I,yl.F,Gn.m],{ngSwitchCase:[0,"ngSwitchCase"]},null),(l()(),yl._18(-1,null,["\n\n    "])),(l()(),yl._18(-1,3,["\n  "])),(l()(),yl._18(-1,1,["\n  "])),(l()(),yl.Z(63,0,null,0,11,"ion-fab",[["right",""],["top",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.getFavouritesPage()&&t}return t},Rn.b,Rn.a)),yl.Y(64,1228800,null,2,Xn.a,[gn.a],null,null),yl._16(335544320,32,{_mainButton:0}),yl._16(603979776,33,{_fabLists:1}),(l()(),yl._18(-1,0,["\n    "])),(l()(),yl.Z(68,0,null,0,5,"button",[["ion-fab",""],["mini",""]],null,null,null,Hn.b,Hn.a)),yl.Y(69,49152,[[32,4]],0,qn.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,0,["\n      "])),(l()(),yl.Z(71,0,null,0,1,"ion-icon",[["name","heart"],["role","img"]],[[2,"hide",null]],null,null,null,null)),yl.Y(72,147456,null,0,wn.a,[dn.a,yl.j,yl.z],{name:[0,"name"]},null),(l()(),yl._18(-1,0,["\n    "])),(l()(),yl._18(-1,0,["\n  "])),(l()(),yl._18(-1,1,["\n\n"]))],function(l,n){var u=n.component;l(n,15,0,u.media_type);l(n,18,0,"secondary");l(n,22,0,"stickers");l(n,26,0,"emoji");l(n,30,0,"gifs");l(n,34,0,"text_faces");l(n,47,0,u.media_type);l(n,50,0,"stickers");l(n,53,0,"emoji");l(n,56,0,"gifs");l(n,59,0,"text_faces");l(n,72,0,"heart")},function(l,n){l(n,3,0,yl._11(n,4)._hidden,yl._11(n,4)._sbPadding);l(n,11,0,yl._11(n,12)._sbPadding);l(n,14,0,yl._11(n,17).ngClassUntouched,yl._11(n,17).ngClassTouched,yl._11(n,17).ngClassPristine,yl._11(n,17).ngClassDirty,yl._11(n,17).ngClassValid,yl._11(n,17).ngClassInvalid,yl._11(n,17).ngClassPending,yl._11(n,18)._disabled);l(n,21,0,yl._11(n,22)._disabled,yl._11(n,22).isActive,yl._11(n,22).isActive);l(n,25,0,yl._11(n,26)._disabled,yl._11(n,26).isActive,yl._11(n,26).isActive);l(n,29,0,yl._11(n,30)._disabled,yl._11(n,30).isActive,yl._11(n,30).isActive);l(n,33,0,yl._11(n,34)._disabled,yl._11(n,34).isActive,yl._11(n,34).isActive);l(n,40,0,yl._11(n,41).statusbarPadding,yl._11(n,41)._hasRefresher);l(n,43,0,yl._11(n,44)._sbPadding);l(n,71,0,yl._11(n,72)._hidden)})}function c(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"span",[["class","emoji_c"]],[[1,"id",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.addToFavourites(l.context.$implicit)&&t}return t},null,null)),(l()(),yl._18(1,null,["",""]))],null,function(l,n){var u=n.component;l(n,0,0,yl._2(1,"",n.context.$implicit,""));l(n,1,0,u.emoji_lib[n.context.$implicit].char)})}function _(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,10,"ion-header",[],null,null,null,null,null)),yl.Y(1,16384,null,0,zn.a,[dn.a,yl.j,yl.z,[2,rn.a]],null,null),(l()(),yl._18(-1,null,["\n\n  "])),(l()(),yl.Z(3,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Pn.b,Pn.a)),yl.Y(4,49152,null,0,Tn.a,[_n.a,[2,rn.a],[2,cn.a],dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,3,["\n    "])),(l()(),yl.Z(6,0,null,3,2,"ion-title",[],null,null,null,Sn.b,Sn.a)),yl.Y(7,49152,null,0,In.a,[dn.a,yl.j,yl.z,[2,An.a],[2,Tn.a]],null,null),(l()(),yl._18(-1,0,["Copy & Paste Emoji"])),(l()(),yl._18(-1,3,["\n  "])),(l()(),yl._18(-1,null,["\n\n\n\n"])),(l()(),yl._18(-1,null,["\n\n\n"])),(l()(),yl.Z(12,0,null,null,28,"ion-content",[["class","selectable"],["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Vn.b,Vn.a)),yl.Y(13,4374528,null,0,Dn.a,[dn.a,gn.a,fn.a,yl.j,yl.z,_n.a,Mn.a,yl.u,[2,rn.a],[2,cn.a]],null,null),(l()(),yl._18(-1,1,["\n  \n    "])),(l()(),yl.Z(15,0,null,0,9,"ion-fab",[["left",""],["top",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.close()&&t}return t},Rn.b,Rn.a)),yl.Y(16,1228800,null,2,Xn.a,[gn.a],null,null),yl._16(335544320,1,{_mainButton:0}),yl._16(603979776,2,{_fabLists:1}),(l()(),yl._18(-1,0,["\n        "])),(l()(),yl.Z(20,0,null,0,3,"button",[["ion-fab",""],["mini",""]],null,null,null,Hn.b,Hn.a)),yl.Y(21,49152,[[1,4]],0,qn.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl.Z(22,0,null,0,1,"ion-icon",[["name","close-circle"],["role","img"]],[[2,"hide",null]],null,null,null,null)),yl.Y(23,147456,null,0,wn.a,[dn.a,yl.j,yl.z],{name:[0,"name"]},null),(l()(),yl._18(-1,0,["\n      "])),(l()(),yl._18(-1,1,["\n    "])),(l()(),yl.Z(26,0,null,1,1,"ion-searchbar",[],[[2,"searchbar-animated",null],[2,"searchbar-has-value",null],[2,"searchbar-active",null],[2,"searchbar-show-cancel",null],[2,"searchbar-left-aligned",null],[2,"searchbar-has-focus",null]],[[null,"ionInput"]],function(l,n,u){var t=!0;if("ionInput"===n){t=!1!==l.component.getEmoji(u)&&t}return t},Bn.b,Bn.a)),yl.Y(27,1294336,null,0,Qn.a,[dn.a,gn.a,yl.j,yl.z,[2,$n.g]],null,{ionInput:"ionInput"}),(l()(),yl._18(-1,1,["\n\n    "])),(l()(),yl.Z(29,0,null,1,1,"p",[["id","help_msg"]],null,null,null,null,null)),(l()(),yl._18(-1,null,["Just click on an emoji to copy it."])),(l()(),yl._18(-1,1,["\n    "])),(l()(),yl.Z(32,0,null,1,6,"section",[["class","single_symbols"]],null,null,null,null,null)),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.U(16777216,null,null,1,null,c)),yl.Y(35,802816,null,0,Gn.h,[yl.I,yl.F,yl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.Z(37,0,null,null,0,"p",[["id","no_emoji_msg"]],null,null,null,null,null)),(l()(),yl._18(-1,null,["\n    "])),(l()(),yl._18(-1,1,[" --\x3e\n\n    "])),(l()(),yl._18(-1,1,["\n"]))],function(l,n){var u=n.component;l(n,23,0,"close-circle"),l(n,27,0);l(n,35,0,u.emoji_json_keys)},function(l,n){l(n,3,0,yl._11(n,4)._hidden,yl._11(n,4)._sbPadding);l(n,12,0,yl._11(n,13).statusbarPadding,yl._11(n,13)._hasRefresher);l(n,22,0,yl._11(n,23)._hidden);l(n,26,0,yl._11(n,27)._animated,yl._11(n,27)._value,yl._11(n,27)._isActive,yl._11(n,27)._showCancelButton,yl._11(n,27)._shouldAlignLeft,yl._11(n,27)._isFocus)})}function d(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,6,"ion-card",[["class","text_faces"],["overflow-scroll","true"]],[[1,"id",0]],null,null,null,null)),yl.Y(1,16384,null,0,uu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,null,["\n\n            "])),(l()(),yl.Z(3,0,null,null,2,"ion-card-content",[],null,null,null,null,null)),yl.Y(4,16384,null,0,tu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(5,null,["\n              ","\n            "])),(l()(),yl._18(-1,null,["\n\n          "]))],null,function(l,n){l(n,0,0,yl._2(1,"",n.context.$implicit,""));l(n,5,0,n.context.$implicit)})}function g(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,11,"ion-list",[],null,null,null,null,null)),yl.Y(1,16384,null,0,yn.a,[dn.a,yl.j,yl.z,gn.a,pn.l,fn.a],null,null),(l()(),yl._18(-1,null,["\n        "])),(l()(),yl.Z(3,0,null,null,7,"section",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl.Z(5,0,null,null,1,"h1",[],null,null,null,null,null)),(l()(),yl._18(-1,null,[":) Text Faces"])),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl.U(16777216,null,null,1,null,d)),yl.Y(9,802816,null,0,Gn.h,[yl.I,yl.F,yl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),yl._18(-1,null,["\n        "])),(l()(),yl._18(-1,null,["\n\n      "]))],function(l,n){l(n,9,0,n.component.text_faces)},null)}function p(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,6,"ion-card",[["class","text_faces"]],[[1,"id",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.addToFavourites(l.context.$implicit)&&t}return t},null,null)),yl.Y(1,16384,null,0,uu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,null,["\n\n            "])),(l()(),yl.Z(3,0,null,null,2,"ion-card-content",[],null,null,null,null,null)),yl.Y(4,16384,null,0,tu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(5,null,["\n              ","\n            "])),(l()(),yl._18(-1,null,["\n\n          "]))],null,function(l,n){l(n,0,0,yl._2(1,"",n.context.$implicit,""));l(n,5,0,n.context.$implicit)})}function m(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,11,"ion-list",[],null,null,null,null,null)),yl.Y(1,16384,null,0,yn.a,[dn.a,yl.j,yl.z,gn.a,pn.l,fn.a],null,null),(l()(),yl._18(-1,null,["\n        "])),(l()(),yl.Z(3,0,null,null,7,"section",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl.Z(5,0,null,null,1,"h1",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["Sad Text Faces"])),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl.U(16777216,null,null,1,null,p)),yl.Y(9,802816,null,0,Gn.h,[yl.I,yl.F,yl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),yl._18(-1,null,["\n\n        "])),(l()(),yl._18(-1,null,["\n\n      "]))],function(l,n){l(n,9,0,n.component.sad_text_faces)},null)}function h(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,6,"ion-card",[["class","text_faces"]],[[1,"id",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.addToFavourites(l.context.$implicit)&&t}return t},null,null)),yl.Y(1,16384,null,0,uu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,null,["\n\n            "])),(l()(),yl.Z(3,0,null,null,2,"ion-card-content",[],null,null,null,null,null)),yl.Y(4,16384,null,0,tu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(5,null,["\n              ","\n            "])),(l()(),yl._18(-1,null,["\n\n          "]))],null,function(l,n){l(n,0,0,yl._2(1,"",n.context.$implicit,""));l(n,5,0,n.context.$implicit)})}function f(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,14,"ion-list",[],null,null,null,null,null)),yl.Y(1,16384,null,0,yn.a,[dn.a,yl.j,yl.z,gn.a,pn.l,fn.a],null,null),(l()(),yl._18(-1,null,["\n        "])),(l()(),yl.Z(3,0,null,null,10,"section",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl.Z(5,0,null,null,1,"h1",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["Super Cuute Text Faces"])),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl.Z(8,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),yl._18(9,null,["",""])),(l()(),yl._18(-1,null,["\n\n          "])),(l()(),yl.U(16777216,null,null,1,null,h)),yl.Y(12,802816,null,0,Gn.h,[yl.I,yl.F,yl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),yl._18(-1,null,["\n        "])),(l()(),yl._18(-1,null,["\n\n      "]))],function(l,n){l(n,12,0,n.component.cute_text_faces)},function(l,n){l(n,9,0,n.component.item)})}function b(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,6,"ion-card",[["class","text_faces"]],[[1,"id",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.addToFavourites(l.context.$implicit)&&t}return t},null,null)),yl.Y(1,16384,null,0,uu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,null,["\n          \n              "])),(l()(),yl.Z(3,0,null,null,2,"ion-card-content",[],null,null,null,null,null)),yl.Y(4,16384,null,0,tu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(5,null,["\n                ","\n              "])),(l()(),yl._18(-1,null,["\n          \n            "]))],null,function(l,n){l(n,0,0,yl._2(1,"",n.context.$implicit,""));l(n,5,0,n.context.$implicit)})}function v(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,11,"ion-list",[],null,null,null,null,null)),yl.Y(1,16384,null,0,yn.a,[dn.a,yl.j,yl.z,gn.a,pn.l,fn.a],null,null),(l()(),yl._18(-1,null,["\n        "])),(l()(),yl.Z(3,0,null,null,7,"section",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["\n            "])),(l()(),yl.Z(5,0,null,null,1,"h1",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["Romance Text Faces"])),(l()(),yl._18(-1,null,["\n\n            "])),(l()(),yl.U(16777216,null,null,1,null,b)),yl.Y(9,802816,null,0,Gn.h,[yl.I,yl.F,yl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),yl._18(-1,null,["\n        "])),(l()(),yl._18(-1,null,["\n      "]))],function(l,n){l(n,9,0,n.component.romance_text_faces)},null)}function y(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,6,"ion-card",[["class","text_faces"]],[[1,"id",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.addToFavourites(l.context.$implicit)&&t}return t},null,null)),yl.Y(1,16384,null,0,uu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,null,["\n        \n            "])),(l()(),yl.Z(3,0,null,null,2,"ion-card-content",[],null,null,null,null,null)),yl.Y(4,16384,null,0,tu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(5,null,["\n              ","\n            "])),(l()(),yl._18(-1,null,["\n        \n          "]))],null,function(l,n){l(n,0,0,yl._2(1,"",n.context.$implicit,""));l(n,5,0,n.context.$implicit)})}function j(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,11,"ion-list",[],null,null,null,null,null)),yl.Y(1,16384,null,0,yn.a,[dn.a,yl.j,yl.z,gn.a,pn.l,fn.a],null,null),(l()(),yl._18(-1,null,["\n        "])),(l()(),yl.Z(3,0,null,null,7,"section",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["\n\n          "])),(l()(),yl.Z(5,0,null,null,1,"h1",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["Angry Text Faces"])),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl.U(16777216,null,null,1,null,y)),yl.Y(9,802816,null,0,Gn.h,[yl.I,yl.F,yl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),yl._18(-1,null,["\n        \n        "])),(l()(),yl._18(-1,null,["\n      "]))],function(l,n){l(n,9,0,n.component.angry_text_faces)},null)}function Y(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"span",[["class","emoji_c"]],[[1,"id",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.addToFavourites(l.context.$implicit)&&t}return t},null,null)),(l()(),yl._18(1,null,["",""]))],null,function(l,n){l(n,0,0,yl._2(1,"",n.context.$implicit,""));l(n,1,0,n.context.$implicit)})}function Z(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,11,"ion-list",[],null,null,null,null,null)),yl.Y(1,16384,null,0,yn.a,[dn.a,yl.j,yl.z,gn.a,pn.l,fn.a],null,null),(l()(),yl._18(-1,null,["\n        "])),(l()(),yl.Z(3,0,null,null,7,"section",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl.Z(5,0,null,null,1,"p",[["class","help_msg"]],null,null,null,null,null)),(l()(),yl._18(-1,null,["Just click on an emoji to copy it."])),(l()(),yl._18(-1,null,["\n\n          "])),(l()(),yl.U(16777216,null,null,1,null,Y)),yl.Y(9,802816,null,0,Gn.h,[yl.I,yl.F,yl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),yl._18(-1,null,["\n\n        "])),(l()(),yl._18(-1,null,["\n      "]))],function(l,n){l(n,9,0,n.component.travel_emoji_array)},null)}function k(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"span",[["class","emoji_c"]],[[1,"id",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.addToFavourites(l.context.$implicit)&&t}return t},null,null)),(l()(),yl._18(1,null,["",""]))],null,function(l,n){l(n,0,0,yl._2(1,"",n.context.$implicit,""));l(n,1,0,n.context.$implicit)})}function C(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,11,"ion-list",[],null,null,null,null,null)),yl.Y(1,16384,null,0,yn.a,[dn.a,yl.j,yl.z,gn.a,pn.l,fn.a],null,null),(l()(),yl._18(-1,null,["\n        "])),(l()(),yl.Z(3,0,null,null,7,"section",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl.Z(5,0,null,null,1,"p",[["class","help_msg"]],null,null,null,null,null)),(l()(),yl._18(-1,null,["Just click on an emoji to copy it."])),(l()(),yl._18(-1,null,["\n\n          "])),(l()(),yl.U(16777216,null,null,1,null,k)),yl.Y(9,802816,null,0,Gn.h,[yl.I,yl.F,yl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),yl._18(-1,null,["\n\n        "])),(l()(),yl._18(-1,null,["\n      "]))],function(l,n){l(n,9,0,n.component.flags_emoji_array)},null)}function F(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,42,"ion-header",[],null,null,null,null,null)),yl.Y(1,16384,null,0,zn.a,[dn.a,yl.j,yl.z,[2,rn.a]],null,null),(l()(),yl._18(-1,null,["\n\n  "])),(l()(),yl.Z(3,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Pn.b,Pn.a)),yl.Y(4,49152,null,0,Tn.a,[_n.a,[2,rn.a],[2,cn.a],dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,3,["\n    "])),(l()(),yl.Z(6,0,null,3,2,"ion-title",[],null,null,null,Sn.b,Sn.a)),yl.Y(7,49152,null,0,In.a,[dn.a,yl.j,yl.z,[2,An.a],[2,Tn.a]],null,null),(l()(),yl._18(-1,0,["Eastern Text Faces"])),(l()(),yl._18(-1,3,["\n  "])),(l()(),yl._18(-1,null,["\n  "])),(l()(),yl.Z(11,0,null,null,30,"ion-toolbar",[["class","toolbar"]],[[2,"statusbar-padding",null]],null,null,On.b,On.a)),yl.Y(12,49152,null,0,An.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,3,["\n    "])),(l()(),yl.Z(14,0,null,3,26,"ion-segment",[],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null],[2,"segment-disabled",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.category=u)&&t}return t},null,null)),yl.Y(15,671744,null,0,$n.k,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),yl._14(2048,null,$n.g,null,[$n.k]),yl.Y(17,16384,null,0,$n.h,[$n.g],null,null),yl.Y(18,1196032,null,1,Ln.a,[dn.a,yl.j,yl.z,[2,$n.g]],null,null),yl._16(603979776,1,{_buttons:1}),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.Z(21,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","happy_text_faces"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==yl._11(l,22).onClick()&&t}return t},En.b,En.a)),yl.Y(22,114688,[[1,4]],0,Un.a,[],{value:[0,"value"]},null),(l()(),yl._18(-1,0,["\n        Happy\n      "])),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.Z(25,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","sad_text_faces"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==yl._11(l,26).onClick()&&t}return t},En.b,En.a)),yl.Y(26,114688,[[1,4]],0,Un.a,[],{value:[0,"value"]},null),(l()(),yl._18(-1,0,["\n        Sad\n      "])),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.Z(29,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","cute_text_faces"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==yl._11(l,30).onClick()&&t}return t},En.b,En.a)),yl.Y(30,114688,[[1,4]],0,Un.a,[],{value:[0,"value"]},null),(l()(),yl._18(-1,0,["\n        Cute\n      "])),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.Z(33,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","romance_text_faces"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==yl._11(l,34).onClick()&&t}return t},En.b,En.a)),yl.Y(34,114688,[[1,4]],0,Un.a,[],{value:[0,"value"]},null),(l()(),yl._18(-1,0,["\n        Romantic\n      "])),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.Z(37,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","angry_text_faces"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==yl._11(l,38).onClick()&&t}return t},En.b,En.a)),yl.Y(38,114688,[[1,4]],0,Un.a,[],{value:[0,"value"]},null),(l()(),yl._18(-1,0,["\n        Angry\n      "])),(l()(),yl._18(-1,null,["\n    "])),(l()(),yl._18(-1,3,["\n  "])),(l()(),yl._18(-1,null,["\n"])),(l()(),yl._18(-1,null,["\n\n"])),(l()(),yl.Z(44,0,null,null,31,"ion-content",[["class","selectable"],["overflow-scroll","true"],["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Vn.b,Vn.a)),yl.Y(45,4374528,null,0,Dn.a,[dn.a,gn.a,fn.a,yl.j,yl.z,_n.a,Mn.a,yl.u,[2,rn.a],[2,cn.a]],null,null),(l()(),yl._18(-1,1,["\n\n  "])),(l()(),yl.Z(47,0,null,1,27,"ion-toolbar",[["class","toolbar"]],[[2,"statusbar-padding",null]],null,null,On.b,On.a)),yl.Y(48,49152,null,0,An.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,3,["\n\n    "])),(l()(),yl.Z(50,0,null,3,23,"div",[],null,null,null,null,null)),yl.Y(51,16384,null,0,Gn.m,[],{ngSwitch:[0,"ngSwitch"]},null),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.U(16777216,null,null,1,null,g)),yl.Y(54,278528,null,0,Gn.n,[yl.I,yl.F,Gn.m],{ngSwitchCase:[0,"ngSwitchCase"]},null),(l()(),yl._18(-1,null,["\n\n      "])),(l()(),yl.U(16777216,null,null,1,null,m)),yl.Y(57,278528,null,0,Gn.n,[yl.I,yl.F,Gn.m],{ngSwitchCase:[0,"ngSwitchCase"]},null),(l()(),yl._18(-1,null,["\n\n      "])),(l()(),yl.U(16777216,null,null,1,null,f)),yl.Y(60,278528,null,0,Gn.n,[yl.I,yl.F,Gn.m],{ngSwitchCase:[0,"ngSwitchCase"]},null),(l()(),yl._18(-1,null,["\n\n      "])),(l()(),yl.U(16777216,null,null,1,null,v)),yl.Y(63,278528,null,0,Gn.n,[yl.I,yl.F,Gn.m],{ngSwitchCase:[0,"ngSwitchCase"]},null),(l()(),yl._18(-1,null,["\n\n      "])),(l()(),yl.U(16777216,null,null,1,null,j)),yl.Y(66,278528,null,0,Gn.n,[yl.I,yl.F,Gn.m],{ngSwitchCase:[0,"ngSwitchCase"]},null),(l()(),yl._18(-1,null,["\n\n      "])),(l()(),yl.U(16777216,null,null,1,null,Z)),yl.Y(69,278528,null,0,Gn.n,[yl.I,yl.F,Gn.m],{ngSwitchCase:[0,"ngSwitchCase"]},null),(l()(),yl._18(-1,null,["\n\n      "])),(l()(),yl.U(16777216,null,null,1,null,C)),yl.Y(72,278528,null,0,Gn.n,[yl.I,yl.F,Gn.m],{ngSwitchCase:[0,"ngSwitchCase"]},null),(l()(),yl._18(-1,null,["\n\n    "])),(l()(),yl._18(-1,3,["\n  "])),(l()(),yl._18(-1,1,["\n\n"]))],function(l,n){var u=n.component;l(n,15,0,u.category);l(n,22,0,"happy_text_faces");l(n,26,0,"sad_text_faces");l(n,30,0,"cute_text_faces");l(n,34,0,"romance_text_faces");l(n,38,0,"angry_text_faces");l(n,51,0,u.category);l(n,54,0,"happy_text_faces");l(n,57,0,"sad_text_faces");l(n,60,0,"cute_text_faces");l(n,63,0,"romance_text_faces");l(n,66,0,"angry_text_faces");l(n,69,0,"travel");l(n,72,0,"flags")},function(l,n){l(n,3,0,yl._11(n,4)._hidden,yl._11(n,4)._sbPadding);l(n,11,0,yl._11(n,12)._sbPadding);l(n,14,0,yl._11(n,17).ngClassUntouched,yl._11(n,17).ngClassTouched,yl._11(n,17).ngClassPristine,yl._11(n,17).ngClassDirty,yl._11(n,17).ngClassValid,yl._11(n,17).ngClassInvalid,yl._11(n,17).ngClassPending,yl._11(n,18)._disabled);l(n,21,0,yl._11(n,22)._disabled,yl._11(n,22).isActive,yl._11(n,22).isActive);l(n,25,0,yl._11(n,26)._disabled,yl._11(n,26).isActive,yl._11(n,26).isActive);l(n,29,0,yl._11(n,30)._disabled,yl._11(n,30).isActive,yl._11(n,30).isActive);l(n,33,0,yl._11(n,34)._disabled,yl._11(n,34).isActive,yl._11(n,34).isActive);l(n,37,0,yl._11(n,38)._disabled,yl._11(n,38).isActive,yl._11(n,38).isActive);l(n,44,0,yl._11(n,45).statusbarPadding,yl._11(n,45)._hasRefresher);l(n,47,0,yl._11(n,48)._sbPadding)})}function x(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,6,"ion-card",[["class","ascii_faces"],["overflow-scroll","true"]],[[1,"id",0]],null,null,null,null)),yl.Y(1,16384,null,0,uu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,null,["\n\n        "])),(l()(),yl.Z(3,0,null,null,2,"ion-card-content",[],null,null,null,null,null)),yl.Y(4,16384,null,0,tu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(5,null,["\n          ","\n        "])),(l()(),yl._18(-1,null,["\n\n      "]))],null,function(l,n){l(n,0,0,yl._2(1,"",n.context.$implicit,""));l(n,5,0,n.context.$implicit)})}function w(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,10,"ion-header",[],null,null,null,null,null)),yl.Y(1,16384,null,0,zn.a,[dn.a,yl.j,yl.z,[2,rn.a]],null,null),(l()(),yl._18(-1,null,["\n\n  "])),(l()(),yl.Z(3,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Pn.b,Pn.a)),yl.Y(4,49152,null,0,Tn.a,[_n.a,[2,rn.a],[2,cn.a],dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,3,["\n    "])),(l()(),yl.Z(6,0,null,3,2,"ion-title",[],null,null,null,Sn.b,Sn.a)),yl.Y(7,49152,null,0,In.a,[dn.a,yl.j,yl.z,[2,An.a],[2,Tn.a]],null,null),(l()(),yl._18(-1,0,["Cute Cat Faces"])),(l()(),yl._18(-1,3,["\n  "])),(l()(),yl._18(-1,null,["\n\n"])),(l()(),yl._18(-1,null,["\n\n\n"])),(l()(),yl.Z(12,0,null,null,8,"ion-content",[["class","selectable"],["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Vn.b,Vn.a)),yl.Y(13,4374528,null,0,Dn.a,[dn.a,gn.a,fn.a,yl.j,yl.z,_n.a,Mn.a,yl.u,[2,rn.a],[2,cn.a]],null,null),(l()(),yl._18(-1,1,["\n\n  "])),(l()(),yl.Z(15,0,null,1,4,"section",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["\n\n      "])),(l()(),yl.U(16777216,null,null,1,null,x)),yl.Y(18,802816,null,0,Gn.h,[yl.I,yl.F,yl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),yl._18(-1,null,["\n    "])),(l()(),yl._18(-1,1,["\n\n\n"]))],function(l,n){l(n,18,0,n.component.cat_ascii_faces)},function(l,n){l(n,3,0,yl._11(n,4)._hidden,yl._11(n,4)._sbPadding);l(n,12,0,yl._11(n,13).statusbarPadding,yl._11(n,13)._hasRefresher)})}function z(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"span",[["class","emoji_c"]],[[1,"id",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.addToFavourites(l.context.$implicit)&&t}return t},null,null)),(l()(),yl._18(1,null,["",""]))],null,function(l,n){l(n,0,0,yl._2(1,"",n.context.$implicit,""));l(n,1,0,n.context.$implicit)})}function P(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,10,"ion-header",[],null,null,null,null,null)),yl.Y(1,16384,null,0,zn.a,[dn.a,yl.j,yl.z,[2,rn.a]],null,null),(l()(),yl._18(-1,null,["\n\n  "])),(l()(),yl.Z(3,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Pn.b,Pn.a)),yl.Y(4,49152,null,0,Tn.a,[_n.a,[2,rn.a],[2,cn.a],dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,3,["\n    "])),(l()(),yl.Z(6,0,null,3,2,"ion-title",[],null,null,null,Sn.b,Sn.a)),yl.Y(7,49152,null,0,In.a,[dn.a,yl.j,yl.z,[2,An.a],[2,Tn.a]],null,null),(l()(),yl._18(-1,0,["Emotion Emoji"])),(l()(),yl._18(-1,3,["\n  "])),(l()(),yl._18(-1,null,["\n\n"])),(l()(),yl._18(-1,null,["\n\n\n"])),(l()(),yl.Z(12,0,null,null,11,"ion-content",[["class","selectable"],["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Vn.b,Vn.a)),yl.Y(13,4374528,null,0,Dn.a,[dn.a,gn.a,fn.a,yl.j,yl.z,_n.a,Mn.a,yl.u,[2,rn.a],[2,cn.a]],null,null),(l()(),yl._18(-1,1,["\n  "])),(l()(),yl.Z(15,0,null,1,7,"section",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["\n    "])),(l()(),yl.Z(17,0,null,null,1,"p",[["id","help_msg"]],null,null,null,null,null)),(l()(),yl._18(-1,null,["Just click on an emoji to copy it."])),(l()(),yl._18(-1,null,["\n\n    "])),(l()(),yl.U(16777216,null,null,1,null,z)),yl.Y(21,802816,null,0,Gn.h,[yl.I,yl.F,yl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),yl._18(-1,null,["\n\n  "])),(l()(),yl._18(-1,1,["\n"]))],function(l,n){l(n,21,0,n.component.emotion_emoji_array)},function(l,n){l(n,3,0,yl._11(n,4)._hidden,yl._11(n,4)._sbPadding);l(n,12,0,yl._11(n,13).statusbarPadding,yl._11(n,13)._hasRefresher)})}function T(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,10,"ion-header",[],null,null,null,null,null)),yl.Y(1,16384,null,0,zn.a,[dn.a,yl.j,yl.z,[2,rn.a]],null,null),(l()(),yl._18(-1,null,["\n\n  "])),(l()(),yl.Z(3,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Pn.b,Pn.a)),yl.Y(4,49152,null,0,Tn.a,[_n.a,[2,rn.a],[2,cn.a],dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,3,["\n    "])),(l()(),yl.Z(6,0,null,3,2,"ion-title",[],null,null,null,Sn.b,Sn.a)),yl.Y(7,49152,null,0,In.a,[dn.a,yl.j,yl.z,[2,An.a],[2,Tn.a]],null,null),(l()(),yl._18(-1,0,["Emojify Text"])),(l()(),yl._18(-1,3,["\n  "])),(l()(),yl._18(-1,null,["\n\n"])),(l()(),yl._18(-1,null,["\n\n\n"])),(l()(),yl.Z(12,0,null,null,23,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Vn.b,Vn.a)),yl.Y(13,4374528,null,0,Dn.a,[dn.a,gn.a,fn.a,yl.j,yl.z,_n.a,Mn.a,yl.u,[2,rn.a],[2,cn.a]],null,null),(l()(),yl._18(-1,1,["\n  "])),(l()(),yl.Z(15,0,null,1,16,"ion-item",[["class","item item-block"]],null,null,null,jn.b,jn.a)),yl.Y(16,1097728,null,3,Yn.a,[Zn.a,dn.a,yl.j,yl.z,[2,kn.a]],null,null),yl._16(335544320,1,{contentLabel:0}),yl._16(603979776,2,{_buttons:1}),yl._16(603979776,3,{_icons:1}),yl.Y(20,16384,null,0,Cn.a,[],null,null),(l()(),yl._18(-1,2,["\n    "])),(l()(),yl.Z(22,0,null,1,2,"ion-label",[],null,null,null,null,null)),yl.Y(23,16384,[[1,4]],0,cu.a,[dn.a,yl.j,yl.z,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),yl._18(-1,null,["Add Text"])),(l()(),yl._18(-1,2,["\n    \n    "])),(l()(),yl.Z(26,0,null,3,4,"ion-input",[["name","username"],["type","text"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"ionInput"]],function(l,n,u){var t=!0,a=l.component;if("ngModelChange"===n){t=!1!==(a.text.username=u)&&t}if("ionInput"===n){t=!1!==a.getFieldText(u)&&t}return t},_u.b,_u.a)),yl.Y(27,671744,null,0,$n.k,[[8,null],[8,null],[8,null],[8,null]],{name:[0,"name"],model:[1,"model"]},{update:"ngModelChange"}),yl._14(2048,null,$n.g,null,[$n.k]),yl.Y(29,16384,null,0,$n.h,[$n.g],null,null),yl.Y(30,5423104,null,0,du.a,[dn.a,gn.a,Zn.a,_n.a,yl.j,yl.z,[2,Dn.a],[2,Yn.a],[2,$n.g],fn.a],{type:[0,"type"]},null),(l()(),yl._18(-1,2,["\n\n  "])),(l()(),yl._18(-1,1,["\n\n  "])),(l()(),yl.Z(33,0,null,1,1,"ion-searchbar",[],[[2,"searchbar-animated",null],[2,"searchbar-has-value",null],[2,"searchbar-active",null],[2,"searchbar-show-cancel",null],[2,"searchbar-left-aligned",null],[2,"searchbar-has-focus",null]],[[null,"ionInput"]],function(l,n,u){var t=!0;if("ionInput"===n){t=!1!==l.component.getFieldText(u)&&t}return t},Bn.b,Bn.a)),yl.Y(34,1294336,null,0,Qn.a,[dn.a,gn.a,yl.j,yl.z,[2,$n.g]],null,{ionInput:"ionInput"}),(l()(),yl._18(-1,1,["\n\n"]))],function(l,n){l(n,27,0,"username",n.component.text.username);l(n,30,0,"text"),l(n,34,0)},function(l,n){l(n,3,0,yl._11(n,4)._hidden,yl._11(n,4)._sbPadding);l(n,12,0,yl._11(n,13).statusbarPadding,yl._11(n,13)._hasRefresher);l(n,26,0,yl._11(n,29).ngClassUntouched,yl._11(n,29).ngClassTouched,yl._11(n,29).ngClassPristine,yl._11(n,29).ngClassDirty,yl._11(n,29).ngClassValid,yl._11(n,29).ngClassInvalid,yl._11(n,29).ngClassPending);l(n,33,0,yl._11(n,34)._animated,yl._11(n,34)._value,yl._11(n,34)._isActive,yl._11(n,34)._showCancelButton,yl._11(n,34)._shouldAlignLeft,yl._11(n,34)._isFocus)})}function S(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,4,"div",[["class","outer-loading"]],null,null,null,null,null)),(l()(),yl._18(-1,null,["\n  "])),(l()(),yl.Z(2,0,null,null,1,"div",[["class","inner-loading"]],[[4,"width",null]],null,null,null,null)),(l()(),yl._18(3,null,["\n      ","%\n  "])),(l()(),yl._18(-1,null,["\n"]))],null,function(l,n){var u=n.component;l(n,2,0,u.progress+"%");l(n,3,0,u.progress)})}function I(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,34,"ion-card",[["class","gif_container"]],null,null,null,null,null)),yl.Y(1,16384,null,0,uu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,null,["\n    "])),(l()(),yl.Z(3,0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(l()(),yl._18(-1,null,["\n    "])),(l()(),yl.Z(5,0,null,null,28,"ion-card-content",[],null,null,null,null,null)),yl.Y(6,16384,null,0,tu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.Z(8,0,null,null,2,"ion-card-title",[],null,null,null,null,null)),yl.Y(9,16384,null,0,mu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,null,["\n\n      "])),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.Z(12,0,null,null,20,"ion-item",[["class","item item-block"]],null,null,null,jn.b,jn.a)),yl.Y(13,1097728,null,3,Yn.a,[Zn.a,dn.a,yl.j,yl.z,[2,kn.a]],null,null),yl._16(335544320,1,{contentLabel:0}),yl._16(603979776,2,{_buttons:1}),yl._16(603979776,3,{_icons:1}),yl.Y(17,16384,null,0,Cn.a,[],null,null),(l()(),yl._18(-1,2,["\n        "])),(l()(),yl.Z(19,0,null,2,12,"ion-item",[["class","item item-block"]],null,null,null,jn.b,jn.a)),yl.Y(20,1097728,null,3,Yn.a,[Zn.a,dn.a,yl.j,yl.z,[2,kn.a]],null,null),yl._16(335544320,4,{contentLabel:0}),yl._16(603979776,5,{_buttons:1}),yl._16(603979776,6,{_icons:1}),yl.Y(24,16384,null,0,Cn.a,[],null,null),(l()(),yl._18(-1,2,["\n          "])),(l()(),yl.Z(26,0,null,4,4,"a",[["button",""],["class","copy_link"],["item-right",""]],null,null,null,null,null)),(l()(),yl._18(-1,null,["\n            "])),(l()(),yl.Z(28,0,null,null,1,"ion-icon",[["name","copy"],["role","img"]],[[2,"hide",null]],null,null,null,null)),yl.Y(29,147456,[[6,4]],0,wn.a,[dn.a,yl.j,yl.z],{name:[0,"name"]},null),(l()(),yl._18(30,null,["",""])),(l()(),yl._18(-1,2,["\n\n        "])),(l()(),yl._18(-1,2,["\n      "])),(l()(),yl._18(-1,null,["\n    "])),(l()(),yl._18(-1,null,["\n  "]))],function(l,n){l(n,29,0,"copy")},function(l,n){l(n,3,0,yl._2(1,"",n.context.$implicit,""));l(n,28,0,yl._11(n,29)._hidden);l(n,30,0,n.context.$implicit)})}function A(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,10,"ion-header",[],null,null,null,null,null)),yl.Y(1,16384,null,0,zn.a,[dn.a,yl.j,yl.z,[2,rn.a]],null,null),(l()(),yl._18(-1,null,["\n\n  "])),(l()(),yl.Z(3,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Pn.b,Pn.a)),yl.Y(4,49152,null,0,Tn.a,[_n.a,[2,rn.a],[2,cn.a],dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,3,["\n    "])),(l()(),yl.Z(6,0,null,3,2,"ion-title",[],null,null,null,Sn.b,Sn.a)),yl.Y(7,49152,null,0,In.a,[dn.a,yl.j,yl.z,[2,An.a],[2,Tn.a]],null,null),(l()(),yl._18(-1,0,["Search GIFs"])),(l()(),yl._18(-1,3,["\n  "])),(l()(),yl._18(-1,null,["\n\n"])),(l()(),yl._18(-1,null,["\n\n\n"])),(l()(),yl.Z(12,0,null,null,17,"ion-content",[["class","selectable"],["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Vn.b,Vn.a)),yl.Y(13,4374528,null,0,Dn.a,[dn.a,gn.a,fn.a,yl.j,yl.z,_n.a,Mn.a,yl.u,[2,rn.a],[2,cn.a]],null,null),(l()(),yl._18(-1,1,["\n  "])),(l()(),yl.Z(15,0,null,1,4,"ion-searchbar",[["debounce","1000"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null],[2,"searchbar-animated",null],[2,"searchbar-has-value",null],[2,"searchbar-active",null],[2,"searchbar-show-cancel",null],[2,"searchbar-left-aligned",null],[2,"searchbar-has-focus",null]],[[null,"ionInput"],[null,"ngModelChange"]],function(l,n,u){var t=!0,a=l.component;if("ionInput"===n){t=!1!==a.triggerSearch(u)&&t}if("ngModelChange"===n){t=!1!==(a.myInput=u)&&t}return t},Bn.b,Bn.a)),yl.Y(16,671744,null,0,$n.k,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),yl._14(2048,null,$n.g,null,[$n.k]),yl.Y(18,16384,null,0,$n.h,[$n.g],null,null),yl.Y(19,1294336,null,0,Qn.a,[dn.a,gn.a,yl.j,yl.z,[2,$n.g]],{debounce:[0,"debounce"]},{ionInput:"ionInput"}),(l()(),yl._18(-1,1,["\n  "])),(l()(),yl.Z(21,0,null,1,1,"progress-bar",[],null,null,null,S,hu)),yl.Y(22,49152,null,0,kl,[],{progress:[0,"progress"]},null),(l()(),yl._18(-1,1,["\n  "])),(l()(),yl.Z(24,0,null,1,1,"p",[["class","loading_msg"]],null,null,null,null,null)),(l()(),yl._18(-1,null,["Search for GIFs ..."])),(l()(),yl._18(-1,1,["\n  "])),(l()(),yl.U(16777216,null,1,1,null,I)),yl.Y(28,802816,null,0,Gn.h,[yl.I,yl.F,yl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),yl._18(-1,1,["\n\n"]))],function(l,n){var u=n.component;l(n,16,0,u.myInput);l(n,19,0,"1000");l(n,22,0,u.loadProgress);l(n,28,0,u.link_array)},function(l,n){l(n,3,0,yl._11(n,4)._hidden,yl._11(n,4)._sbPadding);l(n,12,0,yl._11(n,13).statusbarPadding,yl._11(n,13)._hasRefresher);l(n,15,1,[yl._11(n,18).ngClassUntouched,yl._11(n,18).ngClassTouched,yl._11(n,18).ngClassPristine,yl._11(n,18).ngClassDirty,yl._11(n,18).ngClassValid,yl._11(n,18).ngClassInvalid,yl._11(n,18).ngClassPending,yl._11(n,19)._animated,yl._11(n,19)._value,yl._11(n,19)._isActive,yl._11(n,19)._showCancelButton,yl._11(n,19)._shouldAlignLeft,yl._11(n,19)._isFocus])})}function O(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,42,"ion-card",[["class","gif_container"]],null,null,null,null,null)),yl.Y(1,16384,null,0,uu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,null,["\n    "])),(l()(),yl.Z(3,0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(l()(),yl._18(-1,null,["\n    "])),(l()(),yl.Z(5,0,null,null,36,"ion-card-content",[],null,null,null,null,null)),yl.Y(6,16384,null,0,tu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.Z(8,0,null,null,2,"ion-card-title",[],null,null,null,null,null)),yl.Y(9,16384,null,0,mu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,null,["\n\n      "])),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.Z(12,0,null,null,28,"ion-item",[["class","item item-block"]],null,null,null,jn.b,jn.a)),yl.Y(13,1097728,null,3,Yn.a,[Zn.a,dn.a,yl.j,yl.z,[2,kn.a]],null,null),yl._16(335544320,1,{contentLabel:0}),yl._16(603979776,2,{_buttons:1}),yl._16(603979776,3,{_icons:1}),yl.Y(17,16384,null,0,Cn.a,[],null,null),(l()(),yl._18(-1,2,["\n        "])),(l()(),yl.Z(19,0,null,2,20,"ion-item",[["class","item item-block"]],null,null,null,jn.b,jn.a)),yl.Y(20,1097728,null,3,Yn.a,[Zn.a,dn.a,yl.j,yl.z,[2,kn.a]],null,null),yl._16(335544320,4,{contentLabel:0}),yl._16(603979776,5,{_buttons:1}),yl._16(603979776,6,{_icons:1}),yl.Y(24,16384,null,0,Cn.a,[],null,null),(l()(),yl._18(-1,2,["\n          "])),(l()(),yl.Z(26,0,null,2,12,"ion-item",[["class","item item-block"]],null,null,null,jn.b,jn.a)),yl.Y(27,1097728,null,3,Yn.a,[Zn.a,dn.a,yl.j,yl.z,[2,kn.a]],null,null),yl._16(335544320,7,{contentLabel:0}),yl._16(603979776,8,{_buttons:1}),yl._16(603979776,9,{_icons:1}),yl.Y(31,16384,null,0,Cn.a,[],null,null),(l()(),yl._18(-1,2,["\n            "])),(l()(),yl.Z(33,0,null,4,4,"a",[["button",""],["class","copy_link"],["item-right",""]],null,null,null,null,null)),(l()(),yl._18(-1,null,["\n              "])),(l()(),yl.Z(35,0,null,null,1,"ion-icon",[["name","copy"],["role","img"]],[[2,"hide",null]],null,null,null,null)),yl.Y(36,147456,[[9,4]],0,wn.a,[dn.a,yl.j,yl.z],{name:[0,"name"]},null),(l()(),yl._18(37,null,["",""])),(l()(),yl._18(-1,2,["\n\n          "])),(l()(),yl._18(-1,2,["\n        "])),(l()(),yl._18(-1,2,["\n\n      "])),(l()(),yl._18(-1,null,["\n    "])),(l()(),yl._18(-1,null,["\n  "]))],function(l,n){l(n,36,0,"copy")},function(l,n){l(n,3,0,yl._2(1,"",n.context.$implicit,""));l(n,35,0,yl._11(n,36)._hidden);l(n,37,0,n.context.$implicit)})}function $(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,10,"ion-header",[],null,null,null,null,null)),yl.Y(1,16384,null,0,zn.a,[dn.a,yl.j,yl.z,[2,rn.a]],null,null),(l()(),yl._18(-1,null,["\n\n  "])),(l()(),yl.Z(3,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Pn.b,Pn.a)),yl.Y(4,49152,null,0,Tn.a,[_n.a,[2,rn.a],[2,cn.a],dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,3,["\n    "])),(l()(),yl.Z(6,0,null,3,2,"ion-title",[],null,null,null,Sn.b,Sn.a)),yl.Y(7,49152,null,0,In.a,[dn.a,yl.j,yl.z,[2,An.a],[2,Tn.a]],null,null),(l()(),yl._18(-1,0,["Search for Stickers"])),(l()(),yl._18(-1,3,["\n  "])),(l()(),yl._18(-1,null,["\n\n"])),(l()(),yl._18(-1,null,["\n\n\n\n"])),(l()(),yl.Z(12,0,null,null,17,"ion-content",[["class","selectable"],["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Vn.b,Vn.a)),yl.Y(13,4374528,null,0,Dn.a,[dn.a,gn.a,fn.a,yl.j,yl.z,_n.a,Mn.a,yl.u,[2,rn.a],[2,cn.a]],null,null),(l()(),yl._18(-1,1,["\n  "])),(l()(),yl.Z(15,0,null,1,4,"ion-searchbar",[["debounce","1000"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null],[2,"searchbar-animated",null],[2,"searchbar-has-value",null],[2,"searchbar-active",null],[2,"searchbar-show-cancel",null],[2,"searchbar-left-aligned",null],[2,"searchbar-has-focus",null]],[[null,"ionInput"],[null,"ngModelChange"]],function(l,n,u){var t=!0,a=l.component;if("ionInput"===n){t=!1!==a.triggerSearch(u)&&t}if("ngModelChange"===n){t=!1!==(a.myInput=u)&&t}return t},Bn.b,Bn.a)),yl.Y(16,671744,null,0,$n.k,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),yl._14(2048,null,$n.g,null,[$n.k]),yl.Y(18,16384,null,0,$n.h,[$n.g],null,null),yl.Y(19,1294336,null,0,Qn.a,[dn.a,gn.a,yl.j,yl.z,[2,$n.g]],{debounce:[0,"debounce"]},{ionInput:"ionInput"}),(l()(),yl._18(-1,1,["\n  "])),(l()(),yl.Z(21,0,null,1,1,"progress-bar",[],null,null,null,S,hu)),yl.Y(22,49152,null,0,kl,[],{progress:[0,"progress"]},null),(l()(),yl._18(-1,1,["\n  "])),(l()(),yl.Z(24,0,null,1,1,"p",[["class","loading_msg"]],null,null,null,null,null)),(l()(),yl._18(-1,null,["Search for GIPHY Stickers above"])),(l()(),yl._18(-1,1,["\n  "])),(l()(),yl.U(16777216,null,1,1,null,O)),yl.Y(28,802816,null,0,Gn.h,[yl.I,yl.F,yl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),yl._18(-1,1,["\n\n"]))],function(l,n){var u=n.component;l(n,16,0,u.myInput);l(n,19,0,"1000");l(n,22,0,u.loadProgress);l(n,28,0,u.link_array)},function(l,n){l(n,3,0,yl._11(n,4)._hidden,yl._11(n,4)._sbPadding);l(n,12,0,yl._11(n,13).statusbarPadding,yl._11(n,13)._hasRefresher);l(n,15,1,[yl._11(n,18).ngClassUntouched,yl._11(n,18).ngClassTouched,yl._11(n,18).ngClassPristine,yl._11(n,18).ngClassDirty,yl._11(n,18).ngClassValid,yl._11(n,18).ngClassInvalid,yl._11(n,18).ngClassPending,yl._11(n,19)._animated,yl._11(n,19)._value,yl._11(n,19)._isActive,yl._11(n,19)._showCancelButton,yl._11(n,19)._shouldAlignLeft,yl._11(n,19)._isFocus])})}function L(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,10,"ion-header",[],null,null,null,null,null)),yl.Y(1,16384,null,0,zn.a,[dn.a,yl.j,yl.z,[2,rn.a]],null,null),(l()(),yl._18(-1,null,["\n\n  "])),(l()(),yl.Z(3,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Pn.b,Pn.a)),yl.Y(4,49152,null,0,Tn.a,[_n.a,[2,rn.a],[2,cn.a],dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,3,["\n    "])),(l()(),yl.Z(6,0,null,3,2,"ion-title",[],null,null,null,Sn.b,Sn.a)),yl.Y(7,49152,null,0,In.a,[dn.a,yl.j,yl.z,[2,An.a],[2,Tn.a]],null,null),(l()(),yl._18(-1,0,["Trending Stickers"])),(l()(),yl._18(-1,3,["\n  "])),(l()(),yl._18(-1,null,["\n\n"])),(l()(),yl._18(-1,null,["\n\n\n"])),(l()(),yl.Z(12,0,null,null,2,"ion-content",[["class","selectable"],["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Vn.b,Vn.a)),yl.Y(13,4374528,null,0,Dn.a,[dn.a,gn.a,fn.a,yl.j,yl.z,_n.a,Mn.a,yl.u,[2,rn.a],[2,cn.a]],null,null),(l()(),yl._18(-1,1,["\n\n"])),(l()(),yl._18(-1,null,["\n"]))],null,function(l,n){l(n,3,0,yl._11(n,4)._hidden,yl._11(n,4)._sbPadding);l(n,12,0,yl._11(n,13).statusbarPadding,yl._11(n,13)._hasRefresher)})}function E(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,6,"ion-card",[["class","western_text_faces"],["overflow-scroll","true"]],[[1,"id",0]],null,null,null,null)),yl.Y(1,16384,null,0,uu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,null,["\n\n            "])),(l()(),yl.Z(3,0,null,null,2,"ion-card-content",[],null,null,null,null,null)),yl.Y(4,16384,null,0,tu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(5,null,["\n              ","\n            "])),(l()(),yl._18(-1,null,["\n\n          "]))],null,function(l,n){l(n,0,0,yl._2(1,"",n.context.$implicit,""));l(n,5,0,n.context.$implicit)})}function U(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,11,"ion-list",[],null,null,null,null,null)),yl.Y(1,16384,null,0,yn.a,[dn.a,yl.j,yl.z,gn.a,pn.l,fn.a],null,null),(l()(),yl._18(-1,null,["\n        "])),(l()(),yl.Z(3,0,null,null,7,"section",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl.Z(5,0,null,null,1,"h1",[],null,null,null,null,null)),(l()(),yl._18(-1,null,[":) Text Faces"])),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl.U(16777216,null,null,1,null,E)),yl.Y(9,802816,null,0,Gn.h,[yl.I,yl.F,yl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),yl._18(-1,null,["\n        "])),(l()(),yl._18(-1,null,["\n\n      "]))],function(l,n){l(n,9,0,n.component.western_happy_text_faces)},null)}function V(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,6,"ion-card",[["class","western_text_faces"]],[[1,"id",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.addToFavourites(l.context.$implicit)&&t}return t},null,null)),yl.Y(1,16384,null,0,uu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,null,["\n\n            "])),(l()(),yl.Z(3,0,null,null,2,"ion-card-content",[],null,null,null,null,null)),yl.Y(4,16384,null,0,tu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(5,null,["\n              ","\n            "])),(l()(),yl._18(-1,null,["\n\n          "]))],null,function(l,n){l(n,0,0,yl._2(1,"",n.context.$implicit,""));l(n,5,0,n.context.$implicit)})}function D(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,11,"ion-list",[],null,null,null,null,null)),yl.Y(1,16384,null,0,yn.a,[dn.a,yl.j,yl.z,gn.a,pn.l,fn.a],null,null),(l()(),yl._18(-1,null,["\n        "])),(l()(),yl.Z(3,0,null,null,7,"section",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl.Z(5,0,null,null,1,"h1",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["Sad Text Faces"])),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl.U(16777216,null,null,1,null,V)),yl.Y(9,802816,null,0,Gn.h,[yl.I,yl.F,yl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),yl._18(-1,null,["\n\n        "])),(l()(),yl._18(-1,null,["\n\n      "]))],function(l,n){l(n,9,0,n.component.western_sad_text_faces)},null)}function M(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,6,"ion-card",[["class","western_text_faces"]],[[1,"id",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.addToFavourites(l.context.$implicit)&&t}return t},null,null)),yl.Y(1,16384,null,0,uu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,null,["\n\n            "])),(l()(),yl.Z(3,0,null,null,2,"ion-card-content",[],null,null,null,null,null)),yl.Y(4,16384,null,0,tu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(5,null,["\n              ","\n            "])),(l()(),yl._18(-1,null,["\n\n          "]))],null,function(l,n){l(n,0,0,yl._2(1,"",n.context.$implicit,""));l(n,5,0,n.context.$implicit)})}function G(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,14,"ion-list",[],null,null,null,null,null)),yl.Y(1,16384,null,0,yn.a,[dn.a,yl.j,yl.z,gn.a,pn.l,fn.a],null,null),(l()(),yl._18(-1,null,["\n        "])),(l()(),yl.Z(3,0,null,null,10,"section",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl.Z(5,0,null,null,1,"h1",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["Cute Text Faces"])),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl.Z(8,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),yl._18(9,null,["",""])),(l()(),yl._18(-1,null,["\n\n          "])),(l()(),yl.U(16777216,null,null,1,null,M)),yl.Y(12,802816,null,0,Gn.h,[yl.I,yl.F,yl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),yl._18(-1,null,["\n        "])),(l()(),yl._18(-1,null,["\n\n      "]))],function(l,n){l(n,12,0,n.component.western_cute_text_faces)},function(l,n){l(n,9,0,n.component.item)})}function R(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,6,"ion-card",[["class","western_text_faces"]],[[1,"id",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.addToFavourites(l.context.$implicit)&&t}return t},null,null)),yl.Y(1,16384,null,0,uu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,null,["\n          \n              "])),(l()(),yl.Z(3,0,null,null,2,"ion-card-content",[],null,null,null,null,null)),yl.Y(4,16384,null,0,tu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(5,null,["\n                ","\n              "])),(l()(),yl._18(-1,null,["\n          \n            "]))],null,function(l,n){l(n,0,0,yl._2(1,"",n.context.$implicit,""));l(n,5,0,n.context.$implicit)})}function X(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,11,"ion-list",[],null,null,null,null,null)),yl.Y(1,16384,null,0,yn.a,[dn.a,yl.j,yl.z,gn.a,pn.l,fn.a],null,null),(l()(),yl._18(-1,null,["\n        "])),(l()(),yl.Z(3,0,null,null,7,"section",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["\n            "])),(l()(),yl.Z(5,0,null,null,1,"h1",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["Romance Text Faces"])),(l()(),yl._18(-1,null,["\n\n            "])),(l()(),yl.U(16777216,null,null,1,null,R)),yl.Y(9,802816,null,0,Gn.h,[yl.I,yl.F,yl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),yl._18(-1,null,["\n        "])),(l()(),yl._18(-1,null,["\n      "]))],function(l,n){l(n,9,0,n.component.western_romance_text_faces)},null)}function H(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,6,"ion-card",[["class","western_text_faces"]],[[1,"id",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.addToFavourites(l.context.$implicit)&&t}return t},null,null)),yl.Y(1,16384,null,0,uu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,null,["\n        \n            "])),(l()(),yl.Z(3,0,null,null,2,"ion-card-content",[],null,null,null,null,null)),yl.Y(4,16384,null,0,tu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(5,null,["\n              ","\n            "])),(l()(),yl._18(-1,null,["\n        \n          "]))],null,function(l,n){l(n,0,0,yl._2(1,"",n.context.$implicit,""));l(n,5,0,n.context.$implicit)})}function q(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,11,"ion-list",[],null,null,null,null,null)),yl.Y(1,16384,null,0,yn.a,[dn.a,yl.j,yl.z,gn.a,pn.l,fn.a],null,null),(l()(),yl._18(-1,null,["\n        "])),(l()(),yl.Z(3,0,null,null,7,"section",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["\n\n          "])),(l()(),yl.Z(5,0,null,null,1,"h1",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["Angry Text Faces"])),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl.U(16777216,null,null,1,null,H)),yl.Y(9,802816,null,0,Gn.h,[yl.I,yl.F,yl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),yl._18(-1,null,["\n        \n        "])),(l()(),yl._18(-1,null,["\n      "]))],function(l,n){l(n,9,0,n.component.western_angry_text_faces)},null)}function J(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,42,"ion-header",[],null,null,null,null,null)),yl.Y(1,16384,null,0,zn.a,[dn.a,yl.j,yl.z,[2,rn.a]],null,null),(l()(),yl._18(-1,null,["\n\n  "])),(l()(),yl.Z(3,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Pn.b,Pn.a)),yl.Y(4,49152,null,0,Tn.a,[_n.a,[2,rn.a],[2,cn.a],dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,3,["\n    "])),(l()(),yl.Z(6,0,null,3,2,"ion-title",[],null,null,null,Sn.b,Sn.a)),yl.Y(7,49152,null,0,In.a,[dn.a,yl.j,yl.z,[2,An.a],[2,Tn.a]],null,null),(l()(),yl._18(-1,0,["Western Text Faces"])),(l()(),yl._18(-1,3,["\n  "])),(l()(),yl._18(-1,null,["\n\n  "])),(l()(),yl.Z(11,0,null,null,30,"ion-toolbar",[["class","toolbar"]],[[2,"statusbar-padding",null]],null,null,On.b,On.a)),yl.Y(12,49152,null,0,An.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,3,["\n    "])),(l()(),yl.Z(14,0,null,3,26,"ion-segment",[],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null],[2,"segment-disabled",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.west_category=u)&&t}return t},null,null)),yl.Y(15,671744,null,0,$n.k,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),yl._14(2048,null,$n.g,null,[$n.k]),yl.Y(17,16384,null,0,$n.h,[$n.g],null,null),yl.Y(18,1196032,null,1,Ln.a,[dn.a,yl.j,yl.z,[2,$n.g]],null,null),yl._16(603979776,1,{_buttons:1}),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.Z(21,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","western_happy_text_faces"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==yl._11(l,22).onClick()&&t}return t},En.b,En.a)),yl.Y(22,114688,[[1,4]],0,Un.a,[],{value:[0,"value"]},null),(l()(),yl._18(-1,0,["\n        Happy\n      "])),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.Z(25,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","western_sad_text_faces"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==yl._11(l,26).onClick()&&t}return t},En.b,En.a)),yl.Y(26,114688,[[1,4]],0,Un.a,[],{value:[0,"value"]},null),(l()(),yl._18(-1,0,["\n        Sad\n      "])),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.Z(29,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","western_cute_text_faces"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==yl._11(l,30).onClick()&&t}return t},En.b,En.a)),yl.Y(30,114688,[[1,4]],0,Un.a,[],{value:[0,"value"]},null),(l()(),yl._18(-1,0,["\n        Cute\n      "])),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.Z(33,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","western_romance_text_faces"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==yl._11(l,34).onClick()&&t}return t},En.b,En.a)),yl.Y(34,114688,[[1,4]],0,Un.a,[],{value:[0,"value"]},null),(l()(),yl._18(-1,0,["\n        Romantic\n      "])),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.Z(37,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","western_angry_text_faces"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==yl._11(l,38).onClick()&&t}return t},En.b,En.a)),yl.Y(38,114688,[[1,4]],0,Un.a,[],{value:[0,"value"]},null),(l()(),yl._18(-1,0,["\n        Angry\n      "])),(l()(),yl._18(-1,null,["\n    "])),(l()(),yl._18(-1,3,["\n  "])),(l()(),yl._18(-1,null,["\n\n"])),(l()(),yl._18(-1,null,["\n\n\n"])),(l()(),yl.Z(44,0,null,null,25,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Vn.b,Vn.a)),yl.Y(45,4374528,null,0,Dn.a,[dn.a,gn.a,fn.a,yl.j,yl.z,_n.a,Mn.a,yl.u,[2,rn.a],[2,cn.a]],null,null),(l()(),yl._18(-1,1,["\n\n  "])),(l()(),yl.Z(47,0,null,1,21,"ion-toolbar",[["class","toolbar"]],[[2,"statusbar-padding",null]],null,null,On.b,On.a)),yl.Y(48,49152,null,0,An.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,3,["\n\n    "])),(l()(),yl.Z(50,0,null,3,17,"div",[["class","selectable"]],null,null,null,null,null)),yl.Y(51,16384,null,0,Gn.m,[],{ngSwitch:[0,"ngSwitch"]},null),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.U(16777216,null,null,1,null,U)),yl.Y(54,278528,null,0,Gn.n,[yl.I,yl.F,Gn.m],{ngSwitchCase:[0,"ngSwitchCase"]},null),(l()(),yl._18(-1,null,["\n\n      "])),(l()(),yl.U(16777216,null,null,1,null,D)),yl.Y(57,278528,null,0,Gn.n,[yl.I,yl.F,Gn.m],{ngSwitchCase:[0,"ngSwitchCase"]},null),(l()(),yl._18(-1,null,["\n\n      "])),(l()(),yl.U(16777216,null,null,1,null,G)),yl.Y(60,278528,null,0,Gn.n,[yl.I,yl.F,Gn.m],{ngSwitchCase:[0,"ngSwitchCase"]},null),(l()(),yl._18(-1,null,["\n\n      "])),(l()(),yl.U(16777216,null,null,1,null,X)),yl.Y(63,278528,null,0,Gn.n,[yl.I,yl.F,Gn.m],{ngSwitchCase:[0,"ngSwitchCase"]},null),(l()(),yl._18(-1,null,["\n\n      "])),(l()(),yl.U(16777216,null,null,1,null,q)),yl.Y(66,278528,null,0,Gn.n,[yl.I,yl.F,Gn.m],{ngSwitchCase:[0,"ngSwitchCase"]},null),(l()(),yl._18(-1,null,["\n\n\n    "])),(l()(),yl._18(-1,3,["\n  "])),(l()(),yl._18(-1,1,["\n"])),(l()(),yl._18(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,15,0,u.west_category);l(n,22,0,"western_happy_text_faces");l(n,26,0,"western_sad_text_faces");l(n,30,0,"western_cute_text_faces");l(n,34,0,"western_romance_text_faces");l(n,38,0,"western_angry_text_faces");l(n,51,0,u.west_category);l(n,54,0,"western_happy_text_faces");l(n,57,0,"western_sad_text_faces");l(n,60,0,"western_cute_text_faces");l(n,63,0,"western_romance_text_faces");l(n,66,0,"western_angry_text_faces")},function(l,n){l(n,3,0,yl._11(n,4)._hidden,yl._11(n,4)._sbPadding);l(n,11,0,yl._11(n,12)._sbPadding);l(n,14,0,yl._11(n,17).ngClassUntouched,yl._11(n,17).ngClassTouched,yl._11(n,17).ngClassPristine,yl._11(n,17).ngClassDirty,yl._11(n,17).ngClassValid,yl._11(n,17).ngClassInvalid,yl._11(n,17).ngClassPending,yl._11(n,18)._disabled);l(n,21,0,yl._11(n,22)._disabled,yl._11(n,22).isActive,yl._11(n,22).isActive);l(n,25,0,yl._11(n,26)._disabled,yl._11(n,26).isActive,yl._11(n,26).isActive);l(n,29,0,yl._11(n,30)._disabled,yl._11(n,30).isActive,yl._11(n,30).isActive);l(n,33,0,yl._11(n,34)._disabled,yl._11(n,34).isActive,yl._11(n,34).isActive);l(n,37,0,yl._11(n,38)._disabled,yl._11(n,38).isActive,yl._11(n,38).isActive);l(n,44,0,yl._11(n,45).statusbarPadding,yl._11(n,45)._hasRefresher);l(n,47,0,yl._11(n,48)._sbPadding)})}function N(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"p",[],null,null,null,null,null)),(l()(),yl._18(1,null,["",""]))],null,function(l,n){l(n,1,0,n.component.emoji_lib[n.context.$implicit].char)})}function W(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,10,"ion-header",[],null,null,null,null,null)),yl.Y(1,16384,null,0,zn.a,[dn.a,yl.j,yl.z,[2,rn.a]],null,null),(l()(),yl._18(-1,null,["\n\n  "])),(l()(),yl.Z(3,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Pn.b,Pn.a)),yl.Y(4,49152,null,0,Tn.a,[_n.a,[2,rn.a],[2,cn.a],dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,3,["\n    "])),(l()(),yl.Z(6,0,null,3,2,"ion-title",[],null,null,null,Sn.b,Sn.a)),yl.Y(7,49152,null,0,In.a,[dn.a,yl.j,yl.z,[2,An.a],[2,Tn.a]],null,null),(l()(),yl._18(-1,0,["Your Favourites"])),(l()(),yl._18(-1,3,["\n  "])),(l()(),yl._18(-1,null,["\n\n"])),(l()(),yl._18(-1,null,["\n\n"])),(l()(),yl.Z(12,0,null,null,11,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Vn.b,Vn.a)),yl.Y(13,4374528,null,0,Dn.a,[dn.a,gn.a,fn.a,yl.j,yl.z,_n.a,Mn.a,yl.u,[2,rn.a],[2,cn.a]],null,null),(l()(),yl._18(-1,1,["\n  "])),(l()(),yl.Z(15,0,null,1,1,"h1",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["Emoji"])),(l()(),yl._18(-1,1,["\n  "])),(l()(),yl.Z(18,0,null,1,4,"section",[["id","emoji"]],null,null,null,null,null)),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.U(16777216,null,null,1,null,N)),yl.Y(21,802816,null,0,Gn.h,[yl.I,yl.F,yl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),yl._18(-1,null,["\n\n    "])),(l()(),yl._18(-1,1,["\n"]))],function(l,n){l(n,21,0,n.component.favourite_emoji)},function(l,n){l(n,3,0,yl._11(n,4)._hidden,yl._11(n,4)._sbPadding);l(n,12,0,yl._11(n,13).statusbarPadding,yl._11(n,13)._hasRefresher)})}function B(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"span",[["class","symbols"]],[[1,"id",0]],null,null,null,null)),(l()(),yl._18(1,null,["",""]))],null,function(l,n){l(n,0,0,yl._2(1,"",n.context.$implicit,""));l(n,1,0,n.context.$implicit)})}function Q(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,10,"ion-header",[],null,null,null,null,null)),yl.Y(1,16384,null,0,zn.a,[dn.a,yl.j,yl.z,[2,rn.a]],null,null),(l()(),yl._18(-1,null,["\n\n  "])),(l()(),yl.Z(3,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Pn.b,Pn.a)),yl.Y(4,49152,null,0,Tn.a,[_n.a,[2,rn.a],[2,cn.a],dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,3,["\n    "])),(l()(),yl.Z(6,0,null,3,2,"ion-title",[],null,null,null,Sn.b,Sn.a)),yl.Y(7,49152,null,0,In.a,[dn.a,yl.j,yl.z,[2,An.a],[2,Tn.a]],null,null),(l()(),yl._18(-1,0,["Cool Unicode Symbols"])),(l()(),yl._18(-1,3,["\n  "])),(l()(),yl._18(-1,null,["\n\n"])),(l()(),yl._18(-1,null,["\n\n"])),(l()(),yl.Z(12,0,null,null,8,"ion-content",[["class","selectable"],["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Vn.b,Vn.a)),yl.Y(13,4374528,null,0,Dn.a,[dn.a,gn.a,fn.a,yl.j,yl.z,_n.a,Mn.a,yl.u,[2,rn.a],[2,cn.a]],null,null),(l()(),yl._18(-1,1,["\n    "])),(l()(),yl.Z(15,0,null,1,4,"section",[["class","single_symbols"]],null,[[null,"click"]],function(l,n,u){var t=!0,a=l.component;if("click"===n){t=!1!==a.addToFavourites(a.item)&&t}return t},null,null)),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.U(16777216,null,null,1,null,B)),yl.Y(18,802816,null,0,Gn.h,[yl.I,yl.F,yl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),yl._18(-1,null,["\n    "])),(l()(),yl._18(-1,1,["\n  \n  "]))],function(l,n){l(n,18,0,n.component.cool_symbols)},function(l,n){l(n,3,0,yl._11(n,4)._hidden,yl._11(n,4)._sbPadding);l(n,12,0,yl._11(n,13).statusbarPadding,yl._11(n,13)._hasRefresher)})}function K(l){return yl._19(0,[(l()(),yl._18(-1,null,["\n    "])),(l()(),yl.Z(1,0,null,null,45,"form",[["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngSubmit"],[null,"submit"],[null,"reset"]],function(l,n,u){var t=!0,a=l.component;if("submit"===n){t=!1!==yl._11(l,3).onSubmit(u)&&t}if("reset"===n){t=!1!==yl._11(l,3).onReset()&&t}if("ngSubmit"===n){t=!1!==a.logForm()&&t}return t},null,null)),yl.Y(2,16384,null,0,$n.n,[],null,null),yl.Y(3,4210688,null,0,$n.j,[[8,null],[8,null]],null,{ngSubmit:"ngSubmit"}),yl._14(2048,null,$n.b,null,[$n.j]),yl.Y(5,16384,null,0,$n.i,[$n.b],null,null),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.Z(7,0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,jn.b,jn.a)),yl.Y(8,1097728,null,3,Yn.a,[Zn.a,dn.a,yl.j,yl.z,[2,kn.a]],null,null),yl._16(335544320,1,{contentLabel:0}),yl._16(603979776,2,{_buttons:1}),yl._16(603979776,3,{_icons:1}),yl.Y(12,16384,null,0,Cn.a,[],null,null),(l()(),yl._18(-1,2,["\n        "])),(l()(),yl.Z(14,0,null,1,2,"ion-label",[],null,null,null,null,null)),yl.Y(15,16384,[[1,4]],0,cu.a,[dn.a,yl.j,yl.z,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),yl._18(-1,null,["Todo"])),(l()(),yl._18(-1,2,["\n        "])),(l()(),yl.Z(18,0,null,3,4,"ion-input",[["name","title"],["type","text"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.todo.title=u)&&t}return t},_u.b,_u.a)),yl.Y(19,671744,null,0,$n.k,[[2,$n.b],[8,null],[8,null],[8,null]],{name:[0,"name"],model:[1,"model"]},{update:"ngModelChange"}),yl._14(2048,null,$n.g,null,[$n.k]),yl.Y(21,16384,null,0,$n.h,[$n.g],null,null),yl.Y(22,5423104,null,0,du.a,[dn.a,gn.a,Zn.a,_n.a,yl.j,yl.z,[2,Dn.a],[2,Yn.a],[2,$n.g],fn.a],{type:[0,"type"]},null),(l()(),yl._18(-1,2,["\n      "])),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.Z(25,0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,jn.b,jn.a)),yl.Y(26,1097728,null,3,Yn.a,[Zn.a,dn.a,yl.j,yl.z,[2,kn.a]],null,null),yl._16(335544320,4,{contentLabel:0}),yl._16(603979776,5,{_buttons:1}),yl._16(603979776,6,{_icons:1}),yl.Y(30,16384,null,0,Cn.a,[],null,null),(l()(),yl._18(-1,2,["\n        "])),(l()(),yl.Z(32,0,null,1,2,"ion-label",[],null,null,null,null,null)),yl.Y(33,16384,[[4,4]],0,cu.a,[dn.a,yl.j,yl.z,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),yl._18(-1,null,["Description"])),(l()(),yl._18(-1,2,["\n        "])),(l()(),yl.Z(36,0,null,3,4,"ion-textarea",[["name","description"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.todo.description=u)&&t}return t},_u.b,_u.a)),yl.Y(37,671744,null,0,$n.k,[[2,$n.b],[8,null],[8,null],[8,null]],{name:[0,"name"],model:[1,"model"]},{update:"ngModelChange"}),yl._14(2048,null,$n.g,null,[$n.k]),yl.Y(39,16384,null,0,$n.h,[$n.g],null,null),yl.Y(40,5423104,null,0,du.a,[dn.a,gn.a,Zn.a,_n.a,yl.j,yl.z,[2,Dn.a],[2,Yn.a],[2,$n.g],fn.a],null,null),(l()(),yl._18(-1,2,["\n      "])),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.Z(43,0,null,null,2,"button",[["block",""],["ion-button",""],["type","submit"]],null,null,null,Pu.b,Pu.a)),yl.Y(44,1097728,null,0,Tu.a,[[8,""],dn.a,yl.j,yl.z],{block:[0,"block"]},null),(l()(),yl._18(-1,0,["Add Todo"])),(l()(),yl._18(-1,null,["\n    "])),(l()(),yl._18(-1,null,["\n  "]))],function(l,n){var u=n.component;l(n,19,0,"title",u.todo.title);l(n,22,0,"text");l(n,37,0,"description",u.todo.description);l(n,44,0,"")},function(l,n){l(n,1,0,yl._11(n,5).ngClassUntouched,yl._11(n,5).ngClassTouched,yl._11(n,5).ngClassPristine,yl._11(n,5).ngClassDirty,yl._11(n,5).ngClassValid,yl._11(n,5).ngClassInvalid,yl._11(n,5).ngClassPending);l(n,18,0,yl._11(n,21).ngClassUntouched,yl._11(n,21).ngClassTouched,yl._11(n,21).ngClassPristine,yl._11(n,21).ngClassDirty,yl._11(n,21).ngClassValid,yl._11(n,21).ngClassInvalid,yl._11(n,21).ngClassPending);l(n,36,0,yl._11(n,39).ngClassUntouched,yl._11(n,39).ngClassTouched,yl._11(n,39).ngClassPristine,yl._11(n,39).ngClassDirty,yl._11(n,39).ngClassValid,yl._11(n,39).ngClassInvalid,yl._11(n,39).ngClassPending)})}function ll(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"span",[["class","emoji_c"]],[[1,"id",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.addToFavourites(l.context.$implicit)&&t}return t},null,null)),(l()(),yl._18(1,null,["",""]))],null,function(l,n){l(n,0,0,yl._2(1,"",n.context.$implicit,""));l(n,1,0,n.context.$implicit)})}function nl(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,10,"ion-header",[],null,null,null,null,null)),yl.Y(1,16384,null,0,zn.a,[dn.a,yl.j,yl.z,[2,rn.a]],null,null),(l()(),yl._18(-1,null,["\n\n  "])),(l()(),yl.Z(3,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Pn.b,Pn.a)),yl.Y(4,49152,null,0,Tn.a,[_n.a,[2,rn.a],[2,cn.a],dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,3,["\n    "])),(l()(),yl.Z(6,0,null,3,2,"ion-title",[],null,null,null,Sn.b,Sn.a)),yl.Y(7,49152,null,0,In.a,[dn.a,yl.j,yl.z,[2,An.a],[2,Tn.a]],null,null),(l()(),yl._18(-1,0,["Animals & Nature Emoji"])),(l()(),yl._18(-1,3,["\n  "])),(l()(),yl._18(-1,null,["\n\n"])),(l()(),yl._18(-1,null,["\n\n\n"])),(l()(),yl.Z(12,0,null,null,11,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Vn.b,Vn.a)),yl.Y(13,4374528,null,0,Dn.a,[dn.a,gn.a,fn.a,yl.j,yl.z,_n.a,Mn.a,yl.u,[2,rn.a],[2,cn.a]],null,null),(l()(),yl._18(-1,1,["\n    "])),(l()(),yl.Z(15,0,null,1,7,"section",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["\n        "])),(l()(),yl.Z(17,0,null,null,1,"p",[["class","help_msg"]],null,null,null,null,null)),(l()(),yl._18(-1,null,["Just click on an emoji to copy it."])),(l()(),yl._18(-1,null,["\n    \n        "])),(l()(),yl.U(16777216,null,null,1,null,ll)),yl.Y(21,802816,null,0,Gn.h,[yl.I,yl.F,yl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),yl._18(-1,null,["\n    \n      "])),(l()(),yl._18(-1,1,["\n"])),(l()(),yl._18(-1,null,["\n"]))],function(l,n){l(n,21,0,n.component.ani_nature_emoji_array)},function(l,n){l(n,3,0,yl._11(n,4)._hidden,yl._11(n,4)._sbPadding);l(n,12,0,yl._11(n,13).statusbarPadding,yl._11(n,13)._hasRefresher)})}function ul(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"span",[["class","emoji_c"]],[[1,"id",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.addToFavourites(l.context.$implicit)&&t}return t},null,null)),(l()(),yl._18(1,null,["",""]))],null,function(l,n){l(n,0,0,yl._2(1,"",n.context.$implicit,""));l(n,1,0,n.context.$implicit)})}function tl(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,11,"ion-list",[],null,null,null,null,null)),yl.Y(1,16384,null,0,yn.a,[dn.a,yl.j,yl.z,gn.a,pn.l,fn.a],null,null),(l()(),yl._18(-1,null,["\n        "])),(l()(),yl.Z(3,0,null,null,7,"section",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl.Z(5,0,null,null,1,"p",[["class","help_msg"]],null,null,null,null,null)),(l()(),yl._18(-1,null,["Just click on an emoji to copy it."])),(l()(),yl._18(-1,null,["\n\n          "])),(l()(),yl.U(16777216,null,null,1,null,ul)),yl.Y(9,802816,null,0,Gn.h,[yl.I,yl.F,yl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),yl._18(-1,null,["\n\n        "])),(l()(),yl._18(-1,null,["\n\n      "]))],function(l,n){l(n,9,0,n.component.emotion_emoji_array)},null)}function al(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"span",[["class","emoji_c"]],[[1,"id",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.addToFavourites(l.context.$implicit)&&t}return t},null,null)),(l()(),yl._18(1,null,["",""]))],null,function(l,n){l(n,0,0,yl._2(1,"",n.context.$implicit,""));l(n,1,0,n.context.$implicit)})}function el(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,11,"ion-list",[],null,null,null,null,null)),yl.Y(1,16384,null,0,yn.a,[dn.a,yl.j,yl.z,gn.a,pn.l,fn.a],null,null),(l()(),yl._18(-1,null,["\n        "])),(l()(),yl.Z(3,0,null,null,7,"section",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl.Z(5,0,null,null,1,"p",[["class","help_msg"]],null,null,null,null,null)),(l()(),yl._18(-1,null,["Just click on an emoji to copy it."])),(l()(),yl._18(-1,null,["\n\n          "])),(l()(),yl.U(16777216,null,null,1,null,al)),yl.Y(9,802816,null,0,Gn.h,[yl.I,yl.F,yl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),yl._18(-1,null,["\n\n        "])),(l()(),yl._18(-1,null,["\n      "]))],function(l,n){l(n,9,0,n.component.ani_nature_emoji_array)},null)}function il(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"span",[["class","emoji_c"]],[[1,"id",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.addToFavourites(l.context.$implicit)&&t}return t},null,null)),(l()(),yl._18(1,null,["",""]))],null,function(l,n){l(n,0,0,yl._2(1,"",n.context.$implicit,""));l(n,1,0,n.context.$implicit)})}function ol(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,11,"ion-list",[],null,null,null,null,null)),yl.Y(1,16384,null,0,yn.a,[dn.a,yl.j,yl.z,gn.a,pn.l,fn.a],null,null),(l()(),yl._18(-1,null,["\n        "])),(l()(),yl.Z(3,0,null,null,7,"section",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl.Z(5,0,null,null,1,"p",[["class","help_msg"]],null,null,null,null,null)),(l()(),yl._18(-1,null,["Just click on an emoji to copy it."])),(l()(),yl._18(-1,null,["\n\n          "])),(l()(),yl.U(16777216,null,null,1,null,il)),yl.Y(9,802816,null,0,Gn.h,[yl.I,yl.F,yl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),yl._18(-1,null,["\n\n        "])),(l()(),yl._18(-1,null,["\n\n      "]))],function(l,n){l(n,9,0,n.component.activities_emoji_array)},null)}function sl(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"span",[["class","emoji_c"]],[[1,"id",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.addToFavourites(l.context.$implicit)&&t}return t},null,null)),(l()(),yl._18(1,null,["",""]))],null,function(l,n){l(n,0,0,yl._2(1,"",n.context.$implicit,""));l(n,1,0,n.context.$implicit)})}function rl(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,11,"ion-list",[],null,null,null,null,null)),yl.Y(1,16384,null,0,yn.a,[dn.a,yl.j,yl.z,gn.a,pn.l,fn.a],null,null),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl.Z(3,0,null,null,7,"section",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["\n              "])),(l()(),yl.Z(5,0,null,null,1,"p",[["class","help_msg"]],null,null,null,null,null)),(l()(),yl._18(-1,null,["Just click on an emoji to copy it."])),(l()(),yl._18(-1,null,["\n    \n              "])),(l()(),yl.U(16777216,null,null,1,null,sl)),yl.Y(9,802816,null,0,Gn.h,[yl.I,yl.F,yl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),yl._18(-1,null,["\n    \n            "])),(l()(),yl._18(-1,null,["\n      "]))],function(l,n){l(n,9,0,n.component.objects_emoji_array)},null)}function cl(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"span",[["class","emoji_c"]],[[1,"id",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.addToFavourites(l.context.$implicit)&&t}return t},null,null)),(l()(),yl._18(1,null,["",""]))],null,function(l,n){l(n,0,0,yl._2(1,"",n.context.$implicit,""));l(n,1,0,n.context.$implicit)})}function _l(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,11,"ion-list",[],null,null,null,null,null)),yl.Y(1,16384,null,0,yn.a,[dn.a,yl.j,yl.z,gn.a,pn.l,fn.a],null,null),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl.Z(3,0,null,null,7,"section",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["\n              "])),(l()(),yl.Z(5,0,null,null,1,"p",[["class","help_msg"]],null,null,null,null,null)),(l()(),yl._18(-1,null,["Just click on an emoji to copy it."])),(l()(),yl._18(-1,null,["\n    \n              "])),(l()(),yl.U(16777216,null,null,1,null,cl)),yl.Y(9,802816,null,0,Gn.h,[yl.I,yl.F,yl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),yl._18(-1,null,["\n    \n            "])),(l()(),yl._18(-1,null,["\n      "]))],function(l,n){l(n,9,0,n.component.symbols_emoji_array)},null)}function dl(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"span",[["class","emoji_c"]],[[1,"id",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.addToFavourites(l.context.$implicit)&&t}return t},null,null)),(l()(),yl._18(1,null,["",""]))],null,function(l,n){l(n,0,0,yl._2(1,"",n.context.$implicit,""));l(n,1,0,n.context.$implicit)})}function gl(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,11,"ion-list",[],null,null,null,null,null)),yl.Y(1,16384,null,0,yn.a,[dn.a,yl.j,yl.z,gn.a,pn.l,fn.a],null,null),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl.Z(3,0,null,null,7,"section",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["\n              "])),(l()(),yl.Z(5,0,null,null,1,"p",[["class","help_msg"]],null,null,null,null,null)),(l()(),yl._18(-1,null,["Just click on an emoji to copy it."])),(l()(),yl._18(-1,null,["\n    \n              "])),(l()(),yl.U(16777216,null,null,1,null,dl)),yl.Y(9,802816,null,0,Gn.h,[yl.I,yl.F,yl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),yl._18(-1,null,["\n    \n            "])),(l()(),yl._18(-1,null,["\n      "]))],function(l,n){l(n,9,0,n.component.travel_emoji_array)},null)}function pl(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"span",[["class","emoji_c"]],[[1,"id",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.addToFavourites(l.context.$implicit)&&t}return t},null,null)),(l()(),yl._18(1,null,["",""]))],null,function(l,n){l(n,0,0,yl._2(1,"",n.context.$implicit,""));l(n,1,0,n.context.$implicit)})}function ml(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,11,"ion-list",[],null,null,null,null,null)),yl.Y(1,16384,null,0,yn.a,[dn.a,yl.j,yl.z,gn.a,pn.l,fn.a],null,null),(l()(),yl._18(-1,null,["\n          "])),(l()(),yl.Z(3,0,null,null,7,"section",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["\n              "])),(l()(),yl.Z(5,0,null,null,1,"p",[["class","help_msg"]],null,null,null,null,null)),(l()(),yl._18(-1,null,["Just click on an emoji to copy it."])),(l()(),yl._18(-1,null,["\n    \n              "])),(l()(),yl.U(16777216,null,null,1,null,pl)),yl.Y(9,802816,null,0,Gn.h,[yl.I,yl.F,yl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),yl._18(-1,null,["\n    \n            "])),(l()(),yl._18(-1,null,["\n      "]))],function(l,n){l(n,9,0,n.component.flags_emoji_array)},null)}function hl(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,50,"ion-header",[],null,null,null,null,null)),yl.Y(1,16384,null,0,zn.a,[dn.a,yl.j,yl.z,[2,rn.a]],null,null),(l()(),yl._18(-1,null,["\n\n  "])),(l()(),yl.Z(3,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Pn.b,Pn.a)),yl.Y(4,49152,null,0,Tn.a,[_n.a,[2,rn.a],[2,cn.a],dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,3,["\n    "])),(l()(),yl.Z(6,0,null,3,2,"ion-title",[],null,null,null,Sn.b,Sn.a)),yl.Y(7,49152,null,0,In.a,[dn.a,yl.j,yl.z,[2,An.a],[2,Tn.a]],null,null),(l()(),yl._18(-1,0,["Copy & Paste Emoji"])),(l()(),yl._18(-1,3,["\n  "])),(l()(),yl._18(-1,null,["\n\n  "])),(l()(),yl.Z(11,0,null,null,38,"ion-toolbar",[["class","toolbar"]],[[2,"statusbar-padding",null]],null,null,On.b,On.a)),yl.Y(12,49152,null,0,An.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,3,["\n    "])),(l()(),yl.Z(14,0,null,3,34,"ion-segment",[],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null],[2,"segment-disabled",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.emoji_type=u)&&t}return t},null,null)),yl.Y(15,671744,null,0,$n.k,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),yl._14(2048,null,$n.g,null,[$n.k]),yl.Y(17,16384,null,0,$n.h,[$n.g],null,null),yl.Y(18,1196032,null,1,Ln.a,[dn.a,yl.j,yl.z,[2,$n.g]],null,null),yl._16(603979776,1,{_buttons:1}),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.Z(21,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","emotions"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==yl._11(l,22).onClick()&&t}return t},En.b,En.a)),yl.Y(22,114688,[[1,4]],0,Un.a,[],{value:[0,"value"]},null),(l()(),yl._18(-1,0,["\n        Emotions\n      "])),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.Z(25,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","ani_nature"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==yl._11(l,26).onClick()&&t}return t},En.b,En.a)),yl.Y(26,114688,[[1,4]],0,Un.a,[],{value:[0,"value"]},null),(l()(),yl._18(-1,0,["\n        Animals & Nature\n      "])),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.Z(29,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","activities"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==yl._11(l,30).onClick()&&t}return t},En.b,En.a)),yl.Y(30,114688,[[1,4]],0,Un.a,[],{value:[0,"value"]},null),(l()(),yl._18(-1,0,["\n        Activities\n      "])),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.Z(33,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","symbols"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==yl._11(l,34).onClick()&&t}return t},En.b,En.a)),yl.Y(34,114688,[[1,4]],0,Un.a,[],{value:[0,"value"]},null),(l()(),yl._18(-1,0,["\n          Symbols\n        "])),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.Z(37,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","objects"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==yl._11(l,38).onClick()&&t}return t},En.b,En.a)),yl.Y(38,114688,[[1,4]],0,Un.a,[],{value:[0,"value"]},null),(l()(),yl._18(-1,0,["\n        Objects\n      "])),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.Z(41,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","travel"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==yl._11(l,42).onClick()&&t}return t},En.b,En.a)),yl.Y(42,114688,[[1,4]],0,Un.a,[],{value:[0,"value"]},null),(l()(),yl._18(-1,0,["\n          Travel\n        "])),(l()(),yl._18(-1,null,["\n        "])),(l()(),yl.Z(45,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","flags"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==yl._11(l,46).onClick()&&t}return t},En.b,En.a)),yl.Y(46,114688,[[1,4]],0,Un.a,[],{value:[0,"value"]},null),(l()(),yl._18(-1,0,["\n            Flags\n          "])),(l()(),yl._18(-1,null,["\n    "])),(l()(),yl._18(-1,3,["\n  "])),(l()(),yl._18(-1,null,["\n\n\n"])),(l()(),yl._18(-1,null,["\n\n"])),(l()(),yl.Z(52,0,null,null,31,"ion-content",[["class","selectable"],["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Vn.b,Vn.a)),yl.Y(53,4374528,null,0,Dn.a,[dn.a,gn.a,fn.a,yl.j,yl.z,_n.a,Mn.a,yl.u,[2,rn.a],[2,cn.a]],null,null),(l()(),yl._18(-1,1,["\n\n  "])),(l()(),yl.Z(55,0,null,1,27,"ion-toolbar",[["class","toolbar"]],[[2,"statusbar-padding",null]],null,null,On.b,On.a)),yl.Y(56,49152,null,0,An.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,3,["\n\n    "])),(l()(),yl.Z(58,0,null,3,23,"div",[],null,null,null,null,null)),yl.Y(59,16384,null,0,Gn.m,[],{ngSwitch:[0,"ngSwitch"]},null),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.U(16777216,null,null,1,null,tl)),yl.Y(62,278528,null,0,Gn.n,[yl.I,yl.F,Gn.m],{ngSwitchCase:[0,"ngSwitchCase"]},null),(l()(),yl._18(-1,null,["\n\n      "])),(l()(),yl.U(16777216,null,null,1,null,el)),yl.Y(65,278528,null,0,Gn.n,[yl.I,yl.F,Gn.m],{ngSwitchCase:[0,"ngSwitchCase"]},null),(l()(),yl._18(-1,null,["\n\n      "])),(l()(),yl.U(16777216,null,null,1,null,ol)),yl.Y(68,278528,null,0,Gn.n,[yl.I,yl.F,Gn.m],{ngSwitchCase:[0,"ngSwitchCase"]},null),(l()(),yl._18(-1,null,["\n\n      "])),(l()(),yl.U(16777216,null,null,1,null,rl)),yl.Y(71,278528,null,0,Gn.n,[yl.I,yl.F,Gn.m],{ngSwitchCase:[0,"ngSwitchCase"]},null),(l()(),yl._18(-1,null,["\n\n      "])),(l()(),yl.U(16777216,null,null,1,null,_l)),yl.Y(74,278528,null,0,Gn.n,[yl.I,yl.F,Gn.m],{ngSwitchCase:[0,"ngSwitchCase"]},null),(l()(),yl._18(-1,null,["\n\n      "])),(l()(),yl.U(16777216,null,null,1,null,gl)),yl.Y(77,278528,null,0,Gn.n,[yl.I,yl.F,Gn.m],{ngSwitchCase:[0,"ngSwitchCase"]},null),(l()(),yl._18(-1,null,["\n\n      "])),(l()(),yl.U(16777216,null,null,1,null,ml)),yl.Y(80,278528,null,0,Gn.n,[yl.I,yl.F,Gn.m],{ngSwitchCase:[0,"ngSwitchCase"]},null),(l()(),yl._18(-1,null,["\n\n    "])),(l()(),yl._18(-1,3,["\n  "])),(l()(),yl._18(-1,1,["\n"]))],function(l,n){var u=n.component;l(n,15,0,u.emoji_type);l(n,22,0,"emotions");l(n,26,0,"ani_nature");l(n,30,0,"activities");l(n,34,0,"symbols");l(n,38,0,"objects");l(n,42,0,"travel");l(n,46,0,"flags");l(n,59,0,u.emoji_type);l(n,62,0,"emotions");l(n,65,0,"ani_nature");l(n,68,0,"activities");l(n,71,0,"objects");l(n,74,0,"symbols");l(n,77,0,"travel");l(n,80,0,"flags")},function(l,n){l(n,3,0,yl._11(n,4)._hidden,yl._11(n,4)._sbPadding);l(n,11,0,yl._11(n,12)._sbPadding);l(n,14,0,yl._11(n,17).ngClassUntouched,yl._11(n,17).ngClassTouched,yl._11(n,17).ngClassPristine,yl._11(n,17).ngClassDirty,yl._11(n,17).ngClassValid,yl._11(n,17).ngClassInvalid,yl._11(n,17).ngClassPending,yl._11(n,18)._disabled);l(n,21,0,yl._11(n,22)._disabled,yl._11(n,22).isActive,yl._11(n,22).isActive);l(n,25,0,yl._11(n,26)._disabled,yl._11(n,26).isActive,yl._11(n,26).isActive);l(n,29,0,yl._11(n,30)._disabled,yl._11(n,30).isActive,yl._11(n,30).isActive);l(n,33,0,yl._11(n,34)._disabled,yl._11(n,34).isActive,yl._11(n,34).isActive);l(n,37,0,yl._11(n,38)._disabled,yl._11(n,38).isActive,yl._11(n,38).isActive);l(n,41,0,yl._11(n,42)._disabled,yl._11(n,42).isActive,yl._11(n,42).isActive);l(n,45,0,yl._11(n,46)._disabled,yl._11(n,46).isActive,yl._11(n,46).isActive);l(n,52,0,yl._11(n,53).statusbarPadding,yl._11(n,53)._hasRefresher);l(n,55,0,yl._11(n,56)._sbPadding)})}function fl(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,34,"ion-card",[["class","gif_container"]],null,null,null,null,null)),yl.Y(1,16384,null,0,uu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,null,["\n    "])),(l()(),yl.Z(3,0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(l()(),yl._18(-1,null,["\n    "])),(l()(),yl.Z(5,0,null,null,28,"ion-card-content",[],null,null,null,null,null)),yl.Y(6,16384,null,0,tu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.Z(8,0,null,null,2,"ion-card-title",[],null,null,null,null,null)),yl.Y(9,16384,null,0,mu.a,[dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,null,["\n\n      "])),(l()(),yl._18(-1,null,["\n      "])),(l()(),yl.Z(12,0,null,null,20,"ion-item",[["class","item item-block"]],null,null,null,jn.b,jn.a)),yl.Y(13,1097728,null,3,Yn.a,[Zn.a,dn.a,yl.j,yl.z,[2,kn.a]],null,null),yl._16(335544320,4,{contentLabel:0}),yl._16(603979776,5,{_buttons:1}),yl._16(603979776,6,{_icons:1}),yl.Y(17,16384,null,0,Cn.a,[],null,null),(l()(),yl._18(-1,2,["\n        "])),(l()(),yl.Z(19,0,null,2,12,"ion-item",[["class","item item-block"]],null,null,null,jn.b,jn.a)),yl.Y(20,1097728,null,3,Yn.a,[Zn.a,dn.a,yl.j,yl.z,[2,kn.a]],null,null),yl._16(335544320,7,{contentLabel:0}),yl._16(603979776,8,{_buttons:1}),yl._16(603979776,9,{_icons:1}),yl.Y(24,16384,null,0,Cn.a,[],null,null),(l()(),yl._18(-1,2,["\n          "])),(l()(),yl.Z(26,0,null,4,4,"a",[["button",""],["class","copy_link"],["item-right",""]],null,null,null,null,null)),(l()(),yl._18(-1,null,["\n            "])),(l()(),yl.Z(28,0,null,null,1,"ion-icon",[["name","copy"],["role","img"]],[[2,"hide",null]],null,null,null,null)),yl.Y(29,147456,[[9,4]],0,wn.a,[dn.a,yl.j,yl.z],{name:[0,"name"]},null),(l()(),yl._18(30,null,["",""])),(l()(),yl._18(-1,2,["\n\n        "])),(l()(),yl._18(-1,2,["\n      "])),(l()(),yl._18(-1,null,["\n    "])),(l()(),yl._18(-1,null,["\n  "]))],function(l,n){l(n,29,0,"copy")},function(l,n){l(n,3,0,yl._2(1,"",n.context.$implicit,""));l(n,28,0,yl._11(n,29)._hidden);l(n,30,0,n.context.$implicit)})}function bl(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,10,"ion-header",[],null,null,null,null,null)),yl.Y(1,16384,null,0,zn.a,[dn.a,yl.j,yl.z,[2,rn.a]],null,null),(l()(),yl._18(-1,null,["\n\n  "])),(l()(),yl.Z(3,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Pn.b,Pn.a)),yl.Y(4,49152,null,0,Tn.a,[_n.a,[2,rn.a],[2,cn.a],dn.a,yl.j,yl.z],null,null),(l()(),yl._18(-1,3,["\n    "])),(l()(),yl.Z(6,0,null,3,2,"ion-title",[],null,null,null,Sn.b,Sn.a)),yl.Y(7,49152,null,0,In.a,[dn.a,yl.j,yl.z,[2,An.a],[2,Tn.a]],null,null),(l()(),yl._18(-1,0,["Trending GIFS"])),(l()(),yl._18(-1,3,["\n  "])),(l()(),yl._18(-1,null,["\n\n"])),(l()(),yl._18(-1,null,["\n\n"])),(l()(),yl.Z(12,0,null,null,21,"ion-content",[["class","selectable"],["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Vn.b,Vn.a)),yl.Y(13,4374528,null,0,Dn.a,[dn.a,gn.a,fn.a,yl.j,yl.z,_n.a,Mn.a,yl.u,[2,rn.a],[2,cn.a]],null,null),(l()(),yl._18(-1,1,["\n  "])),(l()(),yl.Z(15,0,null,1,14,"ion-item",[["class","item item-block"]],null,null,null,jn.b,jn.a)),yl.Y(16,1097728,null,3,Yn.a,[Zn.a,dn.a,yl.j,yl.z,[2,kn.a]],null,null),yl._16(335544320,1,{contentLabel:0}),yl._16(603979776,2,{_buttons:1}),yl._16(603979776,3,{_icons:1}),yl.Y(20,16384,null,0,Cn.a,[],null,null),(l()(),yl._18(-1,2,["\n    "])),(l()(),yl.Z(22,0,null,2,1,"h1",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["Trending GIFS"])),(l()(),yl._18(-1,2,["\n    "])),(l()(),yl.Z(25,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),yl._18(-1,null,["All the latest GIFS that are hot on the web."])),(l()(),yl._18(-1,2,["\n    "])),(l()(),yl.Z(28,0,null,2,0,"img",[["src","../../assets/imgs/giphy_dark_rectangle.PNG"]],null,null,null,null,null)),(l()(),yl._18(-1,2,["\n  "])),(l()(),yl._18(-1,1,["\n\n  "])),(l()(),yl.U(16777216,null,1,1,null,fl)),yl.Y(32,802816,null,0,Gn.h,[yl.I,yl.F,yl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),yl._18(-1,1,["\n"]))],function(l,n){l(n,32,0,n.component.link_array)},function(l,n){l(n,3,0,yl._11(n,4)._hidden,yl._11(n,4)._sbPadding);l(n,12,0,yl._11(n,13).statusbarPadding,yl._11(n,13)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var vl=u(40),yl=u(0),jl=(u(2),u(35)),Yl=(u(21),u(94)),Zl=u(95),kl=function(){return function(){}}(),Cl=u(75),Fl=u.n(Cl),xl=u(33),wl=function(){function l(l,n,u,t){this.navCtrl=l,this.navParams=n,this.view=u,this.toastCtrl=t,this.keywords=[],this.emoji_lib=Fl.a.lib,this.emoji_json_keys=Object.keys(this.emoji_lib),this.favourite_emoji=[]}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad AddEmojiPage");var l=this.navParams.get("fav_emoji").fav_emoji;console.log("UserId",this.navParams.get("fav_emoji")),this.favourite_emoji=l;document.querySelectorAll(".emoji_c");this.clipboard=new xl(".emoji_c",{target:function(l){return l}}),this.clipboard.on("error",function(l){console.error("Action:",l.action),console.error("Trigger:",l.trigger),this.displayToast("error")})},l.prototype.close=function(){this.view.dismiss(this.favourite_emoji)},l.prototype.resetItems=function(){this.emoji_json_keys=Object.keys(this.emoji_lib)},l.prototype.addToFavourites=function(l){var n;this.favourite_emoji.indexOf(l)>-1?n=this.toastCtrl.create({message:"Emoji copied!",duration:1500,position:"middle"}):(this.favourite_emoji.push(l),console.log(this.favourite_emoji),n=this.toastCtrl.create({message:"Emoji copied & added to your favourites",duration:1500,position:"bottom"})),n.present()},l.prototype.displayToast=function(l){this.toastCtrl.create({message:{error:"Error copying your emoji. Try again.",success:"Emoji copied & added to your favourites"}[l],duration:1e3,position:"bottom"}).present()},l.prototype.getEmoji=function(l){this.resetItems();var n=l.target.value,u=document.querySelector("#no_emoji_msg");u.innerHTML=" ";var a=document.querySelector("#help_msg");if(n&&""!=n.trim()){var e=this.filterEmojis(this.emoji_json_keys,n);if(console.log(e.length),0===e.length){var i=["Sorry, no emojis found :(","Either a data race happened, or we couldn't find any emojis.","Damn, Daniel. No emojiiiis found. ;(","Oh, fiddlesticks! No emojis found. :'(","Oh, crap. Wow, we ... we couldn't find any emojis. Take this one instead. 🙂"],o=t(0,i.length-1);u.innerHTML=i[o],a.innerHTML="",console.log("Res is zero")}else a.innerHTML="Just click on an emoji to copy it.";this.emoji_json_keys=e}},l.prototype.filterEmojis=function(l,n){return this.emoji_json_keys.filter(function(l){return l.toLowerCase().indexOf(n.toLowerCase())>-1})},l}(),zl=function(){function l(l,n,u,t){this.navCtrl=l,this.navParams=n,this.view=u,this.toastCtrl=t,this.text_faces=["( ͡° ͜ʖ ͡°)","¯\\_(ツ)_/¯","( ͡°( ͡° ͜ʖ( ͡° ͜ʖ ͡°)ʖ ͡°) ͡°)","≧◡≦","(▰˘◡˘▰)","(▀̿Ĺ̯▀̿ ̿)","(ง ͠° ͟ل͜ ͡°)ง","༼ つ ◕_◕ ༽つ","ಠ_ಠ","(づ｡ ◕‿‿◕｡) づ ","[̲̅$̲̅(̲̅5̲̅)̲̅$̲̅]]","(∩︵∩)"],this.sad_text_faces=["(◡︿◡✿)","(✖╭╮✖)","(✖︿✖)","(✖︵✖)","(✖.✖)","v( ‘.’ )v","●︿●","◄.►","◄︿►","(◕︵◕)","≧︵≦"," ͡°︵°"],this.romance_text_faces=["(• ε •)","(♥ ε ♥)","(◕ ε ◕)","♥‿♥","(ﾉ◕ヮ◕)ﾉ*:・ﾟ♥ ✧ﾟ♥:ﾟ* ♥ﾟ✧ﾟヽ(◕ヮ◕ヽ)"],this.cute_text_faces=["~,~","⊂◉‿◉つ","●ᴥ●","(◕‿◕✿)","ʕ•ᴥ•ʔ","(●´ω｀●)",,"(ﾉ◕ヮ◕)ﾉ*:・ﾟ✧ ✧ﾟ・: *ヽ(◕ヮ◕ヽ)","ʕʘ‿ʘʔ","(✿◠‿◠)","(✿◠‿◠) *:・ﾟ✧ ✧"],this.happy_text_faces=["≖‿≖","٩(^‿^)۶","◕‿◕","✖‿✖"],this.angry_text_faces=["►.◄","{(>_<)}","ˇ︿ˇ",">.<","╔╦╦╦╗OMG\n\n  ╠╬╬╬╣CHOCOLATE!!\n  ╠╬╬╬╣Put this on your page\n  ╠╬╬╬╣If you LOVE\n  ╚╩╩╩╝♥ CHOCOLATE"],this.category="happy_text_faces"}return l.prototype.ionViewDidLoad=function(){var l=this;console.log("ionViewDidLoad AddTextFacesPage"),this.clipboard=new xl(".text_faces",{target:function(l){return l}}),this.clipboard.on("success",function(){return l.displayToast("success")}),this.clipboard.on("error",function(l){console.error("Action:",l.action),console.error("Trigger:",l.trigger),this.displayToast("error")})},l.prototype.addToFavourites=function(l){},l.prototype.close=function(){this.view.dismiss()},l.prototype.displayToast=function(l){this.toastCtrl.create({message:{error:"Error copying the text face. Try again.",success:"Copied & added to your favourites"}[l],duration:1e3,position:"bottom"}).present()},l}(),Pl=u(247),Tl=u(18),Sl=function(){function l(l,n,u){this.navCtrl=l,this.navParams=n,this.toastCtrl=u,this.cat_ascii_faces=Pl.cats}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad AddCatFacesPage"),console.log(this.cat_ascii_faces),this.initialiseClipboard()},l.prototype.initialiseClipboard=function(){this.clipboard=new xl(".western_text_faces",{target:function(l){return l}}),this.clipboard.on("error",function(l){console.error("Action:",l.action),console.error("Trigger:",l.trigger),this.displayToast("error")})},l.prototype.displayToast=function(l){this.toastCtrl.create({message:{error:"Error copying your emoji. Try again.",success:"Emoji copied & added to your favourites"}[l],duration:1e3,position:"bottom"}).present()},l}(),Il=function(){function l(l,n){this.navCtrl=l,this.navParams=n,this.favourite_emoji=[],this.emoji_lib=Fl.a.lib}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad FavouritesPage"),this.favourite_emoji=this.navParams.get("item"),console.log(this.favourite_emoji)},l}(),Al=function(){function l(l,n,u){this.navCtrl=l,this.navParams=n,this.toastCtrl=u,this.cool_symbols=["✓","⚖","☆","✪","✫","✬","✭","✮","✯","✰","⚝","✡","☫","☬","☸","✵","❂","☘","♡","♥","❤","⚘","❀","❃","❁","✼","☀","♫","♪","☃","❄","❅","❆","☂","❦","✈","♕","♛","♖","♜","☁","☾","⍀","⍁","⍂","⍃","⍄","⍅","⍆","⍇","⍈","⍉","⍊","⍋","⍌","⍍","⍎","⍏","⍐","⍑","⍒","⍓","⍔","⍕","⍖","⍗","⍙","⍚","⍛","⍜","⍝","⍞","⍟","▁","▂","▃","▄","▅","▆","▇","█","▉","▊","▋","▌","▍","▎","▏","▐","░","▒","▓","▔","▕","▖","▗","▘","▙","▚","▛","▜","▝","▞","▟"]}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad CoolSymbolsPage"),this.clipboard=new xl(".symbols",{target:function(l){return l}}),this.clipboard.on("error",function(l){console.error("Action:",l.action),console.error("Trigger:",l.trigger),this.displayToast("error")})},l.prototype.addToFavourites=function(l){this.toastCtrl.create({message:"Symbol copied & added to your favourites",duration:1500,position:"bottom"}).present()},l}(),Ol=(u(260),u(99)),$l=function(){function l(l,n,u,t){this.navCtrl=l,this.navParams=n,this.http=u,this.toastCtrl=t,this.link_array=[],this.cute_link_array=[],this.weather_link_array=[],this.effects_link_array=[],this.giphy_api_key=Ol.api_key,this.sticker_keywords=["weather","emoji","magic","tech"],this.sticker_array=[],this.reaction_link_array=[],this.todo={},this.sticker_type="emoji"}return l.prototype.logForm=function(){console.log(this.todo)},l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad GetGifsPage"),this.clipboard=new xl(".copy_link",{target:function(l){return l}}),this.getEmojiStickers(),this.getCuteStickers(),this.getReactionStickers(),this.getWeatherStickers(),this.getEffectsStickers(),this.clipboard.on("error",function(l){console.error("Action:",l.action),console.error("Trigger:",l.trigger),this.displayToast("error")})},l.prototype.getEmojiStickers=function(){var l=this;this.http.get("http://api.giphy.com/v1/stickers/search?q=emoji&api_key="+this.giphy_api_key+"&limit=90&rating=g").map(function(l){return l.json()}).subscribe(function(n){l.posts=n.data;for(var u=0,a=0;u<40;a+=1){var e=t(0,l.posts.length-1),i=l.posts[e].images.original.url;l.link_array.indexOf(i)>-1||(l.link_array.push(i),u+=1)}})},l.prototype.getCuteStickers=function(){var l=this;this.http.get("http://api.giphy.com/v1/stickers/search?q=cute&api_key="+this.giphy_api_key+"&limit=40").map(function(l){return l.json()}).subscribe(function(n){l.posts=n.data;for(var u=0;u<l.posts.length;u+=1){l.cute_link_array.push(l.posts[u].images.original.url)}})},l.prototype.getReactionStickers=function(){var l=this;this.http.get("http://api.giphy.com/v1/stickers/packs/2815?api_key="+this.giphy_api_key).map(function(l){return l.json()}).subscribe(function(n){l.posts=n.data,console.log(l.posts);for(var u=0;u<l.posts.length;u+=1){l.reaction_link_array.push(l.posts[u].images.original.url)}})},l.prototype.getWeatherStickers=function(){var l=this;this.http.get("http://api.giphy.com/v1/stickers/search?q=weather&api_key="+this.giphy_api_key+"&limit=40").map(function(l){return l.json()}).subscribe(function(n){for(var u=n.data,t=0;t<u.length;t+=1){l.weather_link_array.push(u[t].images.original.url)}})},l.prototype.getEffectsStickers=function(){var l=this;this.http.get("http://api.giphy.com/v1/stickers/search?q=effects&api_key="+this.giphy_api_key+"&limit=40").map(function(l){return l.json()}).subscribe(function(n){for(var u=n.data,t=0;t<u.length;t+=1){l.effects_link_array.push(u[t].images.original.url)}})},l.prototype.addToFavourites=function(l){},l.prototype.displayToast=function(l){this.toastCtrl.create({message:{error:"Error copying your emoji. Try again.",success:"Emoji copied & added to your favourites"}[l],duration:1e3,position:"bottom"}).present()},l}(),Ll=function(){function l(l,n,u){this.navCtrl=l,this.navParams=n,this.toastCtrl=u,this.emotion_emoji_array=[],this.emoji_lib=Fl.a.lib,this.favourites=[]}return l.prototype.ionViewDidLoad=function(){this.populateEmotionEmojiArray(),this.initialiseClipboard()},l.prototype.initialiseClipboard=function(){this.clipboard=new xl(".emoji_c",{target:function(l){return l}}),this.clipboard.on("error",function(l){console.error("Action:",l.action),console.error("Trigger:",l.trigger),this.displayToast("error")})},l.prototype.populateEmotionEmojiArray=function(){for(var l=Object.keys(this.emoji_lib),n=0;n<l.length;n+=1){var u=this.emoji_lib[l[n]];"people"===u.category&&this.emotion_emoji_array.push(u.char)}console.log(this.emotion_emoji_array)},l.prototype.displayToast=function(l){this.toastCtrl.create({message:{error:"Error copying your emoji. Try again.",success:"Emoji copied & added to your favourites"}[l],duration:1e3,position:"bottom"}).present()},l.prototype.addToFavourites=function(l){this.favourites.push(l),this.displayToast("success")},l}(),El=function(){function l(l,n,u){this.navCtrl=l,this.navParams=n,this.toastCtrl=u,this.ani_nature_emoji_array=[],this.emoji_lib=Fl.a.lib,this.favourites=[]}return l.prototype.ionViewDidLoad=function(){this.populateNatureEmojiArray(),this.initialiseClipboard()},l.prototype.initialiseClipboard=function(){this.clipboard=new xl(".emoji_c",{target:function(l){return l}}),this.clipboard.on("error",function(l){console.error("Action:",l.action),console.error("Trigger:",l.trigger),this.displayToast("error")})},l.prototype.populateNatureEmojiArray=function(){for(var l=Object.keys(this.emoji_lib),n=0;n<l.length;n+=1){var u=this.emoji_lib[l[n]];"animals_and_nature"===u.category&&this.ani_nature_emoji_array.push(u.char)}console.log(this.ani_nature_emoji_array)},l.prototype.displayToast=function(l){this.toastCtrl.create({message:{error:"Error copying your emoji. Try again.",success:"Emoji copied & added to your favourites"}[l],duration:1e3,position:"bottom"}).present()},l.prototype.addToFavourites=function(l){this.favourites.push(l),this.displayToast("success")},l}(),Ul=function(){function l(l,n,u){this.navCtrl=l,this.navParams=n,this.toastCtrl=u,this.emoji_lib=Fl.a.lib,this.emotion_emoji_array=[],this.ani_nature_emoji_array=[],this.activities_emoji_array=[],this.objects_emoji_array=[],this.symbols_emoji_array=[],this.travel_emoji_array=[],this.flags_emoji_array=[],this.favourites=[],this.emoji_type="emotions"}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad EmojiTypesPage"),this.populateEmojiArray("people",this.emotion_emoji_array),this.populateEmojiArray("animals_and_nature",this.ani_nature_emoji_array),this.populateEmojiArray("activity",this.activities_emoji_array),this.populateEmojiArray("objects",this.objects_emoji_array),this.populateEmojiArray("symbols",this.symbols_emoji_array),this.populateEmojiArray("travel_and_places",this.travel_emoji_array),this.populateEmojiArray("flags",this.flags_emoji_array),this.initialiseClipboard()},l.prototype.populateEmojiArray=function(l,n){for(var u=Object.keys(this.emoji_lib),t=0;t<u.length;t+=1){var a=this.emoji_lib[u[t]];a.category===l&&n.push(a.char)}},l.prototype.initialiseClipboard=function(){this.clipboard=new xl(".emoji_c",{target:function(l){return l}}),this.clipboard.on("error",function(l){console.error("Action:",l.action),console.error("Trigger:",l.trigger),this.displayToast("error")})},l.prototype.displayToast=function(l){this.toastCtrl.create({message:{error:"Error copying your emoji. Try again.",success:"Emoji copied & added to your favourites"}[l],duration:1e3,position:"bottom"}).present()},l.prototype.addToFavourites=function(l){this.favourites.push(l),this.displayToast("success")},l}(),Vl=function(){function l(l,n,u){this.navCtrl=l,this.navParams=n,this.toastCtrl=u,this.western_happy_text_faces=[":‑)",":)",":-]",":]",":-3",":3",":->",":>","8-)","8)",":-}",":}",":o)",":c)",":^)","=]","=)",":‑D",":D","8‑D","8D","x‑D","xD","X‑D","XD","=D","=3","B^D",":'‑)",":')"],this.western_sad_text_faces=[":‑(",":(",":‑c",":c",":‑<",":<",":‑[",":[",":-||",">:[",":{",":@",">:(",":'‑(",":'("],this.western_angry_text_faces=[">.<","v.v"],this.western_cute_text_faces=[":‑P",":P","X‑P","XP","x‑p","xp",":‑p",":p",":‑Þ",":Þ",":‑þ",":þ",":‑b",":b","d:","=p",">:P"],this.western_romance_text_faces=[":-*",":*",":×"],this.west_category="western_happy_text_faces"}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad WesternTextFacesPage"),this.initialiseClipboard()},l.prototype.initialiseClipboard=function(){this.clipboard=new xl(".western_text_faces",{target:function(l){return l}}),this.clipboard.on("error",function(l){console.error("Action:",l.action),console.error("Trigger:",l.trigger),this.displayToast("error")})},l.prototype.displayToast=function(l){this.toastCtrl.create({message:{error:"Error copying your emoji. Try again.",success:"Emoji copied & added to your favourites"}[l],duration:1e3,position:"bottom"}).present()},l}(),Dl=function(){function l(l,n){this.navCtrl=l,this.navParams=n,this.text={}}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad EmojifyPage")},l.prototype.getFieldText=function(l){console.log("Input change"),console.log(l)},l.prototype.onChange=function(l){console.log("input change"),console.log(this.text),console.log(l)},l}(),Ml=function(){function l(l,n,u){this.navCtrl=l,this.navParams=n,this.http=u,this.link_array=[],this.giphy_api_key=Ol.api_key,this.results=[],this.loadProgress=0,this.gif_display_count=20,this.search_term="",console.log("Looking for changes")}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad ServeGifsPage"),this.clipboard=new xl(".symbols",{target:function(l){return l}})},l.prototype.triggerSearch=function(l){var n=this;if(this.search_term=l.target.value,""!=this.search_term||""!=this.search_term.trim()){this.loadProgress=10;window.setTimeout(function(){n.loadProgress+=10},600),window.setTimeout(function(){n.searchGIFS(l)},500)}},l.prototype.searchGIFS=function(l){var n=this;console.log(l.target.value);var u=document.querySelector(".loading_msg");u.innerHTML="Getting you GIFS",this.loadProgress=30,this.http.get("https://api.giphy.com/v1/gifs/search?q="+this.search_term+"&api_key="+this.giphy_api_key+"&limit=40&rating=g").map(function(l){return l.json()}).subscribe(function(l){n.loadProgress=50,n.link_array=[],u.innerHTML="GIFs related to "+n.search_term;var a=l.data;if(0===a.length)u.innerHTML="No "+n.search_term+" GIFS found :( Try again maybe?",n.loadProgress=0;else{a.length<n.gif_display_count&&(n.gif_display_count=a.length);for(var e=0,i=0;e<20;i+=1){var o=a[t(0,a.length-1)].images.original.url;n.link_array.indexOf(o)>-1||(n.link_array.push(o),e+=1)}console.log(n.link_array),n.loadProgress=100}})},l}(),Gl=function(){function l(l,n,u){this.navCtrl=l,this.navParams=n,this.http=u,this.link_array=[],this.giphy_api_key=Ol.api_key,this.results=[],this.loadProgress=0,this.search_term="",this.total_display_count=40}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad SearchStickersPage"),this.clipboard=new xl(".copy_link",{target:function(l){return l}})},l.prototype.triggerSearch=function(l){var n=this;if(this.search_term=l.target.value,""!=this.search_term||""!=this.search_term.trim()){this.loadProgress=10;window.setTimeout(function(){n.loadProgress+=10},600),window.setTimeout(function(){n.searchGIFS(l)},500)}},l.prototype.searchGIFS=function(l){var n=this;console.log(l.target.value);var u=document.querySelector(".loading_msg");u.innerHTML='Loading "'+this.search_term+'" stickers',this.loadProgress=30,this.http.get("https://api.giphy.com/v1/stickers/search?q="+this.search_term+"&api_key="+this.giphy_api_key+"&limit=40&rating=g").map(function(l){return l.json()}).subscribe(function(l){n.loadProgress=50,n.link_array=[],u.innerHTML="";var a=l.data;if(0===a.length)u.innerHTML="Found no stickers :(",n.loadProgress=0;else{u.innerHTML="Stickers related to "+n.search_term,a.length<n.total_display_count&&(n.total_display_count=a.length,n.loadProgress=0);for(var e=0,i=0;e<n.total_display_count;i+=1){var o=a[t(0,a.length-1)].images.original.url;n.link_array.indexOf(o)>-1||(n.link_array.push(o),e+=1)}console.log(n.link_array),n.loadProgress=100}})},l}(),Rl=function(){function l(l,n,u,t){this.navCtrl=l,this.navParams=n,this.http=u,this.toastCtrl=t,this.link_array=[],this.giphy_api_key=Ol.api_key}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad TrendingGifsPage"),this.getTrendingGIFs(),this.clipboard=new xl(".copy_link",{target:function(l){return l}})},l.prototype.getTrendingGIFs=function(){var l=this;this.http.get("https://api.giphy.com/v1/gifs/trending?api_key="+this.giphy_api_key+"&limit=30&rating=g").map(function(l){return l.json()}).subscribe(function(n){l.posts=n.data;for(var u=0,a=0;u<20;a+=1){var e=t(0,l.posts.length-1),i=l.posts[e].images.original.url;l.link_array.indexOf(i)>-1||(l.link_array.push(i),u+=1)}})},l.prototype.addToFavourites=function(l){},l.prototype.displayToast=function(l){this.toastCtrl.create({message:{error:"Error copying your emoji. Try again.",success:"GIF copied & added to your favourites"}[l],duration:1e3,position:"bottom"}).present()},l}(),Xl=function(){function l(l,n){this.navCtrl=l,this.modalCtrl=n,this.addEmojiPage=wl,this.addTextFacesPage=zl,this.addCatFacesPage=Sl,this.favouritesPage=Il,this.coolSymbolsPage=Al,this.getGIFSPage=$l,this.trendingGIFSPage=Rl,this.emotionEmojiPage=Ll,this.searchStickersPage=Gl,this.animalsNatureEmojiPage=El,this.emojiTypesPage=Ul,this.westernTextFacesPage=Vl,this.serveGIFSPage=Ml,this.emojifyPage=Dl,this.favourite_emoji=[],this.media_type="stickers"}return l.prototype.getEmojiPage=function(){var l=this,n=this.modalCtrl.create(wl,{fav_emoji:{fav_emoji:this.favourite_emoji}},{cssClass:"modal-fullscreen"});n.onDidDismiss(function(n){n&&(console.log(n),l.saveItem(n))}),n.present()},l.prototype.getTextFacesPage=function(){this.modalCtrl.create(zl).present()},l.prototype.getFavouritesPage=function(){this.navCtrl.push(Il,{item:this.favourite_emoji})},l.prototype.saveItem=function(l){this.favourite_emoji=l,console.log(this.favourite_emoji)},l}(),Hl=function(){return function(l,n,u){this.rootPage=Xl,l.ready().then(function(){n.styleDefault(),u.hide()})}}(),ql=function(){function l(l,n){this.navCtrl=l,this.navParams=n}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad TrendingStickersPage")},l}(),Jl=function(){return function(){}}(),Nl=u(66),Wl=u(261),Bl=u(262),Ql=u(263),Kl=u(264),ln=u(265),nn=u(266),un=u(267),tn=u(268),an=u(269),en=u(270),on=u(56),sn=u(73),rn=u(5),cn=u(12),_n=u(6),dn=u(1),gn=u(4),pn=u(8),mn=u(45),hn=u(26),fn=u(7),bn=yl.X({encapsulation:2,styles:[],data:{}}),vn=yl.V("ng-component",Hl,function(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"ng-component",[],null,null,null,a,bn)),yl.Y(1,49152,null,0,Hl,[gn.a,Zl.a,Yl.a],null,null)],null,null)},{},{},[]),yn=u(50),jn=u(58),Yn=u(20),Zn=u(17),kn=u(34),Cn=u(38),Fn=u(88),xn=u(129),wn=u(32),zn=u(24),Pn=u(28),Tn=u(16),Sn=u(29),In=u(22),An=u(19),On=u(100),$n=u(14),Ln=u(63),En=u(101),Un=u(51),Vn=u(30),Dn=u(13),Mn=u(15),Gn=u(11),Rn=u(210),Xn=u(71),Hn=u(211),qn=u(55),Jn=u(87),Nn=yl.X({encapsulation:2,styles:[],data:{}}),Wn=yl.V("page-home",Xl,function(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"page-home",[],null,null,null,r,Nn)),yl.Y(1,49152,null,0,Xl,[cn.a,Jn.a],null,null)],null,null)},{},{},[]),Bn=u(102),Qn=u(57),Kn=u(9),lu=yl.X({encapsulation:2,styles:[],data:{}}),nu=yl.V("page-add-emoji",wl,function(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"page-add-emoji",[],null,null,null,_,lu)),yl.Y(1,49152,null,0,wl,[cn.a,Kn.a,rn.a,Tl.a],null,null)],null,null)},{},{},[]),uu=u(46),tu=u(47),au=yl.X({encapsulation:2,styles:[],data:{}}),eu=yl.V("page-add-text-faces",zl,function(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"page-add-text-faces",[],null,null,null,F,au)),yl.Y(1,49152,null,0,zl,[cn.a,Kn.a,rn.a,Tl.a],null,null)],null,null)},{},{},[]),iu=yl.X({encapsulation:2,styles:[],data:{}}),ou=yl.V("page-add-cat-faces",Sl,function(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"page-add-cat-faces",[],null,null,null,w,iu)),yl.Y(1,49152,null,0,Sl,[cn.a,Kn.a,Tl.a],null,null)],null,null)},{},{},[]),su=yl.X({encapsulation:2,styles:[],data:{}}),ru=yl.V("page-emotion-emoji",Ll,function(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"page-emotion-emoji",[],null,null,null,P,su)),yl.Y(1,49152,null,0,Ll,[cn.a,Kn.a,Tl.a],null,null)],null,null)},{},{},[]),cu=u(54),_u=u(212),du=u(72),gu=yl.X({encapsulation:2,styles:[],data:{}}),pu=yl.V("page-emojify",Dl,function(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"page-emojify",[],null,null,null,T,gu)),yl.Y(1,49152,null,0,Dl,[cn.a,Kn.a],null,null)],null,null)},{},{},[]),mu=u(69),hu=yl.X({encapsulation:2,styles:[],data:{}}),fu=yl.V("progress-bar",kl,function(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"progress-bar",[],null,null,null,S,hu)),yl.Y(1,49152,null,0,kl,[],null,null)],null,null)},{progress:"progress"},{},[]),bu=yl.X({encapsulation:2,styles:[],data:{}}),vu=yl.V("page-serve-gifs",Ml,function(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"page-serve-gifs",[],null,null,null,A,bu)),yl.Y(1,49152,null,0,Ml,[cn.a,Kn.a,jl.d],null,null)],null,null)},{},{},[]),yu=yl.X({encapsulation:2,styles:[],data:{}}),ju=yl.V("page-search-stickers",Gl,function(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"page-search-stickers",[],null,null,null,$,yu)),yl.Y(1,49152,null,0,Gl,[cn.a,Kn.a,jl.d],null,null)],null,null)},{},{},[]),Yu=yl.X({encapsulation:2,styles:[],data:{}}),Zu=yl.V("page-trending-stickers",ql,function(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"page-trending-stickers",[],null,null,null,L,Yu)),yl.Y(1,49152,null,0,ql,[cn.a,Kn.a],null,null)],null,null)},{},{},[]),ku=yl.X({encapsulation:2,styles:[],data:{}}),Cu=yl.V("page-western-text-faces",Vl,function(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"page-western-text-faces",[],null,null,null,J,ku)),yl.Y(1,49152,null,0,Vl,[cn.a,Kn.a,Tl.a],null,null)],null,null)},{},{},[]),Fu=yl.X({encapsulation:2,styles:[],data:{}}),xu=yl.V("page-favourites",Il,function(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"page-favourites",[],null,null,null,W,Fu)),yl.Y(1,49152,null,0,Il,[cn.a,Kn.a],null,null)],null,null)},{},{},[]),wu=yl.X({encapsulation:2,styles:[],data:{}}),zu=yl.V("page-cool-symbols",Al,function(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"page-cool-symbols",[],null,null,null,Q,wu)),yl.Y(1,49152,null,0,Al,[cn.a,Kn.a,Tl.a],null,null)],null,null)},{},{},[]),Pu=u(39),Tu=u(27),Su=yl.X({encapsulation:2,styles:[],data:{}}),Iu=yl.V("ng-component",$l,function(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"ng-component",[],null,null,null,K,Su)),yl.Y(1,49152,null,0,$l,[cn.a,Kn.a,jl.d,Tl.a],null,null)],null,null)},{},{},[]),Au=yl.X({encapsulation:2,styles:[],data:{}}),Ou=yl.V("page-emotion-emoji",El,function(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"page-emotion-emoji",[],null,null,null,nl,Au)),yl.Y(1,49152,null,0,El,[cn.a,Kn.a,Tl.a],null,null)],null,null)},{},{},[]),$u=yl.X({encapsulation:2,styles:[],data:{}}),Lu=yl.V("page-emoji-types",Ul,function(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"page-emoji-types",[],null,null,null,hl,$u)),yl.Y(1,49152,null,0,Ul,[cn.a,Kn.a,Tl.a],null,null)],null,null)},{},{},[]),Eu=yl.X({encapsulation:2,styles:[],data:{}}),Uu=yl.V("page-trending-gifs",Rl,function(l){return yl._19(0,[(l()(),yl.Z(0,0,null,null,1,"page-trending-gifs",[],null,null,null,bl,Eu)),yl.Y(1,49152,null,0,Rl,[cn.a,Kn.a,jl.d,Tl.a],null,null)],null,null)},{},{},[]),Vu=u(137),Du=u(111),Mu=u(113),Gu=u(134),Ru=u(49),Xu=u(118),Hu=u(198),qu=u(68),Ju=u(62),Nu=u(82),Wu=u(123),Bu=u(133),Qu=u(197),Ku=u(135),lt=u(43),nt=u(119),ut=u(136),tt=yl.W(Jl,[Nl.b],function(l){return yl._7([yl._8(512,yl.i,yl.S,[[8,[Wl.a,Bl.a,Ql.a,Kl.a,ln.a,nn.a,un.a,tn.a,an.a,vn,Wn,nu,eu,ou,ru,pu,vu,ju,Zu,Cu,xu,zu,fu,Iu,Ou,Lu,Uu]],[3,yl.i],yl.s]),yl._8(5120,yl.r,yl._15,[[3,yl.r]]),yl._8(4608,Gn.k,Gn.j,[yl.r,[2,Gn.s]]),yl._8(5120,yl.b,yl._1,[]),yl._8(5120,yl.p,yl._9,[]),yl._8(5120,yl.q,yl._12,[]),yl._8(4608,vl.c,vl.q,[Gn.c]),yl._8(6144,yl.D,null,[vl.c]),yl._8(4608,vl.f,Vu.a,[]),yl._8(5120,vl.d,function(l,n,u,t,a){return[new vl.k(l,n),new vl.o(u),new vl.n(t,a)]},[Gn.c,yl.u,Gn.c,Gn.c,vl.f]),yl._8(4608,vl.e,vl.e,[vl.d,yl.u]),yl._8(135680,vl.m,vl.m,[Gn.c]),yl._8(4608,vl.l,vl.l,[vl.e,vl.m]),yl._8(6144,yl.B,null,[vl.l]),yl._8(6144,vl.p,null,[vl.m]),yl._8(4608,yl.G,yl.G,[yl.u]),yl._8(4608,vl.h,vl.h,[Gn.c]),yl._8(4608,vl.i,vl.i,[Gn.c]),yl._8(4608,jl.c,jl.c,[]),yl._8(4608,jl.g,jl.b,[]),yl._8(5120,jl.i,jl.j,[]),yl._8(4608,jl.h,jl.h,[jl.c,jl.g,jl.i]),yl._8(4608,jl.f,jl.a,[]),yl._8(5120,jl.d,jl.k,[jl.h,jl.f]),yl._8(4608,$n.o,$n.o,[]),yl._8(4608,$n.d,$n.d,[]),yl._8(4608,Du.a,Du.a,[_n.a,dn.a]),yl._8(4608,Mu.a,Mu.a,[_n.a,dn.a]),yl._8(4608,Gu.a,Gu.a,[]),yl._8(4608,Zn.a,Zn.a,[]),yl._8(4608,Ru.a,Ru.a,[gn.a]),yl._8(4608,Mn.a,Mn.a,[dn.a,gn.a,yl.u,fn.a]),yl._8(4608,Xu.a,Xu.a,[_n.a,dn.a]),yl._8(5120,Gn.f,Hu.b,[Gn.q,[2,Gn.a],dn.a]),yl._8(4608,Gn.e,Gn.e,[Gn.f]),yl._8(5120,qu.b,qu.d,[_n.a,qu.a]),yl._8(5120,hn.a,hn.b,[_n.a,qu.b,Gn.e,Ju.b,yl.i]),yl._8(4608,Jn.a,Jn.a,[_n.a,dn.a,hn.a]),yl._8(4608,Nu.a,Nu.a,[_n.a,dn.a]),yl._8(4608,Wu.a,Wu.a,[_n.a,dn.a,hn.a]),yl._8(4608,Bu.a,Bu.a,[dn.a,gn.a,fn.a,_n.a,pn.l]),yl._8(4608,Tl.a,Tl.a,[_n.a,dn.a]),yl._8(4608,mn.a,mn.a,[gn.a,dn.a]),yl._8(4608,Zl.a,Zl.a,[]),yl._8(4608,Yl.a,Yl.a,[]),yl._8(512,Gn.b,Gn.b,[]),yl._8(512,yl.k,Qu.a,[]),yl._8(256,dn.b,{},[]),yl._8(1024,Ku.a,Ku.b,[]),yl._8(1024,gn.a,gn.b,[vl.b,Ku.a,yl.u]),yl._8(1024,dn.a,dn.c,[dn.b,gn.a]),yl._8(512,fn.a,fn.a,[gn.a]),yl._8(512,lt.a,lt.a,[]),yl._8(512,_n.a,_n.a,[dn.a,gn.a,[2,lt.a]]),yl._8(512,pn.l,pn.l,[_n.a]),yl._8(256,qu.a,{links:[]},[]),yl._8(512,yl.h,yl.h,[]),yl._8(512,nt.a,nt.a,[yl.h]),yl._8(1024,Ju.b,Ju.c,[nt.a,yl.o]),yl._8(1024,yl.c,function(l,n,u,t,a,e,i,o,s,r,c,_,d){return[vl.s(l),ut.a(n),Gu.b(u,t),Bu.b(a,e,i,o,s),Ju.d(r,c,_,d)]},[[2,yl.t],dn.a,gn.a,fn.a,dn.a,gn.a,fn.a,_n.a,pn.l,dn.a,qu.a,Ju.b,yl.u]),yl._8(512,yl.d,yl.d,[[2,yl.c]]),yl._8(131584,yl.f,yl.f,[yl.u,yl.T,yl.o,yl.k,yl.i,yl.d]),yl._8(512,yl.e,yl.e,[yl.f]),yl._8(512,vl.a,vl.a,[[3,vl.a]]),yl._8(512,jl.e,jl.e,[]),yl._8(512,$n.m,$n.m,[]),yl._8(512,$n.e,$n.e,[]),yl._8(512,$n.l,$n.l,[]),yl._8(512,Hu.a,Hu.a,[]),yl._8(512,Jl,Jl,[]),yl._8(256,Nl.a,Hl,[]),yl._8(256,Gn.a,"/",[])])});Object(yl.M)(),Object(vl.j)().bootstrapModuleFactory(tt)},252:function(l,n){},254:function(l,n){},99:function(l,n){l.exports={api_key:"Ysqww9WUVspxr7yWrbytNNbmsCOnkNOQ"}}},[213]);
+webpackJsonp([0],{
+
+/***/ 120:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 120;
+
+/***/ }),
+
+/***/ 162:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 162;
+
+/***/ }),
+
+/***/ 205:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__add_emoji_add_emoji__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__add_text_faces_add_text_faces__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__add_cat_faces_add_cat_faces__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__favourites_favourites__ = __webpack_require__(218);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__cool_symbols_cool_symbols__ = __webpack_require__(219);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__get_gifs_get_gifs__ = __webpack_require__(220);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__emotion_emoji_emotion_emoji__ = __webpack_require__(221);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__animals_nature_animals_nature__ = __webpack_require__(222);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__emoji_types_emoji_types__ = __webpack_require__(223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__western_text_faces_western_text_faces__ = __webpack_require__(224);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__emojify_emojify__ = __webpack_require__(225);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__serve_gifs_serve_gifs__ = __webpack_require__(226);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__search_stickers_search_stickers__ = __webpack_require__(227);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__trending_gifs_trending_gifs__ = __webpack_require__(228);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var HomePage = /** @class */ (function () {
+    function HomePage(navCtrl, modalCtrl) {
+        this.navCtrl = navCtrl;
+        this.modalCtrl = modalCtrl;
+        this.addEmojiPage = __WEBPACK_IMPORTED_MODULE_2__add_emoji_add_emoji__["a" /* AddEmojiPage */];
+        this.addTextFacesPage = __WEBPACK_IMPORTED_MODULE_3__add_text_faces_add_text_faces__["a" /* AddTextFacesPage */];
+        this.addCatFacesPage = __WEBPACK_IMPORTED_MODULE_4__add_cat_faces_add_cat_faces__["a" /* AddCatFacesPage */];
+        this.favouritesPage = __WEBPACK_IMPORTED_MODULE_5__favourites_favourites__["a" /* FavouritesPage */];
+        this.coolSymbolsPage = __WEBPACK_IMPORTED_MODULE_6__cool_symbols_cool_symbols__["a" /* CoolSymbolsPage */];
+        this.getGIFSPage = __WEBPACK_IMPORTED_MODULE_7__get_gifs_get_gifs__["a" /* GetGifsPage */];
+        this.trendingGIFSPage = __WEBPACK_IMPORTED_MODULE_15__trending_gifs_trending_gifs__["a" /* TrendingGifsPage */];
+        this.emotionEmojiPage = __WEBPACK_IMPORTED_MODULE_8__emotion_emoji_emotion_emoji__["a" /* EmotionEmojiPage */];
+        this.searchStickersPage = __WEBPACK_IMPORTED_MODULE_14__search_stickers_search_stickers__["a" /* SearchStickersPage */];
+        this.animalsNatureEmojiPage = __WEBPACK_IMPORTED_MODULE_9__animals_nature_animals_nature__["a" /* AnimalsNaturePage */];
+        this.emojiTypesPage = __WEBPACK_IMPORTED_MODULE_10__emoji_types_emoji_types__["a" /* EmojiTypesPage */];
+        this.westernTextFacesPage = __WEBPACK_IMPORTED_MODULE_11__western_text_faces_western_text_faces__["a" /* WesternTextFacesPage */];
+        this.serveGIFSPage = __WEBPACK_IMPORTED_MODULE_13__serve_gifs_serve_gifs__["a" /* ServeGifsPage */];
+        this.emojifyPage = __WEBPACK_IMPORTED_MODULE_12__emojify_emojify__["a" /* EmojifyPage */];
+        this.favourite_emoji = [];
+        this.media_type = "stickers";
+    }
+    HomePage.prototype.getEmojiPage = function () {
+        var _this = this;
+        var object = { "fav_emoji": this.favourite_emoji };
+        var modal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_2__add_emoji_add_emoji__["a" /* AddEmojiPage */], { "fav_emoji": object }, { cssClass: "modal-fullscreen" });
+        modal.onDidDismiss(function (favourites) {
+            if (favourites) {
+                console.log(favourites);
+                _this.saveItem(favourites);
+            }
+        });
+        modal.present();
+    };
+    HomePage.prototype.getTextFacesPage = function () {
+        var addModal = this.modalCtrl.create(__WEBPACK_IMPORTED_MODULE_3__add_text_faces_add_text_faces__["a" /* AddTextFacesPage */]);
+        addModal.present();
+    };
+    HomePage.prototype.getFavouritesPage = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_5__favourites_favourites__["a" /* FavouritesPage */], {
+            item: this.favourite_emoji
+        });
+    };
+    HomePage.prototype.saveItem = function (favourites) {
+        this.favourite_emoji = favourites;
+        console.log(this.favourite_emoji);
+    };
+    HomePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-home',template:/*ion-inline-start:"C:\Users\silvi\Desktop\copypastr\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>\n\n      CopyPastr v0.71\n\n    </ion-title>\n\n  </ion-navbar>\n\n\n\n  <ion-toolbar>\n\n    <ion-segment [(ngModel)]="media_type" color="secondary" value="stickers" isActive>\n\n      <ion-segment-button value="stickers">\n\n        Stickers\n\n      </ion-segment-button>\n\n      <ion-segment-button value="emoji">\n\n        Emoji\n\n      </ion-segment-button>\n\n      <ion-segment-button value="gifs">\n\n        GIFs\n\n      </ion-segment-button>\n\n      <ion-segment-button value="text_faces">\n\n        Text Faces\n\n      </ion-segment-button>\n\n    </ion-segment>\n\n  </ion-toolbar>\n\n\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n\n\n  <ion-toolbar>\n\n\n\n    <div [ngSwitch]="media_type">\n\n      <ion-list *ngSwitchCase="\'stickers\'">\n\n        <ion-item [navPush]="getGIFSPage">\n\n          <ion-thumbnail item-start>\n\n            <ion-icon name="images" item-start></ion-icon>\n\n          </ion-thumbnail>\n\n          <h2>Animated Stickers</h2>\n\n        </ion-item>\n\n\n\n        <ion-item [navPush]="searchStickersPage">\n\n          <ion-thumbnail item-start>\n\n            <ion-icon name="paper-plane" item-start></ion-icon>\n\n          </ion-thumbnail>\n\n          <h2>Search Stickers</h2>\n\n        </ion-item>\n\n\n\n      </ion-list>\n\n\n\n      <ion-list *ngSwitchCase="\'emoji\'">\n\n        <ion-item (click)="getEmojiPage()">\n\n          <ion-thumbnail item-start>\n\n            <ion-icon name="search" item-start></ion-icon>\n\n          </ion-thumbnail>\n\n          <h2>Search All Emoji</h2>\n\n        </ion-item>\n\n\n\n        <ion-item [navPush]="emojiTypesPage">\n\n          <ion-thumbnail item-start>\n\n            <ion-icon name="heart" item-start></ion-icon>\n\n          </ion-thumbnail>\n\n          <h2>Emoji Types</h2>\n\n        </ion-item>\n\n      </ion-list>\n\n\n\n      <ion-list *ngSwitchCase="\'gifs\'">\n\n        <ion-item [navPush]="serveGIFSPage">\n\n          <ion-thumbnail item-start>\n\n            <ion-icon name="search" item-start></ion-icon>\n\n          </ion-thumbnail>\n\n          <h2>Search for GIFS</h2>\n\n        </ion-item>\n\n\n\n        <ion-item [navPush]="trendingGIFSPage">\n\n          <ion-thumbnail item-start>\n\n            <ion-icon name="trending-up" item-start></ion-icon>\n\n          </ion-thumbnail>\n\n          <h2>Trending GIFS</h2>\n\n        </ion-item>\n\n\n\n      </ion-list>\n\n\n\n      <ion-list *ngSwitchCase="\'text_faces\'">\n\n        <ion-item [navPush]="westernTextFacesPage">\n\n          <ion-thumbnail item-start>\n\n            <ion-icon name="happy" item-start></ion-icon>\n\n          </ion-thumbnail>\n\n          <h2>Western Text Faces</h2>\n\n        </ion-item>\n\n\n\n        <ion-item [navPush]="addTextFacesPage">\n\n          <ion-thumbnail item-start>\n\n            <ion-icon name="outlet" item-start></ion-icon>\n\n          </ion-thumbnail>\n\n          <h2>Eastern Text Faces</h2>\n\n        </ion-item>\n\n\n\n        <ion-item [navPush]="coolSymbolsPage">\n\n          <ion-thumbnail item-start>\n\n            <ion-icon name="heart"></ion-icon>\n\n          </ion-thumbnail>\n\n          <h2>Text Symbols</h2>\n\n        </ion-item>\n\n\n\n        <ion-item [navPush]="addCatFacesPage">\n\n          <ion-thumbnail item-start>\n\n            <ion-icon name="arrow-dropup"></ion-icon>        \n\n            <ion-icon name="arrow-dropup"></ion-icon>          \n\n  \n\n          </ion-thumbnail>\n\n          <h2>Cat Faces</h2>\n\n        </ion-item>\n\n      </ion-list>\n\n\n\n    </div>\n\n  </ion-toolbar>\n\n  <ion-fab top right (click)="getFavouritesPage()">\n\n    <button ion-fab mini>\n\n      <ion-icon name="heart"></ion-icon>\n\n    </button>\n\n  </ion-fab>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\silvi\Desktop\copypastr\src\pages\home\home.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* ModalController */]])
+    ], HomePage);
+    return HomePage;
+}());
+
+//# sourceMappingURL=home.js.map
+
+/***/ }),
+
+/***/ 206:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddEmojiPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_emojilib__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_emojilib___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_emojilib__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_clipboard_dist_clipboard_min_js__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_clipboard_dist_clipboard_min_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_clipboard_dist_clipboard_min_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__modules_HelperUtils__ = __webpack_require__(46);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var AddEmojiPage = /** @class */ (function () {
+    function AddEmojiPage(navCtrl, navParams, view, toastCtrl) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.view = view;
+        this.toastCtrl = toastCtrl;
+        this.keywords = [];
+        this.emoji_lib = __WEBPACK_IMPORTED_MODULE_2_emojilib___default.a.lib;
+        this.emoji_json_keys = Object.keys(this.emoji_lib);
+        this.favourite_emoji = [];
+    }
+    AddEmojiPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad AddEmojiPage');
+        // let emoji_dict = this.emoji_dict;
+        // let emoji_keys = this.emoji_keys;
+        var fav_emoji_from_home = this.navParams.get("fav_emoji").fav_emoji;
+        console.log('UserId', this.navParams.get("fav_emoji"));
+        this.favourite_emoji = fav_emoji_from_home;
+        var emoji_elems = document.querySelectorAll(".emoji_c");
+        this.clipboard = new __WEBPACK_IMPORTED_MODULE_3_clipboard_dist_clipboard_min_js__('.emoji_c', {
+            target: function (trigger) {
+                return trigger;
+            }
+        });
+        this.clipboard.on('error', function (e) {
+            console.error('Action:', e.action);
+            console.error('Trigger:', e.trigger);
+            this.displayToast("error");
+        });
+    };
+    AddEmojiPage.prototype.close = function () {
+        this.view.dismiss(this.favourite_emoji);
+    };
+    AddEmojiPage.prototype.resetItems = function () {
+        this.emoji_json_keys = Object.keys(this.emoji_lib);
+    };
+    AddEmojiPage.prototype.addToFavourites = function (item) {
+        var toast;
+        if (this.favourite_emoji.indexOf(item) > -1) {
+            toast = this.toastCtrl.create({
+                message: 'Emoji copied!',
+                duration: 1500,
+                position: 'middle'
+            });
+        }
+        else {
+            this.favourite_emoji.push(item);
+            console.log(this.favourite_emoji);
+            // Display toast message
+            toast = this.toastCtrl.create({
+                message: 'Emoji copied & added to your favourites',
+                duration: 1500,
+                position: 'bottom'
+            });
+        }
+        toast.present();
+    };
+    AddEmojiPage.prototype.displayToast = function (state) {
+        var state_dict = { "error": "Error copying your emoji. Try again.", "success": "Emoji copied & added to your favourites" };
+        var toast = this.toastCtrl.create({
+            message: state_dict[state],
+            duration: 1000,
+            position: 'bottom'
+        });
+        toast.present();
+    };
+    AddEmojiPage.prototype.getEmoji = function (ev) {
+        this.resetItems();
+        var val = ev.target.value;
+        var val_c = val;
+        var no_emoji_elem = document.querySelector("#no_emoji_msg");
+        no_emoji_elem.innerHTML = " ";
+        var help_msg_elem = document.querySelector("#help_msg");
+        if (val && val.trim() != '') {
+            var res = this.filterEmojis(this.emoji_json_keys, val);
+            console.log(res.length);
+            // If no emojis were found
+            if (res.length === 0) {
+                var no_emoji_msgs = ["Sorry, no emojis found :(", "Either a data race happened, or we couldn't find any emojis.", "Damn, Daniel. No emojiiiis found. ;(", "Oh, fiddlesticks! No emojis found. :'(", "Oh, crap. Wow, we ... we couldn't find any emojis. Take this one instead. 🙂"];
+                var randomNum = Object(__WEBPACK_IMPORTED_MODULE_4__modules_HelperUtils__["a" /* getRandomNumber */])(0, no_emoji_msgs.length - 1);
+                var random_no_emoji_msg = no_emoji_msgs[randomNum];
+                no_emoji_elem.innerHTML = random_no_emoji_msg;
+                help_msg_elem.innerHTML = "";
+                console.log("Res is zero");
+            }
+            else {
+                help_msg_elem.innerHTML = "Just click on an emoji to copy it.";
+            }
+            this.emoji_json_keys = res;
+        }
+    };
+    AddEmojiPage.prototype.filterEmojis = function (emoji_keys, val) {
+        var res = this.emoji_json_keys.filter(function (item) {
+            return item.toLowerCase().indexOf(val.toLowerCase()) > -1;
+        });
+        return res;
+    };
+    AddEmojiPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-add-emoji',template:/*ion-inline-start:"C:\Users\silvi\Desktop\copypastr\src\pages\add-emoji\add-emoji.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>Copy & Paste Emoji</ion-title>\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n<ion-content padding class="selectable">\n  \n    <ion-fab top left (click)="close()">\n        <button ion-fab mini><ion-icon name="close-circle"></ion-icon></button>\n      </ion-fab>\n    <ion-searchbar (ionInput)="getEmoji($event)"></ion-searchbar>\n\n    <p id="help_msg">Just click on an emoji to copy it.</p>\n    <section class="single_symbols">\n      <span *ngFor="let item of emoji_json_keys" attr.id={{item}} class="emoji_c" (click)="addToFavourites(item)">{{emoji_lib[item].char}}</span>\n      <p id="no_emoji_msg"></p>\n    </section> -->\n\n    <!-- <ion-list [virtualScroll]="emoji_json_keys">\n\n        <ion-item *virtualItem="let item" id="ion-item">\n            {{emoji_lib[item].char}}\n        </ion-item>\n      \n      </ion-list>\n   -->\n</ion-content>'/*ion-inline-end:"C:\Users\silvi\Desktop\copypastr\src\pages\add-emoji\add-emoji.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* ViewController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ToastController */]])
+    ], AddEmojiPage);
+    return AddEmojiPage;
+}());
+
+//# sourceMappingURL=add-emoji.js.map
+
+/***/ }),
+
+/***/ 207:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddTextFacesPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_clipboard_dist_clipboard_min_js__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_clipboard_dist_clipboard_min_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_clipboard_dist_clipboard_min_js__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var AddTextFacesPage = /** @class */ (function () {
+    function AddTextFacesPage(navCtrl, navParams, view, toastCtrl) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.view = view;
+        this.toastCtrl = toastCtrl;
+        this.text_faces = ["( ͡° ͜ʖ ͡°)", "¯\\_(ツ)_/¯", "( ͡°( ͡° ͜ʖ( ͡° ͜ʖ ͡°)ʖ ͡°) ͡°)", "≧◡≦", "(▰˘◡˘▰)", "(▀̿Ĺ̯▀̿ ̿)", "(ง ͠° ͟ل͜ ͡°)ง", "༼ つ ◕_◕ ༽つ", "ಠ_ಠ", "(づ｡ ◕‿‿◕｡) づ ", "[̲̅$̲̅(̲̅5̲̅)̲̅$̲̅]]", "(∩︵∩)"];
+        this.sad_text_faces = ["(◡︿◡✿)", "(✖╭╮✖)", "(✖︿✖)", "(✖︵✖)", "(✖.✖)", "v( ‘.’ )v", "●︿●", "◄.►", "◄︿►", "(◕︵◕)", "≧︵≦", " ͡°︵°"];
+        this.romance_text_faces = ["(• ε •)", "(♥ ε ♥)", "(◕ ε ◕)", "♥‿♥", "(ﾉ◕ヮ◕)ﾉ*:・ﾟ♥ ✧ﾟ♥:ﾟ* ♥ﾟ✧ﾟヽ(◕ヮ◕ヽ)"];
+        this.cute_text_faces = ["~,~", "⊂◉‿◉つ", "●ᴥ●", "(◕‿◕✿)", "ʕ•ᴥ•ʔ", "(●´ω｀●)", , "(ﾉ◕ヮ◕)ﾉ*:・ﾟ✧ ✧ﾟ・: *ヽ(◕ヮ◕ヽ)", "ʕʘ‿ʘʔ", "(✿◠‿◠)", "(✿◠‿◠) *:・ﾟ✧ ✧"];
+        this.happy_text_faces = ["≖‿≖", "٩(^‿^)۶", "◕‿◕", "✖‿✖"];
+        this.angry_text_faces = ["►.◄", "{(>_<)}", "ˇ︿ˇ", ">.<",
+            "\u2554\u2566\u2566\u2566\u2557OMG\n\n  \u2560\u256C\u256C\u256C\u2563CHOCOLATE!!\n  \u2560\u256C\u256C\u256C\u2563Put this on your page\n  \u2560\u256C\u256C\u256C\u2563If you LOVE\n  \u255A\u2569\u2569\u2569\u255D\u2665 CHOCOLATE",];
+        this.category = "happy_text_faces";
+    }
+    AddTextFacesPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        console.log('ionViewDidLoad AddTextFacesPage');
+        this.clipboard = new __WEBPACK_IMPORTED_MODULE_2_clipboard_dist_clipboard_min_js__('.text_faces', {
+            target: function (trigger) {
+                return trigger;
+            }
+        });
+        this.clipboard.on('success', function () { return _this.displayToast("success"); });
+        this.clipboard.on('error', function (e) {
+            console.error('Action:', e.action);
+            console.error('Trigger:', e.trigger);
+            this.displayToast("error");
+        });
+    };
+    AddTextFacesPage.prototype.addToFavourites = function (item) {
+    };
+    AddTextFacesPage.prototype.close = function () {
+        this.view.dismiss();
+    };
+    AddTextFacesPage.prototype.displayToast = function (state) {
+        var state_dict = { "error": "Error copying the text face. Try again.", "success": "Copied & added to your favourites" };
+        var toast = this.toastCtrl.create({
+            message: state_dict[state],
+            duration: 1000,
+            position: 'bottom'
+        });
+        toast.present();
+    };
+    AddTextFacesPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-add-text-faces',template:/*ion-inline-start:"C:\Users\silvi\Desktop\copypastr\src\pages\add-text-faces\add-text-faces.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>Eastern Text Faces</ion-title>\n  </ion-navbar>\n  <ion-toolbar>\n    <ion-segment [(ngModel)]="category">\n      <ion-segment-button value="happy_text_faces">\n        Happy\n      </ion-segment-button>\n      <ion-segment-button value="sad_text_faces">\n        Sad\n      </ion-segment-button>\n      <ion-segment-button value="cute_text_faces">\n        Cute\n      </ion-segment-button>\n      <ion-segment-button value="romance_text_faces">\n        Romantic\n      </ion-segment-button>\n      <ion-segment-button value="angry_text_faces">\n        Angry\n      </ion-segment-button>\n    </ion-segment>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content padding class="selectable" overflow-scroll="true">\n\n  <ion-toolbar>\n\n    <div [ngSwitch]="category">\n      <ion-list *ngSwitchCase="\'happy_text_faces\'">\n        <section>\n          <h1>:) Text Faces</h1>\n          <ion-card *ngFor="let item of text_faces" attr.id={{item}} class="text_faces" overflow-scroll="true">\n\n            <ion-card-content>\n              {{item}}\n            </ion-card-content>\n\n          </ion-card>\n        </section>\n\n      </ion-list>\n\n      <ion-list *ngSwitchCase="\'sad_text_faces\'">\n        <section>\n          <h1>Sad Text Faces</h1>\n          <ion-card *ngFor="let item of sad_text_faces" attr.id={{item}} class="text_faces" (click)="addToFavourites(item)">\n\n            <ion-card-content>\n              {{item}}\n            </ion-card-content>\n\n          </ion-card>\n\n        </section>\n\n      </ion-list>\n\n      <ion-list *ngSwitchCase="\'cute_text_faces\'">\n        <section>\n          <h1>Super Cuute Text Faces</h1>\n          <span>{{item}}</span>\n\n          <ion-card *ngFor="let item of cute_text_faces" attr.id={{item}} class="text_faces" (click)="addToFavourites(item)">\n\n            <ion-card-content>\n              {{item}}\n            </ion-card-content>\n\n          </ion-card>\n        </section>\n\n      </ion-list>\n\n      <ion-list *ngSwitchCase="\'romance_text_faces\'">\n        <section>\n            <h1>Romance Text Faces</h1>\n\n            <ion-card *ngFor="let item of romance_text_faces" attr.id={{item}} class="text_faces" (click)="addToFavourites(item)">\n          \n              <ion-card-content>\n                {{item}}\n              </ion-card-content>\n          \n            </ion-card>\n        </section>\n      </ion-list>\n\n      <ion-list *ngSwitchCase="\'angry_text_faces\'">\n        <section>\n\n          <h1>Angry Text Faces</h1>\n          <ion-card *ngFor="let item of angry_text_faces" attr.id={{item}} class="text_faces" (click)="addToFavourites(item)">\n        \n            <ion-card-content>\n              {{item}}\n            </ion-card-content>\n        \n          </ion-card>\n        \n        </section>\n      </ion-list>\n\n      <ion-list *ngSwitchCase="\'travel\'">\n        <section>\n          <p class="help_msg">Just click on an emoji to copy it.</p>\n\n          <span *ngFor="let item of travel_emoji_array" attr.id={{item}} class="emoji_c" (click)="addToFavourites(item)">{{item}}</span>\n\n        </section>\n      </ion-list>\n\n      <ion-list *ngSwitchCase="\'flags\'">\n        <section>\n          <p class="help_msg">Just click on an emoji to copy it.</p>\n\n          <span *ngFor="let item of flags_emoji_array" attr.id={{item}} class="emoji_c" (click)="addToFavourites(item)">{{item}}</span>\n\n        </section>\n      </ion-list>\n\n    </div>\n  </ion-toolbar>\n\n</ion-content>'/*ion-inline-end:"C:\Users\silvi\Desktop\copypastr\src\pages\add-text-faces\add-text-faces.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* ViewController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* ToastController */]])
+    ], AddTextFacesPage);
+    return AddTextFacesPage;
+}());
+
+//# sourceMappingURL=add-text-faces.js.map
+
+/***/ }),
+
+/***/ 208:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddCatFacesPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_cat_ascii_faces__ = __webpack_require__(305);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_cat_ascii_faces___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_cat_ascii_faces__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_clipboard_dist_clipboard_min_js__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_clipboard_dist_clipboard_min_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_clipboard_dist_clipboard_min_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ionic_angular_components_toast_toast_controller__ = __webpack_require__(20);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var AddCatFacesPage = /** @class */ (function () {
+    function AddCatFacesPage(navCtrl, navParams, toastCtrl) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.toastCtrl = toastCtrl;
+        this.cat_ascii_faces = __WEBPACK_IMPORTED_MODULE_2_cat_ascii_faces__["cats"]; // list of cat ascii faces
+    }
+    AddCatFacesPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad AddCatFacesPage');
+        console.log(this.cat_ascii_faces);
+        this.initialiseClipboard();
+    };
+    AddCatFacesPage.prototype.initialiseClipboard = function () {
+        this.clipboard = new __WEBPACK_IMPORTED_MODULE_3_clipboard_dist_clipboard_min_js__('.western_text_faces', {
+            target: function (trigger) {
+                return trigger;
+            }
+        });
+        this.clipboard.on('error', function (e) {
+            console.error('Action:', e.action);
+            console.error('Trigger:', e.trigger);
+            this.displayToast("error");
+        });
+    };
+    AddCatFacesPage.prototype.displayToast = function (state) {
+        var state_dict = { "error": "Error copying your emoji. Try again.", "success": "Emoji copied & added to your favourites" };
+        var toast = this.toastCtrl.create({
+            message: state_dict[state],
+            duration: 1000,
+            position: 'bottom'
+        });
+        toast.present();
+    };
+    AddCatFacesPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-add-cat-faces',template:/*ion-inline-start:"C:\Users\silvi\Desktop\copypastr\src\pages\add-cat-faces\add-cat-faces.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>Cute Cat Faces</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding class="selectable">\n\n  <section>\n\n      <ion-card *ngFor="let item of cat_ascii_faces" attr.id={{item}} class="ascii_faces" overflow-scroll="true">\n\n        <ion-card-content>\n          {{item}}\n        </ion-card-content>\n\n      </ion-card>\n    </section>\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\silvi\Desktop\copypastr\src\pages\add-cat-faces\add-cat-faces.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */], __WEBPACK_IMPORTED_MODULE_4_ionic_angular_components_toast_toast_controller__["a" /* ToastController */]])
+    ], AddCatFacesPage);
+    return AddCatFacesPage;
+}());
+
+//# sourceMappingURL=add-cat-faces.js.map
+
+/***/ }),
+
+/***/ 218:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FavouritesPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_emojilib__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_emojilib___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_emojilib__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var FavouritesPage = /** @class */ (function () {
+    function FavouritesPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.favourite_emoji = [];
+        this.emoji_lib = __WEBPACK_IMPORTED_MODULE_2_emojilib___default.a.lib;
+    }
+    FavouritesPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad FavouritesPage');
+        this.favourite_emoji = this.navParams.get('item');
+        console.log(this.favourite_emoji);
+    };
+    FavouritesPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-favourites',template:/*ion-inline-start:"C:\Users\silvi\Desktop\copypastr\src\pages\favourites\favourites.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>Your Favourites</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding>\n  <h1>Emoji</h1>\n  <section id="emoji">\n      <p *ngFor="let item of favourite_emoji">{{emoji_lib[item].char}}</p>\n\n    </section>\n</ion-content>'/*ion-inline-end:"C:\Users\silvi\Desktop\copypastr\src\pages\favourites\favourites.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+    ], FavouritesPage);
+    return FavouritesPage;
+}());
+
+//# sourceMappingURL=favourites.js.map
+
+/***/ }),
+
+/***/ 219:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoolSymbolsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular_components_toast_toast_controller__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_clipboard_dist_clipboard_min_js__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_clipboard_dist_clipboard_min_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_clipboard_dist_clipboard_min_js__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var CoolSymbolsPage = /** @class */ (function () {
+    function CoolSymbolsPage(navCtrl, navParams, toastCtrl) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.toastCtrl = toastCtrl;
+        this.cool_symbols = ["✓", "⚖", "☆", "✪", "✫", "✬", "✭", "✮", "✯", "✰", "⚝", "✡", "☫", "☬", "☸", "✵", "❂", "☘", "♡", "♥", "❤", "⚘", "❀", "❃", "❁", "✼", "☀", "♫", "♪", "☃", "❄", "❅", "❆", "☂", "❦", "✈", "♕", "♛", "♖", "♜", "☁", "☾", "⍀", "⍁", "⍂", "⍃", "⍄", "⍅", "⍆", "⍇", "⍈", "⍉", "⍊", "⍋", "⍌", "⍍", "⍎", "⍏", "⍐", "⍑", "⍒", "⍓", "⍔", "⍕", "⍖", "⍗", "⍙", "⍚", "⍛", "⍜", "⍝", "⍞", "⍟", "▁", "▂", "▃", "▄", "▅", "▆", "▇", "█", "▉", "▊", "▋", "▌", "▍", "▎", "▏", "▐", "░", "▒", "▓", "▔", "▕", "▖", "▗", "▘", "▙", "▚", "▛", "▜", "▝", "▞", "▟"];
+    }
+    CoolSymbolsPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad CoolSymbolsPage');
+        this.clipboard = new __WEBPACK_IMPORTED_MODULE_3_clipboard_dist_clipboard_min_js__('.symbols', {
+            target: function (trigger) {
+                return trigger;
+            }
+        });
+        this.clipboard.on('error', function (e) {
+            console.error('Action:', e.action);
+            console.error('Trigger:', e.trigger);
+            this.displayToast("error");
+        });
+    };
+    CoolSymbolsPage.prototype.addToFavourites = function (item) {
+        var toast;
+        // Display toast message
+        toast = this.toastCtrl.create({
+            message: 'Symbol copied & added to your favourites',
+            duration: 1500,
+            position: 'bottom'
+        });
+        toast.present();
+    };
+    CoolSymbolsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-cool-symbols',template:/*ion-inline-start:"C:\Users\silvi\Desktop\copypastr\src\pages\cool-symbols\cool-symbols.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>Cool Unicode Symbols</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n<ion-content padding class="selectable">\n    <section class="single_symbols" (click)="addToFavourites(item)">\n      <span *ngFor="let item of cool_symbols" attr.id={{item}} class="symbols">{{item}}</span>\n    </section>\n  \n  </ion-content>'/*ion-inline-end:"C:\Users\silvi\Desktop\copypastr\src\pages\cool-symbols\cool-symbols.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular_components_toast_toast_controller__["a" /* ToastController */]])
+    ], CoolSymbolsPage);
+    return CoolSymbolsPage;
+}());
+
+//# sourceMappingURL=cool-symbols.js.map
+
+/***/ }),
+
+/***/ 220:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GetGifsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__ = __webpack_require__(318);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_clipboard_dist_clipboard_min_js__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_clipboard_dist_clipboard_min_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_clipboard_dist_clipboard_min_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_ionic_angular_components_toast_toast_controller__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__env_giphy_api_key_json__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__env_giphy_api_key_json___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__env_giphy_api_key_json__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__modules_HelperUtils__ = __webpack_require__(46);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+var GetGifsPage = /** @class */ (function () {
+    function GetGifsPage(navCtrl, navParams, http, toastCtrl) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.http = http;
+        this.toastCtrl = toastCtrl;
+        this.link_array = [];
+        this.cute_link_array = [];
+        this.weather_link_array = [];
+        this.effects_link_array = [];
+        this.giphy_api_key = __WEBPACK_IMPORTED_MODULE_6__env_giphy_api_key_json__["api_key"];
+        this.sticker_keywords = ["weather", "emoji", "magic", "tech"];
+        this.sticker_array = [];
+        this.reaction_link_array = [];
+        this.todo = {};
+        this.sticker_type = "emoji";
+    }
+    GetGifsPage.prototype.logForm = function () {
+        console.log(this.todo);
+    };
+    ;
+    GetGifsPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad GetGifsPage');
+        this.clipboard = new __WEBPACK_IMPORTED_MODULE_4_clipboard_dist_clipboard_min_js__('.copy_link', {
+            target: function (trigger) {
+                return trigger;
+            }
+        });
+        this.getEmojiStickers();
+        this.getCuteStickers();
+        this.getReactionStickers();
+        this.getWeatherStickers();
+        this.getEffectsStickers();
+        this.clipboard.on('error', function (e) {
+            console.error('Action:', e.action);
+            console.error('Trigger:', e.trigger);
+            this.displayToast("error");
+        });
+    };
+    GetGifsPage.prototype.getEmojiStickers = function () {
+        var _this = this;
+        this.http.get("http://api.giphy.com/v1/stickers/search?q=emoji&api_key=" + this.giphy_api_key + "&limit=90&rating=g").map(function (res) { return res.json(); }).subscribe(function (data) {
+            _this.posts = data.data;
+            var link_count = 0;
+            for (var k = 0; link_count < 40; k += 1) {
+                var ranIndex = Object(__WEBPACK_IMPORTED_MODULE_7__modules_HelperUtils__["a" /* getRandomNumber */])(0, _this.posts.length - 1);
+                var link = _this.posts[ranIndex].images.original.url;
+                if (_this.link_array.indexOf(link) > -1) {
+                    continue;
+                }
+                else {
+                    _this.link_array.push(link);
+                    link_count += 1;
+                }
+            }
+        });
+    };
+    GetGifsPage.prototype.getCuteStickers = function () {
+        var _this = this;
+        this.http.get("http://api.giphy.com/v1/stickers/search?q=cute&api_key=" + this.giphy_api_key + "&limit=40").map(function (res) { return res.json(); }).subscribe(function (data) {
+            _this.posts = data.data;
+            for (var k = 0; k < _this.posts.length; k += 1) {
+                var link = _this.posts[k].images.original.url;
+                _this.cute_link_array.push(link);
+            }
+        });
+    };
+    GetGifsPage.prototype.getReactionStickers = function () {
+        var _this = this;
+        this.http.get("http://api.giphy.com/v1/stickers/packs/2815?api_key=" + this.giphy_api_key).map(function (res) { return res.json(); }).subscribe(function (data) {
+            _this.posts = data.data;
+            console.log(_this.posts);
+            for (var k = 0; k < _this.posts.length; k += 1) {
+                var link = _this.posts[k].images.original.url;
+                _this.reaction_link_array.push(link);
+            }
+        });
+    };
+    GetGifsPage.prototype.getWeatherStickers = function () {
+        var _this = this;
+        this.http.get("http://api.giphy.com/v1/stickers/search?q=weather&api_key=" + this.giphy_api_key + "&limit=40").map(function (res) { return res.json(); }).subscribe(function (data) {
+            var out_data = data.data;
+            for (var k = 0; k < out_data.length; k += 1) {
+                var link = out_data[k].images.original.url;
+                _this.weather_link_array.push(link);
+            }
+        });
+    };
+    GetGifsPage.prototype.getEffectsStickers = function () {
+        var _this = this;
+        this.http.get("http://api.giphy.com/v1/stickers/search?q=effects&api_key=" + this.giphy_api_key + "&limit=40").map(function (res) { return res.json(); }).subscribe(function (data) {
+            var out_data = data.data;
+            for (var k = 0; k < out_data.length; k += 1) {
+                var link = out_data[k].images.original.url;
+                _this.effects_link_array.push(link);
+            }
+        });
+    };
+    GetGifsPage.prototype.addToFavourites = function (item) {
+    };
+    GetGifsPage.prototype.displayToast = function (state) {
+        var state_dict = { "error": "Error copying your emoji. Try again.", "success": "Emoji copied & added to your favourites" };
+        var toast = this.toastCtrl.create({
+            message: state_dict[state],
+            duration: 1000,
+            position: 'bottom'
+        });
+        toast.present();
+    };
+    GetGifsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-get-gifs',template:/*ion-inline-start:"C:\Users\silvi\Desktop\copypastr\src\pages\get-gifs\get-gifs.html"*/'<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Stickers & GIFS</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n<ion-content padding class="selectable">\n\n  <p>Get all your animated emoji stickers here. You\'ll get a new mix of stickers every time.</p>\n\n  <div padding>\n\n    <ion-segment [(ngModel)]="sticker_type">\n\n      <ion-segment-button value="emoji">\n\n        Emoji\n\n      </ion-segment-button>\n\n      <ion-segment-button value="cute">\n\n        Cute\n\n      </ion-segment-button>\n\n\n\n      <ion-segment-button value="effects">\n\n        Effects\n\n      </ion-segment-button>\n\n      <ion-segment-button value="weather">\n\n        Weather\n\n      </ion-segment-button>\n\n\n\n    </ion-segment>\n\n  </div>\n\n\n\n  <div [ngSwitch]="sticker_type">\n\n    <ion-list *ngSwitchCase="\'emoji\'">\n\n\n\n      <ion-item>\n\n        <h1>Emoji</h1>\n\n\n\n        <p>Get all your animated stickers here. They\'re perfect for message reactions! Just copy the link below the sticker\n\n          you wish to send. 👀</p>\n\n\n\n        <img src="../../assets/imgs/giphy_dark_rectangle.PNG">\n\n\n\n\n\n      </ion-item>\n\n\n\n      <ion-card *ngFor="let item of link_array" class="sticker_container">\n\n        <img src={{item}}/>\n\n        <ion-card-content>\n\n\n\n          <ion-item>\n\n            <ion-item>\n\n              <a button class="copy_link" item-right>\n\n                <ion-icon name="copy"></ion-icon>{{item}}</a>\n\n            </ion-item>\n\n\n\n          </ion-item>\n\n        </ion-card-content>\n\n      </ion-card>\n\n\n\n    </ion-list>\n\n\n\n    <ion-list *ngSwitchCase="\'cute\'">\n\n      <ion-item>\n\n        <h1>Cute</h1>\n\n        <p>From the kawaii to the super cute, these adorable stickers will have you blushing.</p>\n\n        <img src="../../assets/imgs/giphy_dark_rectangle.PNG">\n\n\n\n      </ion-item>\n\n\n\n      <ion-card *ngFor="let item of cute_link_array" class="sticker_container">\n\n        <img src={{item}}/>\n\n        <ion-card-content>\n\n          <ion-card-title>\n\n\n\n          </ion-card-title>\n\n          <ion-item>\n\n            <ion-item>\n\n              <a button class="copy_link" item-right>\n\n                <ion-icon name="copy"></ion-icon>{{item}}</a>\n\n            </ion-item>\n\n\n\n          </ion-item>\n\n        </ion-card-content>\n\n      </ion-card>\n\n\n\n    </ion-list>\n\n\n\n    <ion-list *ngSwitchCase="\'effects\'">\n\n      <ion-item>\n\n        <h1>Effects</h1>\n\n        <p>Add a touch of magic to your next convo.</p>\n\n        <img src="../../assets/imgs/giphy_dark_rectangle.PNG">\n\n\n\n      </ion-item>\n\n\n\n      <ion-card *ngFor="let item of effects_link_array" class="sticker_container">\n\n        <img src={{item}}/>\n\n        <ion-card-content>\n\n\n\n          <ion-item>\n\n            <ion-item>\n\n              <a button class="copy_link" item-right>\n\n                <ion-icon name="copy"></ion-icon>{{item}}</a>\n\n            </ion-item>\n\n\n\n          </ion-item>\n\n        </ion-card-content>\n\n      </ion-card>\n\n\n\n    </ion-list>\n\n\n\n    <ion-list *ngSwitchCase="\'weather\'">\n\n      <ion-item>\n\n        <h1>Weather</h1>\n\n        <p>Raining? Sun shining? There\'s a sticker for that.</p>\n\n        <img src="../../assets/imgs/giphy_dark_rectangle.PNG">\n\n\n\n      </ion-item>\n\n\n\n      <ion-card *ngFor="let item of weather_link_array" class="sticker_container">\n\n        <img src={{item}}/>\n\n        <ion-card-content>\n\n          <ion-card-title>\n\n\n\n          </ion-card-title>\n\n          <ion-item>\n\n            <ion-item>\n\n              <a button class="copy_link" item-right>\n\n                <ion-icon name="copy"></ion-icon>{{item}}</a>\n\n            </ion-item>\n\n\n\n          </ion-item>\n\n        </ion-card-content>\n\n      </ion-card>\n\n    </ion-list>\n\n\n\n\n\n  </div>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\silvi\Desktop\copypastr\src\pages\get-gifs\get-gifs.html"*/,
+        }),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            template: "\n    <form (ngSubmit)=\"logForm()\">\n      <ion-item>\n        <ion-label>Todo</ion-label>\n        <ion-input type=\"text\" [(ngModel)]=\"todo.title\" name=\"title\"></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-label>Description</ion-label>\n        <ion-textarea [(ngModel)]=\"todo.description\" name=\"description\"></ion-textarea>\n      </ion-item>\n      <button ion-button type=\"submit\" block>Add Todo</button>\n    </form>\n  ",
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */], __WEBPACK_IMPORTED_MODULE_5_ionic_angular_components_toast_toast_controller__["a" /* ToastController */]])
+    ], GetGifsPage);
+    return GetGifsPage;
+}());
+
+//# sourceMappingURL=get-gifs.js.map
+
+/***/ }),
+
+/***/ 221:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EmotionEmojiPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_emojilib__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_emojilib___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_emojilib__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_clipboard_dist_clipboard_min_js__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_clipboard_dist_clipboard_min_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_clipboard_dist_clipboard_min_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ionic_angular_components_toast_toast_controller__ = __webpack_require__(20);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var EmotionEmojiPage = /** @class */ (function () {
+    function EmotionEmojiPage(navCtrl, navParams, toastCtrl) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.toastCtrl = toastCtrl;
+        this.emotion_emoji_array = [];
+        this.emoji_lib = __WEBPACK_IMPORTED_MODULE_2_emojilib___default.a.lib;
+        this.favourites = [];
+    }
+    EmotionEmojiPage.prototype.ionViewDidLoad = function () {
+        this.populateEmotionEmojiArray();
+        this.initialiseClipboard();
+    };
+    EmotionEmojiPage.prototype.initialiseClipboard = function () {
+        this.clipboard = new __WEBPACK_IMPORTED_MODULE_3_clipboard_dist_clipboard_min_js__('.emoji_c', {
+            target: function (trigger) {
+                return trigger;
+            }
+        });
+        this.clipboard.on('error', function (e) {
+            console.error('Action:', e.action);
+            console.error('Trigger:', e.trigger);
+            this.displayToast("error");
+        });
+    };
+    EmotionEmojiPage.prototype.populateEmotionEmojiArray = function () {
+        var emoji_dict_keys = Object.keys(this.emoji_lib);
+        for (var k = 0; k < emoji_dict_keys.length; k += 1) {
+            var emoji_1 = this.emoji_lib[emoji_dict_keys[k]];
+            var em_category = emoji_1.category;
+            if (em_category === "people") {
+                this.emotion_emoji_array.push(emoji_1.char);
+            }
+        }
+        console.log(this.emotion_emoji_array);
+    };
+    EmotionEmojiPage.prototype.displayToast = function (state) {
+        var state_dict = { "error": "Error copying your emoji. Try again.", "success": "Emoji copied & added to your favourites" };
+        var toast = this.toastCtrl.create({
+            message: state_dict[state],
+            duration: 1000,
+            position: 'bottom'
+        });
+        toast.present();
+    };
+    EmotionEmojiPage.prototype.addToFavourites = function (item) {
+        this.favourites.push(item);
+        this.displayToast("success");
+    };
+    EmotionEmojiPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-emotion-emoji',template:/*ion-inline-start:"C:\Users\silvi\Desktop\copypastr\src\pages\emotion-emoji\emotion-emoji.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>Emotion Emoji</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding class="selectable">\n  <section>\n    <p id="help_msg">Just click on an emoji to copy it.</p>\n\n    <span *ngFor="let item of emotion_emoji_array" attr.id={{item}} class="emoji_c" (click)="addToFavourites(item)">{{item}}</span>\n\n  </section>\n</ion-content>'/*ion-inline-end:"C:\Users\silvi\Desktop\copypastr\src\pages\emotion-emoji\emotion-emoji.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */], __WEBPACK_IMPORTED_MODULE_4_ionic_angular_components_toast_toast_controller__["a" /* ToastController */]])
+    ], EmotionEmojiPage);
+    return EmotionEmojiPage;
+}());
+
+//# sourceMappingURL=emotion-emoji.js.map
+
+/***/ }),
+
+/***/ 222:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AnimalsNaturePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_emojilib__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_emojilib___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_emojilib__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_clipboard_dist_clipboard_min_js__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_clipboard_dist_clipboard_min_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_clipboard_dist_clipboard_min_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ionic_angular_components_toast_toast_controller__ = __webpack_require__(20);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var AnimalsNaturePage = /** @class */ (function () {
+    function AnimalsNaturePage(navCtrl, navParams, toastCtrl) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.toastCtrl = toastCtrl;
+        this.ani_nature_emoji_array = [];
+        this.emoji_lib = __WEBPACK_IMPORTED_MODULE_2_emojilib___default.a.lib;
+        this.favourites = [];
+    }
+    AnimalsNaturePage.prototype.ionViewDidLoad = function () {
+        this.populateNatureEmojiArray();
+        this.initialiseClipboard();
+    };
+    AnimalsNaturePage.prototype.initialiseClipboard = function () {
+        this.clipboard = new __WEBPACK_IMPORTED_MODULE_3_clipboard_dist_clipboard_min_js__('.emoji_c', {
+            target: function (trigger) {
+                return trigger;
+            }
+        });
+        this.clipboard.on('error', function (e) {
+            console.error('Action:', e.action);
+            console.error('Trigger:', e.trigger);
+            this.displayToast("error");
+        });
+    };
+    AnimalsNaturePage.prototype.populateNatureEmojiArray = function () {
+        var emoji_dict_keys = Object.keys(this.emoji_lib);
+        for (var k = 0; k < emoji_dict_keys.length; k += 1) {
+            var emoji_1 = this.emoji_lib[emoji_dict_keys[k]];
+            var em_category = emoji_1.category;
+            if (em_category === "animals_and_nature") {
+                this.ani_nature_emoji_array.push(emoji_1.char);
+            }
+        }
+        console.log(this.ani_nature_emoji_array);
+    };
+    AnimalsNaturePage.prototype.displayToast = function (state) {
+        var state_dict = { "error": "Error copying your emoji. Try again.", "success": "Emoji copied & added to your favourites" };
+        var toast = this.toastCtrl.create({
+            message: state_dict[state],
+            duration: 1000,
+            position: 'bottom'
+        });
+        toast.present();
+    };
+    AnimalsNaturePage.prototype.addToFavourites = function (item) {
+        this.favourites.push(item);
+        this.displayToast("success");
+    };
+    AnimalsNaturePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-emotion-emoji',template:/*ion-inline-start:"C:\Users\silvi\Desktop\copypastr\src\pages\animals-nature\animals-nature.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>Animals & Nature Emoji</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n    <section>\n        <p class="help_msg">Just click on an emoji to copy it.</p>\n    \n        <span *ngFor="let item of ani_nature_emoji_array" attr.id={{item}} class="emoji_c" (click)="addToFavourites(item)">{{item}}</span>\n    \n      </section>\n</ion-content>\n'/*ion-inline-end:"C:\Users\silvi\Desktop\copypastr\src\pages\animals-nature\animals-nature.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */], __WEBPACK_IMPORTED_MODULE_4_ionic_angular_components_toast_toast_controller__["a" /* ToastController */]])
+    ], AnimalsNaturePage);
+    return AnimalsNaturePage;
+}());
+
+//# sourceMappingURL=animals-nature.js.map
+
+/***/ }),
+
+/***/ 223:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EmojiTypesPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_emojilib__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_emojilib___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_emojilib__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_clipboard_dist_clipboard_min_js__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_clipboard_dist_clipboard_min_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_clipboard_dist_clipboard_min_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ionic_angular_components_toast_toast_controller__ = __webpack_require__(20);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var EmojiTypesPage = /** @class */ (function () {
+    function EmojiTypesPage(navCtrl, navParams, toastCtrl) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.toastCtrl = toastCtrl;
+        this.emoji_lib = __WEBPACK_IMPORTED_MODULE_2_emojilib___default.a.lib;
+        this.emotion_emoji_array = [];
+        this.ani_nature_emoji_array = [];
+        this.activities_emoji_array = [];
+        this.objects_emoji_array = [];
+        this.symbols_emoji_array = [];
+        this.travel_emoji_array = [];
+        this.flags_emoji_array = [];
+        this.favourites = [];
+        this.emoji_type = "emotions";
+    }
+    EmojiTypesPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad EmojiTypesPage');
+        this.populateEmojiArray("people", this.emotion_emoji_array);
+        this.populateEmojiArray("animals_and_nature", this.ani_nature_emoji_array);
+        this.populateEmojiArray("activity", this.activities_emoji_array);
+        this.populateEmojiArray("objects", this.objects_emoji_array);
+        this.populateEmojiArray("symbols", this.symbols_emoji_array);
+        this.populateEmojiArray("travel_and_places", this.travel_emoji_array);
+        this.populateEmojiArray("flags", this.flags_emoji_array);
+        this.initialiseClipboard();
+    };
+    EmojiTypesPage.prototype.populateEmojiArray = function (category, emoji_array) {
+        var emoji_dict_keys = Object.keys(this.emoji_lib);
+        for (var k = 0; k < emoji_dict_keys.length; k += 1) {
+            var emoji_1 = this.emoji_lib[emoji_dict_keys[k]];
+            var em_category = emoji_1.category;
+            if (em_category === category) {
+                emoji_array.push(emoji_1.char);
+            }
+        }
+    };
+    EmojiTypesPage.prototype.initialiseClipboard = function () {
+        this.clipboard = new __WEBPACK_IMPORTED_MODULE_3_clipboard_dist_clipboard_min_js__('.emoji_c', {
+            target: function (trigger) {
+                return trigger;
+            }
+        });
+        this.clipboard.on('error', function (e) {
+            console.error('Action:', e.action);
+            console.error('Trigger:', e.trigger);
+            this.displayToast("error");
+        });
+    };
+    EmojiTypesPage.prototype.displayToast = function (state) {
+        var state_dict = { "error": "Error copying your emoji. Try again.", "success": "Emoji copied & added to your favourites" };
+        var toast = this.toastCtrl.create({
+            message: state_dict[state],
+            duration: 1000,
+            position: 'bottom'
+        });
+        toast.present();
+    };
+    EmojiTypesPage.prototype.addToFavourites = function (item) {
+        this.favourites.push(item);
+        this.displayToast("success");
+    };
+    EmojiTypesPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-emoji-types',template:/*ion-inline-start:"C:\Users\silvi\Desktop\copypastr\src\pages\emoji-types\emoji-types.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>Copy & Paste Emoji</ion-title>\n  </ion-navbar>\n\n  <ion-toolbar>\n    <ion-segment [(ngModel)]="emoji_type">\n      <ion-segment-button value="emotions">\n        Emotions\n      </ion-segment-button>\n      <ion-segment-button value="ani_nature">\n        Animals & Nature\n      </ion-segment-button>\n      <ion-segment-button value="activities">\n        Activities\n      </ion-segment-button>\n      <ion-segment-button value="symbols">\n          Symbols\n        </ion-segment-button>\n      <ion-segment-button value="objects">\n        Objects\n      </ion-segment-button>\n      <ion-segment-button value="travel">\n          Travel\n        </ion-segment-button>\n        <ion-segment-button value="flags">\n            Flags\n          </ion-segment-button>\n    </ion-segment>\n  </ion-toolbar>\n\n\n</ion-header>\n\n<ion-content padding class="selectable">\n\n  <ion-toolbar>\n\n    <div [ngSwitch]="emoji_type">\n      <ion-list *ngSwitchCase="\'emotions\'">\n        <section>\n          <p class="help_msg">Just click on an emoji to copy it.</p>\n\n          <span *ngFor="let item of emotion_emoji_array" attr.id={{item}} class="emoji_c" (click)="addToFavourites(item)">{{item}}</span>\n\n        </section>\n\n      </ion-list>\n\n      <ion-list *ngSwitchCase="\'ani_nature\'">\n        <section>\n          <p class="help_msg">Just click on an emoji to copy it.</p>\n\n          <span *ngFor="let item of ani_nature_emoji_array" attr.id={{item}} class="emoji_c" (click)="addToFavourites(item)">{{item}}</span>\n\n        </section>\n      </ion-list>\n\n      <ion-list *ngSwitchCase="\'activities\'">\n        <section>\n          <p class="help_msg">Just click on an emoji to copy it.</p>\n\n          <span *ngFor="let item of activities_emoji_array" attr.id={{item}} class="emoji_c" (click)="addToFavourites(item)">{{item}}</span>\n\n        </section>\n\n      </ion-list>\n\n      <ion-list *ngSwitchCase="\'objects\'">\n          <section>\n              <p class="help_msg">Just click on an emoji to copy it.</p>\n    \n              <span *ngFor="let item of objects_emoji_array" attr.id={{item}} class="emoji_c" (click)="addToFavourites(item)">{{item}}</span>\n    \n            </section>\n      </ion-list>\n\n      <ion-list *ngSwitchCase="\'symbols\'">\n          <section>\n              <p class="help_msg">Just click on an emoji to copy it.</p>\n    \n              <span *ngFor="let item of symbols_emoji_array" attr.id={{item}} class="emoji_c" (click)="addToFavourites(item)">{{item}}</span>\n    \n            </section>\n      </ion-list>\n\n      <ion-list *ngSwitchCase="\'travel\'">\n          <section>\n              <p class="help_msg">Just click on an emoji to copy it.</p>\n    \n              <span *ngFor="let item of travel_emoji_array" attr.id={{item}} class="emoji_c" (click)="addToFavourites(item)">{{item}}</span>\n    \n            </section>\n      </ion-list>\n\n      <ion-list *ngSwitchCase="\'flags\'">\n          <section>\n              <p class="help_msg">Just click on an emoji to copy it.</p>\n    \n              <span *ngFor="let item of flags_emoji_array" attr.id={{item}} class="emoji_c" (click)="addToFavourites(item)">{{item}}</span>\n    \n            </section>\n      </ion-list>\n\n    </div>\n  </ion-toolbar>\n</ion-content>'/*ion-inline-end:"C:\Users\silvi\Desktop\copypastr\src\pages\emoji-types\emoji-types.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */], __WEBPACK_IMPORTED_MODULE_4_ionic_angular_components_toast_toast_controller__["a" /* ToastController */]])
+    ], EmojiTypesPage);
+    return EmojiTypesPage;
+}());
+
+//# sourceMappingURL=emoji-types.js.map
+
+/***/ }),
+
+/***/ 224:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WesternTextFacesPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_clipboard_dist_clipboard_min_js__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_clipboard_dist_clipboard_min_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_clipboard_dist_clipboard_min_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular_components_toast_toast_controller__ = __webpack_require__(20);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var WesternTextFacesPage = /** @class */ (function () {
+    function WesternTextFacesPage(navCtrl, navParams, toastCtrl) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.toastCtrl = toastCtrl;
+        this.western_happy_text_faces = [":‑)", ":)", ":-]", ":]", ":-3", ":3", ":->", ":>", "8-)", "8)", ":-}", ":}", ":o)", ":c)", ":^)", "=]", "=)", ":‑D", ":D", "8‑D", "8D", "x‑D", "xD", "X‑D", "XD", "=D", "=3", "B^D", ":'‑)", ":')"];
+        this.western_sad_text_faces = [":‑(", ":(", ":‑c", ":c", ":‑<", ":<", ":‑[", ":[", ":-||", ">:[", ":{", ":@", ">:(", ":'‑(", ":'("];
+        this.western_angry_text_faces = [">.<", "v.v"];
+        this.western_cute_text_faces = [":‑P", ":P", "X‑P", "XP", "x‑p", "xp", ":‑p", ":p", ":‑Þ", ":Þ", ":‑þ", ":þ", ":‑b", ":b", "d:", "=p", ">:P"];
+        this.western_romance_text_faces = [":-*", ":*", ":×"];
+        this.west_category = "western_happy_text_faces";
+    }
+    WesternTextFacesPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad WesternTextFacesPage');
+        this.initialiseClipboard();
+    };
+    WesternTextFacesPage.prototype.initialiseClipboard = function () {
+        this.clipboard = new __WEBPACK_IMPORTED_MODULE_2_clipboard_dist_clipboard_min_js__('.western_text_faces', {
+            target: function (trigger) {
+                return trigger;
+            }
+        });
+        this.clipboard.on('error', function (e) {
+            console.error('Action:', e.action);
+            console.error('Trigger:', e.trigger);
+            this.displayToast("error");
+        });
+    };
+    WesternTextFacesPage.prototype.displayToast = function (state) {
+        var state_dict = { "error": "Error copying your emoji. Try again.", "success": "Emoji copied & added to your favourites" };
+        var toast = this.toastCtrl.create({
+            message: state_dict[state],
+            duration: 1000,
+            position: 'bottom'
+        });
+        toast.present();
+    };
+    WesternTextFacesPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-western-text-faces',template:/*ion-inline-start:"C:\Users\silvi\Desktop\copypastr\src\pages\western-text-faces\western-text-faces.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>Western Text Faces</ion-title>\n  </ion-navbar>\n\n  <ion-toolbar>\n    <ion-segment [(ngModel)]="west_category">\n      <ion-segment-button value="western_happy_text_faces">\n        Happy\n      </ion-segment-button>\n      <ion-segment-button value="western_sad_text_faces">\n        Sad\n      </ion-segment-button>\n      <ion-segment-button value="western_cute_text_faces">\n        Cute\n      </ion-segment-button>\n      <ion-segment-button value="western_romance_text_faces">\n        Romantic\n      </ion-segment-button>\n      <ion-segment-button value="western_angry_text_faces">\n        Angry\n      </ion-segment-button>\n    </ion-segment>\n  </ion-toolbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n  <ion-toolbar>\n\n    <div [ngSwitch]="west_category" class="selectable">\n      <ion-list *ngSwitchCase="\'western_happy_text_faces\'">\n        <section>\n          <h1>:) Text Faces</h1>\n          <ion-card *ngFor="let item of western_happy_text_faces" class="western_text_faces" attr.id={{item}} overflow-scroll="true">\n\n            <ion-card-content>\n              {{item}}\n            </ion-card-content>\n\n          </ion-card>\n        </section>\n\n      </ion-list>\n\n      <ion-list *ngSwitchCase="\'western_sad_text_faces\'">\n        <section>\n          <h1>Sad Text Faces</h1>\n          <ion-card *ngFor="let item of western_sad_text_faces" attr.id={{item}} class="western_text_faces" (click)="addToFavourites(item)">\n\n            <ion-card-content>\n              {{item}}\n            </ion-card-content>\n\n          </ion-card>\n\n        </section>\n\n      </ion-list>\n\n      <ion-list *ngSwitchCase="\'western_cute_text_faces\'">\n        <section>\n          <h1>Cute Text Faces</h1>\n          <span>{{item}}</span>\n\n          <ion-card *ngFor="let item of western_cute_text_faces" attr.id={{item}} class="western_text_faces" (click)="addToFavourites(item)">\n\n            <ion-card-content>\n              {{item}}\n            </ion-card-content>\n\n          </ion-card>\n        </section>\n\n      </ion-list>\n\n      <ion-list *ngSwitchCase="\'western_romance_text_faces\'">\n        <section>\n            <h1>Romance Text Faces</h1>\n\n            <ion-card *ngFor="let item of western_romance_text_faces" attr.id={{item}} class="western_text_faces" (click)="addToFavourites(item)">\n          \n              <ion-card-content>\n                {{item}}\n              </ion-card-content>\n          \n            </ion-card>\n        </section>\n      </ion-list>\n\n      <ion-list *ngSwitchCase="\'western_angry_text_faces\'">\n        <section>\n\n          <h1>Angry Text Faces</h1>\n          <ion-card *ngFor="let item of western_angry_text_faces" attr.id={{item}} class="western_text_faces" (click)="addToFavourites(item)">\n        \n            <ion-card-content>\n              {{item}}\n            </ion-card-content>\n        \n          </ion-card>\n        \n        </section>\n      </ion-list>\n\n\n    </div>\n  </ion-toolbar>\n</ion-content>\n'/*ion-inline-end:"C:\Users\silvi\Desktop\copypastr\src\pages\western-text-faces\western-text-faces.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular_components_toast_toast_controller__["a" /* ToastController */]])
+    ], WesternTextFacesPage);
+    return WesternTextFacesPage;
+}());
+
+//# sourceMappingURL=western-text-faces.js.map
+
+/***/ }),
+
+/***/ 225:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EmojifyPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var EmojifyPage = /** @class */ (function () {
+    function EmojifyPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.text = {};
+    }
+    EmojifyPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad EmojifyPage');
+    };
+    EmojifyPage.prototype.getFieldText = function (event) {
+        console.log("Input change");
+        console.log(event);
+    };
+    EmojifyPage.prototype.onChange = function (data) {
+        console.log("input change");
+        console.log(this.text);
+        console.log(data);
+    };
+    EmojifyPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-emojify',template:/*ion-inline-start:"C:\Users\silvi\Desktop\copypastr\src\pages\emojify\emojify.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>Emojify Text</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <ion-item>\n    <ion-label>Add Text</ion-label>\n    \n    <ion-input type="text" [(ngModel)]="text.username" name="username" (ionInput)="getFieldText($event)"></ion-input>\n\n  </ion-item>\n\n  <ion-searchbar (ionInput)="getFieldText($event)"></ion-searchbar>\n\n</ion-content>'/*ion-inline-end:"C:\Users\silvi\Desktop\copypastr\src\pages\emojify\emojify.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+    ], EmojifyPage);
+    return EmojifyPage;
+}());
+
+//# sourceMappingURL=emojify.js.map
+
+/***/ }),
+
+/***/ 226:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ServeGifsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__env_giphy_api_key_json__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__env_giphy_api_key_json___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__env_giphy_api_key_json__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__modules_HelperUtils__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_clipboard_dist_clipboard_min_js__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_clipboard_dist_clipboard_min_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_clipboard_dist_clipboard_min_js__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+var ServeGifsPage = /** @class */ (function () {
+    function ServeGifsPage(navCtrl, navParams, http) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.http = http;
+        this.link_array = [];
+        this.giphy_api_key = __WEBPACK_IMPORTED_MODULE_3__env_giphy_api_key_json__["api_key"];
+        this.results = [];
+        this.loadProgress = 0;
+        this.gif_display_count = 20; // The number of GIFs that should be displayed.
+        this.search_term = "";
+        console.log('Looking for changes');
+    }
+    ServeGifsPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad ServeGifsPage');
+        this.clipboard = new __WEBPACK_IMPORTED_MODULE_5_clipboard_dist_clipboard_min_js__('.symbols', {
+            target: function (trigger) {
+                return trigger;
+            }
+        });
+    };
+    ServeGifsPage.prototype.triggerSearch = function (event) {
+        var _this = this;
+        this.search_term = event.target.value;
+        if (this.search_term != "" || this.search_term.trim() != "") {
+            this.loadProgress = 10;
+            var time = 600;
+            var search_time = 500;
+            var timeout = window.setTimeout(function () {
+                _this.loadProgress += 10;
+            }, time);
+            var searchTimeout = window.setTimeout(function () {
+                _this.searchGIFS(event);
+            }, search_time);
+        }
+    };
+    ServeGifsPage.prototype.searchGIFS = function (event) {
+        var _this = this;
+        console.log(event.target.value);
+        var loading_msg = document.querySelector(".loading_msg");
+        loading_msg.innerHTML = "Getting you GIFS";
+        this.loadProgress = 30;
+        this.http.get("https://api.giphy.com/v1/gifs/search?q=" + this.search_term + "&api_key=" + this.giphy_api_key + "&limit=40&rating=g").map(function (res) { return res.json(); }).subscribe(function (data) {
+            _this.loadProgress = 50;
+            // re-initialise the link array back to its empty state.
+            _this.link_array = [];
+            //set the loading message to empty.
+            loading_msg.innerHTML = "GIFs related to " + _this.search_term;
+            var gif_results = data.data;
+            if (gif_results.length === 0) {
+                loading_msg.innerHTML = "No " + _this.search_term + " GIFS found :( Try again maybe?";
+                _this.loadProgress = 0;
+            }
+            else {
+                if (gif_results.length < _this.gif_display_count) {
+                    _this.gif_display_count = gif_results.length;
+                }
+                var link_count = 0;
+                for (var k = 0; link_count < 20; k += 1) {
+                    var ranIndex = Object(__WEBPACK_IMPORTED_MODULE_4__modules_HelperUtils__["a" /* getRandomNumber */])(0, gif_results.length - 1);
+                    var link = gif_results[ranIndex].images.original.url;
+                    if (_this.link_array.indexOf(link) > -1) {
+                        continue;
+                    }
+                    else {
+                        _this.link_array.push(link);
+                        link_count += 1;
+                    }
+                }
+                console.log(_this.link_array);
+                _this.loadProgress = 100;
+            }
+        });
+    };
+    ServeGifsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-serve-gifs',template:/*ion-inline-start:"C:\Users\silvi\Desktop\copypastr\src\pages\serve-gifs\serve-gifs.html"*/'<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Search GIFs</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding class="selectable">\n\n  <ion-searchbar (ionInput)="triggerSearch($event)" [(ngModel)]="myInput" debounce=1000></ion-searchbar>\n\n  <progress-bar [progress]="loadProgress"></progress-bar>\n\n  <p class="loading_msg">Search for GIFs ...</p>\n\n  <ion-card *ngFor="let item of link_array" class="gif_container">\n\n    <img src={{item}}/>\n\n    <ion-card-content>\n\n      <ion-card-title>\n\n\n\n      </ion-card-title>\n\n      <ion-item>\n\n        <ion-item>\n\n          <a button class="copy_link" item-right>\n\n            <ion-icon name="copy"></ion-icon>{{item}}</a>\n\n\n\n        </ion-item>\n\n      </ion-item>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\silvi\Desktop\copypastr\src\pages\serve-gifs\serve-gifs.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */]])
+    ], ServeGifsPage);
+    return ServeGifsPage;
+}());
+
+//# sourceMappingURL=serve-gifs.js.map
+
+/***/ }),
+
+/***/ 227:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SearchStickersPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__env_giphy_api_key_json__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__env_giphy_api_key_json___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__env_giphy_api_key_json__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__modules_HelperUtils__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_clipboard_dist_clipboard_min_js__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_clipboard_dist_clipboard_min_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_clipboard_dist_clipboard_min_js__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+var SearchStickersPage = /** @class */ (function () {
+    function SearchStickersPage(navCtrl, navParams, http) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.http = http;
+        this.link_array = [];
+        this.giphy_api_key = __WEBPACK_IMPORTED_MODULE_3__env_giphy_api_key_json__["api_key"];
+        this.results = [];
+        this.loadProgress = 0;
+        this.search_term = "";
+        this.total_display_count = 40;
+    }
+    SearchStickersPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad SearchStickersPage');
+        this.clipboard = new __WEBPACK_IMPORTED_MODULE_5_clipboard_dist_clipboard_min_js__('.copy_link', {
+            target: function (trigger) {
+                return trigger;
+            }
+        });
+    };
+    SearchStickersPage.prototype.triggerSearch = function (event) {
+        var _this = this;
+        this.search_term = event.target.value;
+        if (this.search_term != "" || this.search_term.trim() != "") {
+            this.loadProgress = 10;
+            var time = 600;
+            var search_time = 500;
+            var timeout = window.setTimeout(function () {
+                _this.loadProgress += 10;
+            }, time);
+            var searchTimeout = window.setTimeout(function () {
+                _this.searchGIFS(event);
+            }, search_time);
+        }
+    };
+    SearchStickersPage.prototype.searchGIFS = function (event) {
+        var _this = this;
+        console.log(event.target.value);
+        var loading_msg = document.querySelector(".loading_msg");
+        loading_msg.innerHTML = "Loading \"" + this.search_term + "\" stickers";
+        this.loadProgress = 30;
+        this.http.get("https://api.giphy.com/v1/stickers/search?q=" + this.search_term + "&api_key=" + this.giphy_api_key + "&limit=40&rating=g").map(function (res) { return res.json(); }).subscribe(function (data) {
+            _this.loadProgress = 50;
+            // re-initialise the link array back to its empty state.
+            _this.link_array = [];
+            //set the loading message to empty.
+            loading_msg.innerHTML = "";
+            var gif_results = data.data;
+            if (gif_results.length === 0) {
+                loading_msg.innerHTML = "Found no stickers :(";
+                _this.loadProgress = 0;
+            }
+            else {
+                loading_msg.innerHTML = "Stickers related to " + _this.search_term;
+                if (gif_results.length < _this.total_display_count) {
+                    _this.total_display_count = gif_results.length;
+                    _this.loadProgress = 0;
+                }
+                var link_count = 0;
+                for (var k = 0; link_count < _this.total_display_count; k += 1) {
+                    var ranIndex = Object(__WEBPACK_IMPORTED_MODULE_4__modules_HelperUtils__["a" /* getRandomNumber */])(0, gif_results.length - 1);
+                    var link = gif_results[ranIndex].images.original.url;
+                    if (_this.link_array.indexOf(link) > -1) {
+                        continue;
+                    }
+                    else {
+                        _this.link_array.push(link);
+                        link_count += 1;
+                    }
+                }
+                console.log(_this.link_array);
+                _this.loadProgress = 100;
+            }
+        });
+    };
+    SearchStickersPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-search-stickers',template:/*ion-inline-start:"C:\Users\silvi\Desktop\copypastr\src\pages\search-stickers\search-stickers.html"*/'<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Search for Stickers</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n\n\n<ion-content padding class="stickers" class="selectable">\n\n  <ion-searchbar (ionInput)="triggerSearch($event)" [(ngModel)]="myInput" debounce=1000></ion-searchbar>\n\n  <progress-bar [progress]="loadProgress"></progress-bar>\n\n  <p class="loading_msg">Search for GIPHY Stickers above</p>\n\n  <ion-card *ngFor="let item of link_array" class="gif_container">\n\n    <img src={{item}}/>\n\n    <ion-card-content>\n\n      <ion-card-title>\n\n\n\n      </ion-card-title>\n\n      <ion-item>\n\n        <ion-item>\n\n          <ion-item>\n\n            <a button class="copy_link" item-right>\n\n              <ion-icon name="copy"></ion-icon>{{item}}</a>\n\n\n\n          </ion-item>\n\n        </ion-item>\n\n\n\n      </ion-item>\n\n    </ion-card-content>\n\n  </ion-card>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\silvi\Desktop\copypastr\src\pages\search-stickers\search-stickers.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_http__["a" /* Http */]])
+    ], SearchStickersPage);
+    return SearchStickersPage;
+}());
+
+//# sourceMappingURL=search-stickers.js.map
+
+/***/ }),
+
+/***/ 228:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TrendingGifsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http___ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__env_giphy_api_key_json__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__env_giphy_api_key_json___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__env_giphy_api_key_json__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ionic_angular_components_toast_toast_controller__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__modules_HelperUtils__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_clipboard_dist_clipboard_min_js__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_clipboard_dist_clipboard_min_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_clipboard_dist_clipboard_min_js__);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+var TrendingGifsPage = /** @class */ (function () {
+    function TrendingGifsPage(navCtrl, navParams, http, toastCtrl) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.http = http;
+        this.toastCtrl = toastCtrl;
+        this.link_array = [];
+        this.giphy_api_key = __WEBPACK_IMPORTED_MODULE_3__env_giphy_api_key_json__["api_key"];
+    }
+    TrendingGifsPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad TrendingGifsPage');
+        this.getTrendingGIFs();
+        this.clipboard = new __WEBPACK_IMPORTED_MODULE_6_clipboard_dist_clipboard_min_js__('.copy_link', {
+            target: function (trigger) {
+                return trigger;
+            }
+        });
+    };
+    TrendingGifsPage.prototype.getTrendingGIFs = function () {
+        var _this = this;
+        this.http.get("https://api.giphy.com/v1/gifs/trending?api_key=" + this.giphy_api_key + "&limit=30&rating=g").map(function (res) { return res.json(); }).subscribe(function (data) {
+            _this.posts = data.data;
+            var link_count = 0;
+            for (var k = 0; link_count < 20; k += 1) {
+                var ranIndex = Object(__WEBPACK_IMPORTED_MODULE_5__modules_HelperUtils__["a" /* getRandomNumber */])(0, _this.posts.length - 1);
+                var link = _this.posts[ranIndex].images.original.url;
+                if (_this.link_array.indexOf(link) > -1) {
+                    continue;
+                }
+                else {
+                    _this.link_array.push(link);
+                    link_count += 1;
+                }
+            }
+        });
+    };
+    TrendingGifsPage.prototype.addToFavourites = function (item) {
+    };
+    TrendingGifsPage.prototype.displayToast = function (state) {
+        var state_dict = { "error": "Error copying your emoji. Try again.", "success": "GIF copied & added to your favourites" };
+        var toast = this.toastCtrl.create({
+            message: state_dict[state],
+            duration: 1000,
+            position: 'bottom'
+        });
+        toast.present();
+    };
+    TrendingGifsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-trending-gifs',template:/*ion-inline-start:"C:\Users\silvi\Desktop\copypastr\src\pages\trending-gifs\trending-gifs.html"*/'<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Trending GIFS</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n<ion-content padding class="selectable">\n\n  <ion-item>\n\n    <h1>Trending GIFS</h1>\n\n    <p>All the latest GIFS that are hot on the web.</p>\n\n    <img src="../../assets/imgs/giphy_dark_rectangle.PNG">\n\n  </ion-item>\n\n\n\n  <ion-card *ngFor="let item of link_array" class="gif_container">\n\n    <img src={{item}}/>\n\n    <ion-card-content>\n\n      <ion-card-title>\n\n\n\n      </ion-card-title>\n\n      <ion-item>\n\n        <ion-item>\n\n          <a button class="copy_link" item-right>\n\n            <ion-icon name="copy"></ion-icon>{{item}}</a>\n\n\n\n        </ion-item>\n\n      </ion-item>\n\n    </ion-card-content>\n\n  </ion-card>\n\n</ion-content>'/*ion-inline-end:"C:\Users\silvi\Desktop\copypastr\src\pages\trending-gifs\trending-gifs.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__angular_http___["a" /* Http */], __WEBPACK_IMPORTED_MODULE_4_ionic_angular_components_toast_toast_controller__["a" /* ToastController */]])
+    ], TrendingGifsPage);
+    return TrendingGifsPage;
+}());
+
+//# sourceMappingURL=trending-gifs.js.map
+
+/***/ }),
+
+/***/ 229:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(230);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(252);
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 252:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_splash_screen__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_status_bar__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_progress_bar_progress_bar__ = __webpack_require__(301);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_component__ = __webpack_require__(302);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_home_home__ = __webpack_require__(205);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_add_emoji_add_emoji__ = __webpack_require__(206);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_add_text_faces_add_text_faces__ = __webpack_require__(207);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_add_cat_faces_add_cat_faces__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_favourites_favourites__ = __webpack_require__(218);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_cool_symbols_cool_symbols__ = __webpack_require__(219);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_get_gifs_get_gifs__ = __webpack_require__(220);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_emotion_emoji_emotion_emoji__ = __webpack_require__(221);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_animals_nature_animals_nature__ = __webpack_require__(222);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_emoji_types_emoji_types__ = __webpack_require__(223);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_western_text_faces_western_text_faces__ = __webpack_require__(224);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_emojify_emojify__ = __webpack_require__(225);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_serve_gifs_serve_gifs__ = __webpack_require__(226);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_search_stickers_search_stickers__ = __webpack_require__(227);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__pages_trending_gifs_trending_gifs__ = __webpack_require__(228);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_trending_stickers_trending_stickers__ = __webpack_require__(319);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var AppModule = /** @class */ (function () {
+    function AppModule() {
+    }
+    AppModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_add_emoji_add_emoji__["a" /* AddEmojiPage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_add_text_faces_add_text_faces__["a" /* AddTextFacesPage */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_add_cat_faces_add_cat_faces__["a" /* AddCatFacesPage */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_favourites_favourites__["a" /* FavouritesPage */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_cool_symbols_cool_symbols__["a" /* CoolSymbolsPage */],
+                __WEBPACK_IMPORTED_MODULE_21__pages_search_stickers_search_stickers__["a" /* SearchStickersPage */],
+                __WEBPACK_IMPORTED_MODULE_23__pages_trending_stickers_trending_stickers__["a" /* TrendingStickersPage */],
+                __WEBPACK_IMPORTED_MODULE_18__pages_western_text_faces_western_text_faces__["a" /* WesternTextFacesPage */],
+                __WEBPACK_IMPORTED_MODULE_15__pages_emotion_emoji_emotion_emoji__["a" /* EmotionEmojiPage */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_animals_nature_animals_nature__["a" /* AnimalsNaturePage */],
+                __WEBPACK_IMPORTED_MODULE_6__components_progress_bar_progress_bar__["a" /* ProgressBarComponent */],
+                __WEBPACK_IMPORTED_MODULE_20__pages_serve_gifs_serve_gifs__["a" /* ServeGifsPage */],
+                __WEBPACK_IMPORTED_MODULE_19__pages_emojify_emojify__["a" /* EmojifyPage */],
+                __WEBPACK_IMPORTED_MODULE_17__pages_emoji_types_emoji_types__["a" /* EmojiTypesPage */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_get_gifs_get_gifs__["a" /* GetGifsPage */],
+                __WEBPACK_IMPORTED_MODULE_22__pages_trending_gifs_trending_gifs__["a" /* TrendingGifsPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
+                __WEBPACK_IMPORTED_MODULE_2__angular_http__["b" /* HttpModule */],
+                __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* MyApp */], {}, {
+                    links: []
+                })
+            ],
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_3_ionic_angular__["a" /* IonicApp */]],
+            entryComponents: [
+                __WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_add_emoji_add_emoji__["a" /* AddEmojiPage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_add_text_faces_add_text_faces__["a" /* AddTextFacesPage */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_add_cat_faces_add_cat_faces__["a" /* AddCatFacesPage */],
+                __WEBPACK_IMPORTED_MODULE_15__pages_emotion_emoji_emotion_emoji__["a" /* EmotionEmojiPage */],
+                __WEBPACK_IMPORTED_MODULE_19__pages_emojify_emojify__["a" /* EmojifyPage */],
+                __WEBPACK_IMPORTED_MODULE_20__pages_serve_gifs_serve_gifs__["a" /* ServeGifsPage */],
+                __WEBPACK_IMPORTED_MODULE_21__pages_search_stickers_search_stickers__["a" /* SearchStickersPage */],
+                __WEBPACK_IMPORTED_MODULE_23__pages_trending_stickers_trending_stickers__["a" /* TrendingStickersPage */],
+                __WEBPACK_IMPORTED_MODULE_18__pages_western_text_faces_western_text_faces__["a" /* WesternTextFacesPage */],
+                __WEBPACK_IMPORTED_MODULE_12__pages_favourites_favourites__["a" /* FavouritesPage */],
+                __WEBPACK_IMPORTED_MODULE_13__pages_cool_symbols_cool_symbols__["a" /* CoolSymbolsPage */],
+                __WEBPACK_IMPORTED_MODULE_6__components_progress_bar_progress_bar__["a" /* ProgressBarComponent */],
+                __WEBPACK_IMPORTED_MODULE_14__pages_get_gifs_get_gifs__["a" /* GetGifsPage */],
+                __WEBPACK_IMPORTED_MODULE_16__pages_animals_nature_animals_nature__["a" /* AnimalsNaturePage */],
+                __WEBPACK_IMPORTED_MODULE_17__pages_emoji_types_emoji_types__["a" /* EmojiTypesPage */],
+                __WEBPACK_IMPORTED_MODULE_22__pages_trending_gifs_trending_gifs__["a" /* TrendingGifsPage */]
+            ],
+            providers: [
+                __WEBPACK_IMPORTED_MODULE_5__ionic_native_status_bar__["a" /* StatusBar */],
+                __WEBPACK_IMPORTED_MODULE_4__ionic_native_splash_screen__["a" /* SplashScreen */],
+                { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["b" /* IonicErrorHandler */] }
+            ]
+        })
+    ], AppModule);
+    return AppModule;
+}());
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 301:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProgressBarComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var ProgressBarComponent = /** @class */ (function () {
+    function ProgressBarComponent() {
+    }
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["D" /* Input */])('progress'),
+        __metadata("design:type", Object)
+    ], ProgressBarComponent.prototype, "progress", void 0);
+    ProgressBarComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'progress-bar',template:/*ion-inline-start:"C:\Users\silvi\Desktop\copypastr\src\components\progress-bar\progress-bar.html"*/'<div class="outer-loading">\n\n  <div class="inner-loading" [style.width]="progress + \'%\'">\n\n      {{progress}}%\n\n  </div>\n\n</div>'/*ion-inline-end:"C:\Users\silvi\Desktop\copypastr\src\components\progress-bar\progress-bar.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], ProgressBarComponent);
+    return ProgressBarComponent;
+}());
+
+//# sourceMappingURL=progress-bar.js.map
+
+/***/ }),
+
+/***/ 302:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(204);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(205);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var MyApp = /** @class */ (function () {
+    function MyApp(platform, statusBar, splashScreen) {
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */];
+        platform.ready().then(function () {
+            statusBar.styleDefault();
+            splashScreen.hide();
+        });
+    }
+    MyApp = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\silvi\Desktop\copypastr\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"C:\Users\silvi\Desktop\copypastr\src\app\app.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+    ], MyApp);
+    return MyApp;
+}());
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 310:
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+
+/***/ 312:
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+
+/***/ 319:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TrendingStickersPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(9);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var TrendingStickersPage = /** @class */ (function () {
+    function TrendingStickersPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+    }
+    TrendingStickersPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad TrendingStickersPage');
+    };
+    TrendingStickersPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-trending-stickers',template:/*ion-inline-start:"C:\Users\silvi\Desktop\copypastr\src\pages\trending-stickers\trending-stickers.html"*/'<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>Trending Stickers</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content padding class="selectable">\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\silvi\Desktop\copypastr\src\pages\trending-stickers\trending-stickers.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+    ], TrendingStickersPage);
+    return TrendingStickersPage;
+}());
+
+//# sourceMappingURL=trending-stickers.js.map
+
+/***/ }),
+
+/***/ 46:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["a"] = getRandomNumber;
+function getRandomNumber(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+//# sourceMappingURL=HelperUtils.js.map
+
+/***/ }),
+
+/***/ 62:
+/***/ (function(module, exports) {
+
+module.exports = {"api_key":"Ysqww9WUVspxr7yWrbytNNbmsCOnkNOQ"}
+
+/***/ })
+
+},[229]);
+//# sourceMappingURL=main.js.map
