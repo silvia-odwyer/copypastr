@@ -32,14 +32,14 @@
       <ion-list *ngSwitchCase="'stickers'">
         <ion-item [navPush]="getGIFSPage">
           <ion-thumbnail item-start>
-            <img src="../../assets/imgs/happy_emoji.PNG">
+            <ion-icon name="images" item-start></ion-icon>
           </ion-thumbnail>
           <h2>Animated Stickers</h2>
         </ion-item>
 
         <ion-item [navPush]="searchStickersPage">
           <ion-thumbnail item-start>
-            <img src="../../assets/imgs/happy_emoji.PNG">
+            <ion-icon name="paper-plane" item-start></ion-icon>
           </ion-thumbnail>
           <h2>Search Stickers</h2>
         </ion-item>
@@ -49,14 +49,14 @@
       <ion-list *ngSwitchCase="'emoji'">
         <ion-item (click)="getEmojiPage()">
           <ion-thumbnail item-start>
-              <img src="../../assets/imgs/magnifying_glass.PNG">
-            </ion-thumbnail>
+            <ion-icon name="search" item-start></ion-icon>
+          </ion-thumbnail>
           <h2>Search All Emoji</h2>
         </ion-item>
 
         <ion-item [navPush]="emojiTypesPage">
           <ion-thumbnail item-start>
-            <img src="../../assets/imgs/happy_emoji.PNG">
+            <ion-icon name="heart" item-start></ion-icon>
           </ion-thumbnail>
           <h2>Emoji Types</h2>
         </ion-item>
